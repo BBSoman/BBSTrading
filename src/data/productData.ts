@@ -997,7 +997,7 @@ export const categoryData: Category[] = [
             slug: 'limestone-ore',
             description: 'Raw, unrefined sedimentary rock harvested directly from quarries. The foundational feedstock for the entire lime and cement industry. Higher CaCO₃ and lower silica improve metallurgical performance.',
             details: 'Run-of-mine material contains varying levels of purity and natural impurities like clay, magnesium, or silica depending on the geological deposit. Used in cement manufacturing, steel flux in blast furnaces, construction aggregates, and glass production (high grade).',
-            image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Limestone_Ore.png',
             specs: ['CaCO₃: 85% – 98%', 'CaO (After Calcination): 48% – 55%', 'SiO₂: ≤ 5%', 'MgCO₃: ≤ 5%', 'Fe₂O₃: ≤ 1%', 'LOI: 40% – 44%', 'Form: Lump / Crushed', 'HS Code: 2521']
           },
           {
@@ -1005,7 +1005,7 @@ export const categoryData: Category[] = [
             slug: 'crushed-limestone',
             description: 'Screened and sized limestone produced by passing raw ore through primary and secondary crushers. A standardized industrial product used as construction aggregate, steelmaking flux, and agricultural lime to neutralize soil acidity.',
             details: 'Processing includes washing to remove debris, resulting in standardized size fractions from large rip-rap to fine screenings. Used in ready-mix concrete, road base, glass and ceramics, and industrial fillers.',
-            image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Limestone_Crashed_Processed.png',
             specs: ['CaCO₃: 90% – 98%', 'SiO₂: ≤ 3%', 'Fe₂O₃: ≤ 1%', 'Moisture: ≤ 3%', 'Size: Custom grading (5mm – 50mm)', 'HS Code: 2521']
           },
           {
@@ -1013,7 +1013,7 @@ export const categoryData: Category[] = [
             slug: 'quicklime',
             description: 'Produced by heating limestone above 900°C to drive off CO₂, leaving calcium oxide (CaO). A highly caustic, chemically reactive material used in water treatment, steel manufacturing to remove impurities, and as a base for chemical syntheses.',
             details: 'Higher CaO content ensures better reactivity. Used in steel refining, flue gas treatment, water purification, and the sugar industry.',
-            image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Calcined_Limestone.png',
             specs: ['CaO: 85% – 95%', 'MgO: ≤ 5%', 'SiO₂: ≤ 3%', 'Fe₂O₃: ≤ 1%', 'LOI: ≤ 5%', 'Reactivity: High', 'Form: Lump / Powder', 'HS Code: 2522']
           },
           {
@@ -1021,7 +1021,7 @@ export const categoryData: Category[] = [
             slug: 'hydrated-lime',
             description: 'Also known as slaked lime — produced by adding water to quicklime in a highly exothermic reaction, resulting in a fine dry white powder. Much more stable and easier to handle than quicklime. Preferred for municipal water softening and flue gas treatment.',
             details: 'Used in water and wastewater treatment, soil stabilization, chemical processing, and environmental neutralization. Its fine fineness (200–325 mesh) ensures high reactivity and broad industrial compatibility.',
-            image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Hydrate_Limestone.png',
             specs: ['Ca(OH)₂: 90% – 98%', 'CaCO₃: ≤ 5%', 'MgO: ≤ 2%', 'Moisture: ≤ 1%', 'Fineness: 200 – 325 mesh', 'HS Code: 2522']
           }
         ]
