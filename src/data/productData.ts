@@ -253,7 +253,7 @@ export const categoryData: Category[] = [
         slug: 'peatmoss',
         description: 'Premium-grade peat moss for soil conditioning, horticultural growing media, and substrate blending in commercial and retail agriculture.',
         details: 'Peat moss is a highly decomposed organic material harvested from naturally formed peatlands, prized for its exceptional water retention capacity, low pH, and ability to improve soil aeration and structure in both field and container growing systems. We supply a range of peatmoss grades — from sphagnum horticultural grade to professional substrate, coarse fiber, and fine screened — each processed to meet specific agronomic and horticultural applications. All grades carry low electrical conductivity and are free from pathogens and weed seeds. HS Code: 2703.00.',
-        image: '/Peatmoss.png',
+        image: '/Peatmoss1.png',
         specs: ['Multiple grades available', 'Organic matter: ≥ 90–95%', 'pH: 3.5 – 5.5 (naturally acidic)', 'Low electrical conductivity (EC)', 'HS Code: 2703.00'],
         hsCode: '2703.00',
         subProducts: [
@@ -270,7 +270,7 @@ export const categoryData: Category[] = [
             slug: 'professional-substrate',
             description: 'A refined peat-based substrate material developed for controlled horticultural applications. It provides stable water retention capacity combined with air porosity to encourage uniform root growth.',
             details: 'The material is screened and processed to deliver consistent texture, making it suitable for commercial nurseries and high-volume plant production systems.',
-            image: '/PeatmossProfessional_Substrate.png',
+            image: '/PeatmossProfessional_Substrate1.png',
             specs: ['Organic matter: ≥ 90%', 'pH (water extract): 4.0 – 5.5', 'Moisture content: 40 – 60%', 'Bulk density: Low', 'Electrical conductivity (EC): Low', 'Impurities: Free from pathogens & weed seeds', 'HS Code: 2703.00']
           },
           {
