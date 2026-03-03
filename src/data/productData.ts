@@ -695,7 +695,7 @@ export const categoryData: Category[] = [
             slug: 'manganese-ore-ferruginous',
             description: 'Ferruginous manganese ore containing 10% to 35% manganese with a high concentration of iron. Used in blast furnaces to add manganese directly to pig iron, removing impurities like sulfur.',
             details: 'A bridge material between iron ore and high-grade manganese, often traded at a lower price for bulk steel production. Its combined iron and manganese content makes it suitable for blast furnace operations targeting both metals simultaneously.',
-            image: 'https://images.pexels.com/photos/162568/steel-grinding-factory-sparks-162568.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Manganese_Ore_Ferruginous.png',
             specs: ['Mn: 10% – 35%', 'Fe: 20% – 45%', 'SiO₂: 10% – 30%', 'Mn/Fe Ratio: < 3:1', 'HS Code: 2602']
           },
           {
