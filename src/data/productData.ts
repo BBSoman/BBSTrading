@@ -508,7 +508,7 @@ export const categoryData: Category[] = [
             slug: 'polyethylene-pe',
             description: 'Polyethylene is a widely used thermoplastic polymer produced from ethylene monomer. It is available in various density grades suited for packaging films, containers, pipes, and molded products. The material offers flexibility, chemical resistance, and process adaptability across extrusion and molding applications.',
             details: 'Available in LDPE, LLDPE, and HDPE grades to match a broad range of end-use requirements — from flexible agricultural sheeting and food packaging films to rigid industrial containers, pipes, and injection-molded components.',
-            image: '/Polymer_PE.png',
+            image: '/Polymer_PE1.png',
             specs: ['Polymer Type: LDPE / LLDPE / HDPE', 'Density: 0.91 – 0.96 g/cm³', 'Melt Flow Index (MFI): As per grade', 'Moisture: ≤ 0.1%', 'Form: Virgin / Recycled Granules', 'HS Code: 3901.10 – 3901.20']
           },
           {
