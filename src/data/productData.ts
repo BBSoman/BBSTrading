@@ -627,7 +627,7 @@ export const categoryData: Category[] = [
         slug: 'copper',
         description: 'One of the most strategically important base metals, valued for exceptional electrical conductivity, corrosion resistance, and thermal performance. Supplied in ore, concentrate, and slag form for smelting, refining, and industrial applications.',
         details: 'Copper forms the backbone of power generation, renewable energy systems, electronics manufacturing, infrastructure development, and automotive production. Global demand is strongly driven by electrification, EV production, and sustainable energy transition projects. We supply copper in three primary traded forms — ore, concentrate, and slag — with full provenance documentation, independent assay certification, and structured offtake arrangements.',
-        image: 'https://images.pexels.com/photos/207152/pexels-photo-207152.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Copper.jpeg',
         specs: ['Forms: Copper Ore / Concentrate / Slag', 'Cu in concentrate: 20% – 35%', 'Assay by independent SGS or Bureau Veritas', 'HS Code: 2603 (Ore & Concentrate) / 2620 (Slag)'],
         hsCode: '2603',
         subProducts: [
