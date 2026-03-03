@@ -636,7 +636,7 @@ export const categoryData: Category[] = [
             slug: 'copper-ore',
             description: 'Copper ore is a naturally occurring mineral containing copper in sulfide, oxide, or carbonate form. It is mined and processed for smelting or concentration before refining into blister copper and cathodes.',
             details: 'Common copper minerals include Chalcopyrite (CuFeS₂), Bornite, Malachite, and Chalcocite. Used as feedstock for concentration plants, direct smelting input, and SX-EW leaching operations for oxide ores.',
-            image: 'https://images.pexels.com/photos/207152/pexels-photo-207152.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Copper_ORE.png',
             specs: ['Copper (Cu): 0.5% – 5.0%', 'Iron (Fe): 10% – 35%', 'Sulfur (S): 5% – 35% (sulfide ores)', 'Silica (SiO₂): 5% – 30%', 'Moisture: 5% – 12%', 'Particle Size: Lump or crushed', 'HS Code: 2603']
           },
           {
