@@ -952,7 +952,7 @@ export const categoryData: Category[] = [
         slug: 'dolomite',
         description: 'Calcium magnesium carbonate mineral used across steelmaking, glass manufacturing, refractory production, construction aggregates, and agricultural soil conditioning.',
         details: 'Dolomite — chemical formula CaMg(CO₃)₂ — is a carbonate mineral and rock with a Mohs hardness of 3.5–4, typically white to light grey in appearance. It is one of the most versatile industrial minerals globally, valued for its dual calcium and magnesium content and its thermal decomposition behavior. In steelmaking, raw dolomite is used as a flux in blast furnaces, while calcined dolomite provides the refractory linings of BOF converters and EAF furnaces, critical for maintaining furnace integrity at extreme temperatures. The glass industry uses high-purity dolomite to supply MgO, which improves the durability and chemical resistance of finished glass. In agriculture, finely ground dolomite acts as a soil conditioner and pH neutralizer, simultaneously supplying calcium and magnesium. We supply dolomite across four processing stages — from raw ore to finished dolomite powder — with full chemical analysis, size grading, and origin documentation.',
-        image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Dolomite.png',
         specs: ['Forms: Ore / Concentrate / Calcined / Powder', 'CaCO₃ + MgCO₃: ≥ 90%', 'HS Code: 2518', 'Applications: Steel, glass, refractory, agriculture, construction'],
         hsCode: '2518',
         subProducts: [
@@ -961,7 +961,7 @@ export const categoryData: Category[] = [
             slug: 'dolomite-ore',
             description: 'Run-of-mine raw dolomite extracted directly from quarries, used as flux in steelmaking, construction aggregate, cement production, and glass manufacturing feedstock.',
             details: 'Dolomite ore is the primary extracted form of the mineral, supplied as lump or crushed material directly from quarries. It contains both calcium and magnesium carbonates with varying levels of silica, iron, and alumina depending on the deposit. In steelmaking, it is charged into blast furnaces as a flux to remove impurities and protect furnace linings. It is also used as a basic construction aggregate, as a raw input for calcined dolomite production, and as a glass-batch raw material.',
-            image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Dolomite_Ore.png',
             specs: ['CaCO₃: 45% – 55%', 'MgCO₃: 35% – 45%', 'SiO₂: ≤ 5%', 'Al₂O₃: ≤ 1%', 'Fe₂O₃: ≤ 1%', 'LOI: 40% – 48%', 'Form: Lump / Crushed', 'HS Code: 2518']
           },
          
@@ -970,7 +970,7 @@ export const categoryData: Category[] = [
             slug: 'calcined-dolomite',
             description: 'Produced by high-temperature calcination of raw dolomite, yielding CaO and MgO. Used in steel furnace refractory linings, BOF/EAF slag control, desulfurization, and magnesium production.',
             details: 'Calcined dolomite is produced by heating raw dolomite in a rotary or shaft kiln to temperatures above 900°C, driving off CO₂ to produce a mixture of calcium oxide (CaO) and magnesium oxide (MgO). It is the primary refractory and fluxing material in the steel industry, used to protect BOF and EAF furnace linings from slag attack and to control the composition of molten steel. It is also used in the production of magnesia-based refractories, in desulfurization processes, and as a precursor for magnesium metal production.',
-            image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Calcined_Dolomite.png',
             specs: ['CaO: 30% – 40%', 'MgO: 15% – 25%', 'SiO₂: ≤ 2%', 'Fe₂O₃: ≤ 1%', 'LOI: ≤ 5%', 'Form: Lump / Powder', 'HS Code: 2518']
           },
           {
@@ -978,7 +978,7 @@ export const categoryData: Category[] = [
             slug: 'dolomite-powder',
             description: 'Finely ground dolomite used as an agricultural soil neutralizer, filler in paints and plastics, and additive in glass, ceramics, and construction materials.',
             details: 'Dolomite powder is produced by milling and classifying dolomite to fine particle sizes between 100 and 500 mesh. In agriculture, it is applied as a soil pH neutralizer and mineral supplement, simultaneously providing calcium and magnesium to both soil and crops. In the construction and manufacturing sectors, fine dolomite powder is used as a white filler in paints, rubber, plastics, adhesives, and ceramics, contributing to improved brightness, opacity, and chemical resistance. It is also used as a fluxing filler in glass and as a calcium-magnesium source in animal feed minerals.',
-            image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Dolomite_Powder.png',
             specs: ['CaCO₃ + MgCO₃: ≥ 90%', 'SiO₂: ≤ 3%', 'Fe₂O₃: ≤ 1%', 'Particle Size: 100 mesh – 500 mesh', 'Moisture: ≤ 2%', 'HS Code: 2518']
           }
         ]
