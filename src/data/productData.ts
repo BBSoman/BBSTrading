@@ -858,7 +858,7 @@ export const categoryData: Category[] = [
         slug: 'quartz',
         description: 'One of the most abundant and versatile industrial minerals, composed primarily of silicon dioxide (SiO₂). Used in glass manufacturing, electronics, construction, semiconductors, solar panels, and engineered stone production across four distinct product forms.',
         details: 'The commercial value of quartz depends primarily on SiO₂ purity level, iron (Fe₂O₃) content, particle size distribution, and chemical consistency. We supply quartz across four product categories — from ultra-high purity HPQ for semiconductors and solar applications, to industrial sand for glass and construction, crystals for precision electronics, and fine powder for fillers and engineered stone.',
-        image: 'https://images.pexels.com/photos/2397418/pexels-photo-2397418.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Quartz.png',
         specs: ['Forms: HPQ / Industrial Sand / Crystals / Powder', 'SiO₂ range: 95% – 99.99%', 'Fe₂O₃: ≤ 50 ppm (HPQ) to ≤ 0.5% (industrial)', 'HS Code: 2506'],
         hsCode: '2506',
         subProducts: [
@@ -867,7 +867,7 @@ export const categoryData: Category[] = [
             slug: 'high-purity-quartz',
             description: 'Specialized quartz with extremely low impurity levels — especially iron, aluminum, and alkali metals. Critical for semiconductor manufacturing, photovoltaic (solar) applications, and optical fiber production requiring superior chemical and thermal stability.',
             details: 'Ultra-low iron content is critical for electronic and photovoltaic use. Used in semiconductor crucibles, solar panel silicon production, optical fiber manufacturing, and high-tech glass industries.',
-            image: 'https://images.pexels.com/photos/2397418/pexels-photo-2397418.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/High-Purity_Quartz_(HPQ).png',
             specs: ['SiO₂: ≥ 99.95% – 99.99%', 'Fe₂O₃: ≤ 50 ppm', 'Al₂O₃: ≤ 100 ppm', 'TiO₂: ≤ 30 ppm', 'CaO: ≤ 50 ppm', 'Moisture: ≤ 0.5%', 'Form: Lump / Granular', 'HS Code: 2506']
           },
           {
@@ -875,7 +875,7 @@ export const categoryData: Category[] = [
             slug: 'industrial-quartz-sand',
             description: 'Graded quartz sand and aggregates for glass production, foundry molds, construction materials, and filtration systems. Higher silica content improves transparency in glass production.',
             details: 'Graded by particle size and silica content for different industrial applications. Used in glass manufacturing, foundry casting, water filtration media, and construction aggregates.',
-            image: 'https://images.pexels.com/photos/2397418/pexels-photo-2397418.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Industrial_Quartz_Sand_&_Aggregates.png',
             specs: ['SiO₂: 95% – 99.5%', 'Fe₂O₃: ≤ 0.5%', 'Al₂O₃: ≤ 2%', 'Moisture: ≤ 2%', 'Grain Size: Custom (0.1mm – 5mm)', 'HS Code: 2506']
           },
           {
@@ -883,7 +883,7 @@ export const categoryData: Category[] = [
             slug: 'quartz-crystals',
             description: 'Natural and synthetic quartz crystals used in electronics and precision instruments due to their piezoelectric properties. Essential in telecommunications, microelectronics, and frequency control devices.',
             details: 'Natural crystals are mined with hexagonal structure, while synthetic quartz is produced in controlled laboratory environments for enhanced purity and uniformity. Synthetic quartz is preferred for high-precision electronics.',
-            image: 'https://images.pexels.com/photos/2397418/pexels-photo-2397418.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Quartz_Crystals_(Natural_&_Synthetic).png',
             specs: ['Natural SiO₂: 99%+', 'Synthetic SiO₂: ≥ 99.99%', 'Form: Rough/Cut (Natural) / Engineered crystal (Synthetic)', 'Applications: Oscillators, electronic components, optical instruments', 'HS Code: 2506']
           },
           {
@@ -891,7 +891,7 @@ export const categoryData: Category[] = [
             slug: 'quartz-powder',
             description: 'Finely ground silica used as a filler in construction chemicals, paints, ceramics, engineered stone, and resin systems. Improves mechanical strength, chemical stability, and surface durability.',
             details: 'Particle size and purity determine industrial suitability. Ultra-fine grades enhance surface finish and mechanical performance. Used in engineered stone production, ceramic manufacturing, paints & coatings, construction fillers, and adhesives and sealants.',
-            image: 'https://images.pexels.com/photos/2397418/pexels-photo-2397418.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Quartz_Powder_&_Fillers.png',
             specs: ['SiO₂: 95% – 99.9%', 'Fe₂O₃: ≤ 0.5% (industrial)', 'Particle Size: 10 micron – 500 micron', 'Moisture: ≤ 1%', 'Whiteness: High (for decorative uses)', 'HS Code: 2506']
           }
         ]
@@ -934,7 +934,7 @@ export const categoryData: Category[] = [
             slug: 'silica-gel',
             description: 'Porous, granular amorphous silica used primarily as a desiccant and moisture-absorbing agent. High adsorption capacity and chemical stability for packaging, pharmaceutical, and industrial use.',
             details: 'Used in packaging desiccant, pharmaceutical storage, electronics moisture protection, and gas drying. Its exceptional surface area and pore structure give it outstanding moisture absorption performance.',
-            image: 'https://images.pexels.com/photos/2397418/pexels-photo-2397418.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Silica_Gel.png',
             specs: ['SiO₂: ≥ 99%', 'Moisture Adsorption: High', 'Surface Area: 600 – 800 m²/g', 'pH: 4 – 8', 'Form: Beads / Granules', 'HS Code: 2811']
           },
           {
@@ -942,7 +942,7 @@ export const categoryData: Category[] = [
             slug: 'colloidal-silica',
             description: 'Stable dispersion of nano-sized silica particles suspended in liquid, typically water. Used in precision polishing, coatings, and electronics manufacturing. High uniformity and stability critical for electronic applications.',
             details: 'Used in semiconductor polishing (CMP), investment casting binders, surface coatings, and paper & textile treatment. High uniformity and stability are critical in electronic and polishing applications.',
-            image: 'https://images.pexels.com/photos/2397418/pexels-photo-2397418.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Colloidal_Silica.png',
             specs: ['SiO₂ Content: 20% – 50%', 'Particle Size: 5 – 100 nm', 'pH: 3 – 10 (varies by grade)', 'Appearance: Clear to milky liquid', 'HS Code: 2811']
           }
         ]
