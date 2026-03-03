@@ -540,7 +540,7 @@ export const categoryData: Category[] = [
             slug: 'polyethylene-terephthalate-pet',
             description: 'PET is a thermoplastic polymer widely used in beverage bottles, food containers, and fiber production. It offers clarity, strength, and recyclability.',
             details: 'Available in bottle grade and fiber grade, with controlled intrinsic viscosity (IV) levels to meet the specific processing requirements of blow molding, injection stretch blow molding, and fiber extrusion applications.',
-            image: '/Polymer_PET.png',
+            image: '/Polymer_PET1.png',
             specs: ['Intrinsic Viscosity (IV): As specified', 'Density: ~1.38 g/cm³', 'Moisture: ≤ 0.05%', 'Form: Bottle grade / Fiber grade', 'HS Code: 3907.61']
           }
         ]
