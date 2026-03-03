@@ -816,7 +816,7 @@ export const categoryData: Category[] = [
             slug: 'gold-ore',
             description: 'Gold ore is a naturally occurring mineral rock containing gold in variable concentrations. Mined from primary or alluvial deposits and processed through crushing, milling, and extraction methods such as gravity separation or cyanidation.',
             details: 'Gold content in ore is expressed in grams per metric ton (g/t). Primarily supplied to refineries and processing plants for extraction and purification into bullion. Sold based on assay results and recoverable gold content.',
-            image: 'https://images.pexels.com/photos/207152/pexels-photo-207152.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Gold_ore.png',
             specs: ['Gold (Au) Content: 1 g/t – 30+ g/t', 'Silver (Ag): Trace – 20 g/t', 'Moisture: 3% – 10%', 'Form: Lump / Crushed', 'Assay: Required (Fire Assay Method)', 'HS Code: 7108']
           },
           {
@@ -824,7 +824,7 @@ export const categoryData: Category[] = [
             slug: 'gold-ingots',
             description: 'Refined rectangular blocks of gold produced by refineries and cast into standardized 1 KG weights for international trade. Each ingot is typically accompanied by an assay certificate and serial number.',
             details: 'Higher purity ingots (99.9% / 99.5%) are investment or banking grade, while 95% and 94% are usually trade-grade bullion pending further refining. Available in four purity levels to match different trade and investment requirements.',
-            image: 'https://images.pexels.com/photos/73910/mars-mars-rover-space-travel-robot-73910.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Gold_Ingot.png',
             specs: ['Purity: 99.9% (24K) / 99.5% (24K) / 95% / 94%', 'Weight: 1 KG', 'Form: Cast', 'Serial Number: Yes (for refined bars)', 'Assay Certificate: Required for 99.5%+', 'HS Code: 7108']
           },
           {
@@ -840,7 +840,7 @@ export const categoryData: Category[] = [
             slug: 'gold-nuggets',
             description: 'Naturally occurring pieces of native gold recovered directly from mining sites or alluvial deposits. Purity varies based on geological origin and must be confirmed by assay before commercial trade.',
             details: 'Nuggets are irregular in shape and usually require refining for standardized bullion conversion. Mainly supplied to refineries for purification into 99.99% bullion. Assay is mandatory before commercial transaction.',
-            image: 'https://images.pexels.com/photos/207152/pexels-photo-207152.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Gold_Nuggets.png',
             specs: ['Purity: 94% – 99.5%', 'Karat Equivalent: 22K – 24K', 'Weight: Variable', 'Form: Natural, irregular', 'Assay: Mandatory', 'HS Code: 7108']
           }
         ]
