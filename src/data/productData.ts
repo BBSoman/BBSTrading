@@ -582,7 +582,7 @@ export const categoryData: Category[] = [
             slug: 'urea-formaldehyde-resin',
             description: 'A thermosetting resin primarily used in wood adhesives, particleboard production, and construction materials.',
             details: 'Widely used as a binder in the manufacture of particleboard, MDF, plywood, and other engineered wood products. Available in liquid form with controlled solid content and free formaldehyde levels to meet international emission standards.',
-            image: 'UreaFormaldehydeResin.png',
+            image: '/UreaFormaldehydeResin.png',
             specs: ['Solid Content: As specified', 'Free Formaldehyde: As per standard', 'Viscosity: As specified', 'Form: Liquid', 'HS Code: 3909.10']
           }
         ]
