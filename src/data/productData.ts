@@ -737,7 +737,7 @@ export const categoryData: Category[] = [
         slug: 'chrome',
         description: 'Strategic industrial metal primarily used in the production of stainless steel, alloy steel, and ferrochrome. Supplied as chromite ore and beneficiated concentrate for metallurgical and specialty applications.',
         details: 'Chromium\'s key properties include high corrosion resistance, hardness, and the ability to withstand extreme temperatures. Over 80% of global chromium demand is driven by stainless steel manufacturing. The commercial value is primarily determined by Cr₂O₃ content, Cr/Fe ratio, and impurity levels. We supply chromite ore and chrome concentrate from established producing regions with verified chemical analysis and independent third-party inspection.',
-        image: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Chrome.png',
         specs: ['Forms: Chrome Ore / Chrome Concentrate', 'Cr₂O₃: 30% – 52%', 'Cr/Fe Ratio: 1.5 – 3.5', 'HS Code: 2610'],
         hsCode: '2610',
         subProducts: [
@@ -746,7 +746,7 @@ export const categoryData: Category[] = [
             slug: 'chrome-ore',
             description: 'Chrome ore is a naturally occurring mineral composed mainly of iron oxide and chromium oxide. Mined and supplied in lump or crushed form for ferrochrome production, stainless steel manufacturing, and refractory applications.',
             details: 'Commercial value is determined by Cr₂O₃ content, Cr/Fe ratio, and impurity levels (SiO₂, Al₂O₃, P, S). Higher Cr₂O₃ content and higher Cr/Fe ratio are preferred for metallurgical applications. Used in ferrochrome production, stainless steel manufacturing, alloy steel production, and refractory and foundry sand applications.',
-            image: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Chrome_Ore.png',
             specs: ['Cr₂O₃: 30% – 48%', 'Cr/Fe Ratio: 1.5 – 3.5', 'Fe: 15% – 30%', 'SiO₂: 3% – 12%', 'Al₂O₃: 8% – 20%', 'MgO: 10% – 20%', 'Moisture: ≤ 8%', 'Form: Lump / Crushed', 'HS Code: 2610']
           },
           {
@@ -754,7 +754,7 @@ export const categoryData: Category[] = [
             slug: 'chrome-concentrate',
             description: 'Beneficiated chrome concentrate obtained after crushing, washing, gravity separation, or spiral concentration. Contains higher Cr₂O₃ levels and controlled impurity content for direct smelting into ferrochrome.',
             details: 'Concentrated chrome reduces processing cost per chromium unit and increases furnace efficiency. The beneficiation process improves the Cr/Fe ratio and removes gangue minerals. Used for high-grade ferrochrome production, stainless steel smelting, and specialty alloy manufacturing.',
-            image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Chrom_Concentrate.png',
             specs: ['Cr₂O₃: 42% – 52%', 'Cr/Fe Ratio: 2.5 – 3.5', 'Fe: 12% – 25%', 'SiO₂: ≤ 8%', 'Al₂O₃: 10% – 18%', 'MgO: 10% – 20%', 'Moisture: ≤ 10%', 'Particle Size: Fine concentrate', 'HS Code: 2610']
           }
         ]
@@ -764,7 +764,7 @@ export const categoryData: Category[] = [
         slug: 'antimony',
         description: 'Industrial-grade material utilized in flame retardants, alloys, batteries, and specialty chemical production.',
         details: 'Antimony is a metalloid element with unique properties that make it valuable across a diverse range of industrial applications, from flame retardant compounds used in plastics and textiles, to lead-acid battery grid hardeners, semiconductor components, and glass clarification agents. Antimony trioxide (Sb2O3) is the most commercially important compound, widely used as a flame retardant synergist in polymer systems. Metal-grade antimony is used in bearing alloys, solder, and pewter. Classified as a critical mineral by several governments due to concentrated supply chains, antimony commands significant strategic interest. We supply antimony in ore, oxide, and metal forms with independent assay and compliant documentation for customs and trade finance.',
-        image: 'https://images.pexels.com/photos/843248/pexels-photo-843248.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Antimony_.png',
         specs: ['Sb content: 55–65% (ore)', 'Sb2O3 purity: 99.5% min', 'Metal grade: 99.65% min', 'Packaging: drums and big bags']
       },
       {
