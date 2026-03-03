@@ -566,7 +566,7 @@ export const categoryData: Category[] = [
             slug: 'polyester-resin',
             description: 'Polyester resins are widely used in fiberglass-reinforced products, marine components, tanks, and construction materials. They cure through polymerization processes forming durable composite systems.',
             details: 'A cost-effective matrix resin for hand lay-up and spray-up fiberglass applications, boat hulls, storage tanks, and architectural panels. Available in orthophthalic and isophthalic grades depending on the required corrosion resistance and mechanical performance.',
-            image: '/Polyester_Resin.png',
+            image: '/PolyesterResin.png',
             specs: ['Solid Content: As specified', 'Viscosity: As per grade', 'Reactivity: Controlled', 'Form: Liquid', 'HS Code: 3907.91']
           },
           {
