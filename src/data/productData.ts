@@ -183,7 +183,7 @@ export const categoryData: Category[] = [
         slug: 'dap',
         description: 'Reliable phosphorus and nitrogen combination to promote strong root development and early plant growth.',
         details: 'Diammonium Phosphate (DAP) is one of the most widely used phosphatic fertilizers in the world, combining high phosphate and nitrogen content in a highly water-soluble granule that delivers rapid nutrient availability at the soil level. We supply multiple DAP grades — from standard 18-46-0 through to high-analysis 21-53-0 — each suitable for broadcast, banding, and blending applications across a wide range of field crops and horticultural systems. HS Code: 3105.30.',
-        image: '/DAP.png',
+        image: '/DAP1.png',
         specs: ['Multiple grades available', 'Phosphorus (P₂O₅): 46–53%', 'Nitrogen (N): 16–21%', 'Moisture: ≤ 1.5%', 'HS Code: 3105.30'],
         hsCode: '3105.30',
         subProducts: [
