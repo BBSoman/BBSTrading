@@ -711,7 +711,7 @@ export const categoryData: Category[] = [
             slug: 'manganese-concentrate-medium-grade',
             description: 'Commercially viable beneficiated manganese concentrate with 40% – 46% Mn for alloy blending. Suitable for ferroalloy production and secondary steel plants.',
             details: 'A processed concentrate offering improved Mn uniformity over run-of-mine ore, with controlled silica and moisture levels for consistent furnace performance.',
-            image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Manganese_Concentrate_Medium_Grade.png',
             specs: ['Mn: 40% – 46%', 'Fe: 6% – 12%', 'SiO₂: 8% – 15%', 'Moisture: < 10%', 'HS Code: 2602']
           },
           {
