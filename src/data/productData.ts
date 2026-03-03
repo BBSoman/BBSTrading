@@ -192,7 +192,7 @@ export const categoryData: Category[] = [
             slug: '18-46-0',
             description: 'A high-analysis diammonium phosphate fertilizer containing a balanced ratio of nitrogen and phosphorus. It is primarily used to support early root development, strong plant establishment, and energy transfer within the plant.',
             details: 'The high phosphorus content promotes root expansion and improves crop vigor during the early growth stages. The product is fully water-soluble in soil moisture and suitable for direct field application or bulk blending.',
-            image: 'https://images.pexels.com/photos/4505463/pexels-photo-4505463.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/DAP18-48-0.png',
             specs: ['Nitrogen (N): 18%', 'Phosphorus (P₂O₅): 46%', 'Potassium (K₂O): 0%', 'Water solubility: High', 'Moisture: ≤ 1.5%', 'HS Code: 3105.30']
           },
           {
@@ -200,7 +200,7 @@ export const categoryData: Category[] = [
             slug: '18-46-0-te',
             description: 'A phosphorus-rich diammonium phosphate fertilizer fortified with micronutrients to enhance nutrient uptake and support balanced plant nutrition. The formulation promotes strong root establishment while delivering essential trace elements required for enzymatic activity and overall plant health.',
             details: 'Suitable for soils with micronutrient deficiencies and high-demand crop systems.',
-            image: 'https://images.pexels.com/photos/1382394/pexels-photo-1382394.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/DAP_18-46-0_+TE.png',
             specs: ['Nitrogen (N): 18%', 'Phosphorus (P₂O₅): 46%', 'Potassium (K₂O): 0%', 'Micronutrients: Zn, Fe, Mn (as specified)', 'Moisture: ≤ 1.5%', 'HS Code: 3105.30']
           },
           {
@@ -208,7 +208,7 @@ export const categoryData: Category[] = [
             slug: '16-48-0',
             description: 'A phosphate-dominant fertilizer designed for enhanced root stimulation and early plant development. With a slightly higher phosphorus concentration, this grade is suitable for crops requiring strong root activation and improved flowering initiation.',
             details: 'It dissolves efficiently in soil moisture and supports rapid nutrient availability after application.',
-            image: 'https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/DAP_16-48-0.png',
             specs: ['Nitrogen (N): 16%', 'Phosphorus (P₂O₅): 48%', 'Potassium (K₂O): 0%', 'Moisture: ≤ 1.5%', 'Granule form: Standard granular export grade', 'HS Code: 3105.30']
           },
           {
@@ -216,7 +216,7 @@ export const categoryData: Category[] = [
             slug: '21-53-0',
             description: 'A concentrated diammonium phosphate fertilizer formulated for maximum phosphorus delivery combined with elevated nitrogen content. This grade is commonly selected for high-demand cropping systems requiring intensive early nutrition.',
             details: 'It enhances root biomass formation and supports optimal vegetative growth during establishment stages.',
-            image: 'https://images.pexels.com/photos/2382665/pexels-photo-2382665.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/DAP_21-53-0.png',
             specs: ['Nitrogen (N): 21%', 'Phosphorus (P₂O₅): 53%', 'Potassium (K₂O): 0%', 'Moisture: ≤ 1.5%', 'Physical form: Granular', 'HS Code: 3105.30']
           }
         ]
