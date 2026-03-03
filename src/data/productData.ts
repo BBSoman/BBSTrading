@@ -397,7 +397,7 @@ export const categoryData: Category[] = [
             slug: 'bitumen-200-300',
             description: 'A highly penetrable and softer grade bitumen intended for cold climate paving and specialized asphalt blends. Its increased fluidity improves workability during mixing and laying processes in lower temperature regions.',
             details: 'The high penetration value ensures excellent workability and adhesion in cold and sub-arctic paving environments.',
-            image: '/b200300.png',
+            image: '/b2003001.png',
             specs: ['Penetration @ 25°C (0.1 mm): 200–300', 'Softening point: 35–43°C', 'Ductility @ 25°C: ≥ 100 cm', 'Flash point: ≥ 220°C', 'Solubility in TCE: ≥ 99%', 'Specific gravity @ 25°C: ~1.00', 'HS Code: 2713.20.00.90']
           },
           {
