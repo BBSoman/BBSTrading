@@ -729,7 +729,7 @@ export const categoryData: Category[] = [
         slug: 'ferrochrome',
         description: 'Critical input for stainless steel manufacturing and corrosion-resistant alloy production.',
         details: 'Ferrochrome is a ferroalloy composed of chromium and iron, produced by the reduction of chromite ore in submerged arc furnaces, and is the primary source of chromium in stainless steel production. High-carbon charge chrome, the most commonly traded grade, is added to electric arc furnaces to impart the corrosion resistance and surface hardness that define stainless and specialty steel grades. With global stainless steel demand driven by construction, automotive, food processing, and medical industries, ferrochrome remains a critical traded commodity. We supply high-carbon ferrochrome in lumpy and crushed grades from integrated producers with documented carbon, chromium, and silicon analysis at origin.',
-        image: 'https://images.pexels.com/photos/159350/steel-metal-texture-159350.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Ferrochrome.png',
         specs: ['Cr content: 50–55% (charge chrome)', 'Carbon: 6–8% (high carbon grade)', 'Size: lumpy and crushed grades', 'Packaging: bulk or big bags']
       },
       {
