@@ -679,7 +679,7 @@ export const categoryData: Category[] = [
             slug: 'manganese-ore-medium-grade',
             description: 'Medium grade manganese ore with 37% – 44% Mn, offering an economical balance between quality and price. Used in ferroalloy blending, upgrading, and steel additives.',
             details: 'A commercially viable option for ferroalloy producers requiring cost-effective blending material. The moderate Mn/Fe ratio of 4:1 – 6:1 suits secondary steel operations and blend-feed furnaces.',
-            image: '/Manganese_Concentrate_Medium_Grade.png',
+            image: '/Medium_Grade_Manganese_Ore.png',
             specs: ['Mn: 37% – 44%', 'Fe: 6% – 15%', 'SiO₂: 10% – 20%', 'P: < 0.20%', 'Mn/Fe Ratio: 4:1 – 6:1', 'HS Code: 2602']
           },
           {
