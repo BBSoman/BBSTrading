@@ -550,7 +550,7 @@ export const categoryData: Category[] = [
         slug: 'resins',
         description: 'Synthetic and semi-synthetic polymer compounds supplied as binding agents, coating materials, adhesives, laminates, and molding compounds in liquid, solid, or granulated form for industrial processing applications.',
         details: 'Industrial resins are synthetic polymer-based materials that serve as binders, adhesives, coatings, and matrix materials across a wide range of manufacturing sectors. Epoxy resins are widely used in high-performance coatings, structural adhesives, electrical laminates, and composite materials for aerospace and marine applications due to their outstanding adhesion, chemical resistance, and mechanical properties. Phenolic resins are essential in the production of plywood binders, brake linings, abrasive wheels, and molded components requiring high thermal stability. Polyester resins are a cost-effective choice for fiber-reinforced composites, gel coats, and construction materials. We supply liquid and solid resin grades with tested viscosity, reactivity, and hardener compatibility, packaged in drums, intermediate bulk containers, or flexitanks.',
-        image: 'https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Resin.png',
         specs: ['Resin Type: Epoxy / Polyester / Phenolic / Urea / Alkyd', 'Form: Liquid / Solid / Flakes', 'Viscosity: As per grade', 'Purity: Industrial grade', 'Packaging: Drums, IBCs, or flexitanks'],
         subProducts: [
           {
