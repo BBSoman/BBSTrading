@@ -662,7 +662,7 @@ export const categoryData: Category[] = [
         slug: 'manganese',
         description: 'Critical industrial metal used primarily in steelmaking, ferroalloys, batteries, and specialty chemical applications. Improves hardness, tensile strength, and wear resistance while acting as a deoxidizing and desulfurizing agent in metallurgical processes.',
         details: 'Manganese ore is an indispensable raw material in steelmaking, where it is used to deoxidize molten steel, remove sulfur impurities, and increase tensile strength and hardness in the final product. Approximately 90% of global manganese production is consumed by the steel industry, making it one of the most strategically important industrial minerals. Beyond steel, manganese is a key component in EV battery cathodes and specialty chemical applications. We supply both raw ore grades and beneficiated concentrate, sourced from established producing regions with consistent grade and reliable logistics.',
-        image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Manganese.png',
         specs: ['Forms: Manganese Ore / Manganese Concentrate', 'Mn content: 10% – 55%+ (grade dependent)', 'Mineral forms: Pyrolusite, Manganite, Rhodochrosite', 'HS Code: 2602'],
         hsCode: '2602',
         subProducts: [
@@ -671,7 +671,7 @@ export const categoryData: Category[] = [
             slug: 'manganese-ore-high-grade',
             description: 'Premium high-grade manganese ore with 44% – 48%+ Mn content, suitable for direct ferroalloy production. Preferred feedstock for Ferro Manganese (FeMn), Silico Manganese (SiMn), and high-grade alloy steel.',
             details: 'Characterized by a high Mn/Fe ratio of 6:1 – 8:1 and low phosphorus, making it the premium raw material for direct ferroalloy smelting without the need for blending or upgrading.',
-            image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/High_Grade_Manganese_Ore.png',
             specs: ['Mn: 44% – 48%+', 'Fe: < 6%', 'SiO₂: < 10%', 'Al₂O₃: < 8%', 'P: < 0.15%', 'S: < 0.05%', 'Mn/Fe Ratio: 6:1 – 8:1', 'HS Code: 2602']
           },
           {
@@ -679,7 +679,7 @@ export const categoryData: Category[] = [
             slug: 'manganese-ore-medium-grade',
             description: 'Medium grade manganese ore with 37% – 44% Mn, offering an economical balance between quality and price. Used in ferroalloy blending, upgrading, and steel additives.',
             details: 'A commercially viable option for ferroalloy producers requiring cost-effective blending material. The moderate Mn/Fe ratio of 4:1 – 6:1 suits secondary steel operations and blend-feed furnaces.',
-            image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Manganese_Concentrate_Medium_Grade.png',
             specs: ['Mn: 37% – 44%', 'Fe: 6% – 15%', 'SiO₂: 10% – 20%', 'P: < 0.20%', 'Mn/Fe Ratio: 4:1 – 6:1', 'HS Code: 2602']
           },
           {
@@ -687,7 +687,7 @@ export const categoryData: Category[] = [
             slug: 'manganese-ore-low-grade',
             description: 'Low grade manganese ore with 30% – 35% Mn. Requires beneficiation or blending before metallurgical use. Supplied to beneficiation plants and for blending with higher-grade material.',
             details: 'Higher gangue content requires processing before direct smelter application. Typically used in beneficiation plants, as blending material, or for regional industrial use at competitive pricing.',
-            image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Low_Grade_Manganese_Ore.png',
             specs: ['Mn: 30% – 35%', 'Fe: 10% – 20%', 'SiO₂: 15% – 25%', 'Higher gangue content', 'HS Code: 2602']
           },
           {
