@@ -313,7 +313,7 @@ export const categoryData: Category[] = [
             slug: 'light-crude',
             description: 'Light crude oil is characterized by lower density and reduced sulfur content, making it easier to refine into high-value petroleum products such as gasoline, diesel, and jet fuel.',
             details: 'Its lower viscosity allows efficient processing in refineries and improved yield of lighter distillates. This grade is commonly preferred in markets requiring higher refining efficiency and cleaner product output.',
-            image: 'https://images.pexels.com/photos/3694711/pexels-photo-3694711.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/crudeligh.png',
             specs: ['API gravity: > 31°', 'Sulfur content: ≤ 0.5% (sweet grade typical)', 'Density @ 15°C: 800–870 kg/m³', 'Pour point: As per field specification', 'Viscosity: Low', 'Water content (BS&W): ≤ 1%', 'HS Code: 2709.00']
           },
           {
@@ -321,7 +321,7 @@ export const categoryData: Category[] = [
             slug: 'medium-crude',
             description: 'Medium crude oil falls between light and heavy grades in density and sulfur content. It provides balanced refinery output with moderate yields of both light and middle distillates.',
             details: 'This grade is widely traded in international markets and is compatible with standard refining configurations.',
-            image: 'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/crudemedium.png',
             specs: ['API gravity: 22°–31°', 'Sulfur content: 0.5%–2%', 'Density @ 15°C: 870–920 kg/m³', 'Pour point: As per field specification', 'Viscosity: Moderate', 'Water content (BS&W): ≤ 1%', 'HS Code: 2709.00']
           },
           {
@@ -329,7 +329,7 @@ export const categoryData: Category[] = [
             slug: 'heavy-crude',
             description: 'Heavy crude oil has higher density and viscosity, requiring more complex refining processes. It typically yields greater proportions of residual fuels and heavy distillates.',
             details: 'This grade is supplied to refineries equipped with advanced upgrading units capable of processing heavier hydrocarbons.',
-            image: 'https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/crudeheavy.png',
             specs: ['API gravity: < 22°', 'Sulfur content: ≥ 2% (sour grade typical)', 'Density @ 15°C: 920–1000+ kg/m³', 'Pour point: As per field specification', 'Viscosity: High', 'Water content (BS&W): ≤ 1%', 'HS Code: 2709.00']
           },
           {
@@ -337,7 +337,7 @@ export const categoryData: Category[] = [
             slug: 'sweet-crude',
             description: 'Sweet crude oil contains low sulfur levels, making it more desirable for refining into cleaner fuels. The reduced sulfur simplifies refining operations and supports lower emissions in finished petroleum products.',
             details: 'Sweet grades may fall within light or medium density classifications.',
-            image: 'https://images.pexels.com/photos/3685271/pexels-photo-3685271.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/crudesweet.png',
             specs: ['API gravity: As per grade', 'Sulfur content: ≤ 0.5%', 'Density: As per classification', 'Viscosity: As per grade', 'Water content (BS&W): ≤ 1%', 'Sediment content: As per export standard', 'HS Code: 2709.00']
           },
           {
@@ -345,7 +345,7 @@ export const categoryData: Category[] = [
             slug: 'sour-crude',
             description: 'Sour crude oil contains higher sulfur levels and requires desulfurization during refining. It is commonly processed in refineries equipped with advanced sulfur recovery systems.',
             details: 'Despite higher sulfur content, it remains widely traded due to pricing competitiveness and global demand.',
-            image: 'https://images.pexels.com/photos/5710158/pexels-photo-5710158.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/crudesour.png',
             specs: ['API gravity: As per grade', 'Sulfur content: > 0.5%', 'Density: As per classification', 'Viscosity: As per grade', 'Water content (BS&W): ≤ 1%', 'Sediment content: As per export standard', 'HS Code: 2709.00']
           }
         ]
