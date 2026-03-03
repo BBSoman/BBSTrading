@@ -988,7 +988,7 @@ export const categoryData: Category[] = [
         slug: 'limestone',
         description: 'Sedimentary rock primarily composed of calcium carbonate (CaCO₃). One of the most widely used industrial minerals in the world, serving as key raw material in cement manufacturing, steel production, construction, agriculture, and environmental treatment.',
         details: 'Limestone value depends mainly on CaCO₃ purity, CaO yield after calcination, silica and iron impurity levels, and particle size distribution. We supply limestone across four processed forms — raw ore through to quicklime and hydrated lime — to serve the full range of industrial and construction applications.',
-        image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Limestone.png',
         specs: ['Forms: Ore / Crushed / Quicklime / Hydrated Lime', 'CaCO₃: 85% – 98%', 'CaO: 85% – 95% (Quicklime)', 'HS Code: 2521 (Limestone) / 2522 (Lime)'],
         hsCode: '2521',
         subProducts: [
