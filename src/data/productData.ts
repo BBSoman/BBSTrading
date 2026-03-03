@@ -719,7 +719,7 @@ export const categoryData: Category[] = [
             slug: 'manganese-concentrate-low-grade',
             description: 'Processed manganese concentrate with 35% – 40% Mn and moderate recovery. Used as blending material or upgrading input for further concentration.',
             details: 'An economical processed product suitable for blending with higher-grade concentrate or as feedstock for further upgrading operations.',
-            image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Manganese_Concentrate_Low_Grade.png',
             specs: ['Mn: 35% – 40%', 'Fe: 10% – 18%', 'SiO₂: 12% – 20%', 'HS Code: 2602']
           }
         ]
