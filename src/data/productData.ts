@@ -491,7 +491,7 @@ export const categoryData: Category[] = [
   },
   {
     name: 'Polymer Chemistry Essentials',
-    slug: 'Polymer Chemistry Essentials',
+    slug: 'petrochemicals-industrial-chemicals',
     image: '/Polymer.png',
     overview: 'Our petrochemicals portfolio supports downstream manufacturing industries with consistent quality, competitive pricing, and reliable logistics from origin to destination.',
     products: [
@@ -592,7 +592,7 @@ export const categoryData: Category[] = [
         slug: 'methanol',
         description: 'High-purity methanol (CH₃OH) for chemical synthesis, fuel blending, biodiesel production, and industrial solvent applications, supplied in ISO tanks, flexitanks, and bulk vessel cargo.',
         details: 'Methanol (CH3OH), also known as methyl alcohol or wood alcohol, is the simplest alcohol and one of the most widely traded commodity chemicals in the world. It is produced primarily from natural gas via steam methane reforming and subsequent catalytic synthesis, and serves as a fundamental building block for a vast range of downstream chemical products. Methanol is the primary feedstock for formaldehyde production, which in turn feeds the manufacture of resins, adhesives, and engineered wood products. It is also used to produce acetic acid, MTBE and TAME fuel octane boosters, dimethyl ether (DME), and methyl methacrylate. In the energy sector, methanol is a direct fuel and blending component, a key feedstock for biodiesel transesterification, and is gaining traction as a marine shipping fuel under IMO emissions regulations.',
-        image: 'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Methanol.png',
         specs: ['Chemical Formula: CH₃OH', 'Purity: ≥ 99.85%', 'Water Content: ≤ 0.1%', 'Density @ 20°C: 0.79 g/cm³', 'Flash Point: 11°C', 'HS Code: 2905.11'],
         hsCode: '2905.11',
         subProducts: [
@@ -601,7 +601,7 @@ export const categoryData: Category[] = [
             slug: 'industrial-grade',
             description: 'A high-purity alcohol used as a chemical feedstock for formaldehyde, acetic acid, MTBE, and various petrochemical intermediates. It is also used as a solvent and fuel component.',
             details: 'Compliant with ASTM D1152 and IMPCA methanol reference specifications. Supplied with full COA documentation in ISO tanks, flexitanks, and bulk vessel cargo.',
-            image: 'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Methanol_Industrial_Grade.png',
             specs: ['Chemical Formula: CH₃OH', 'Purity: ≥ 99.85%', 'Water Content: ≤ 0.1%', 'Density @ 20°C: ~0.79 g/cm³', 'Flash Point: 11°C', 'HS Code: 2905.11']
           },
           {
@@ -609,7 +609,7 @@ export const categoryData: Category[] = [
             slug: 'fuel-grade',
             description: 'Methanol supplied for blending into fuel systems or alternative energy applications. Specifications are aligned with fuel regulatory standards.',
             details: 'Suitable for direct fuel use, gasoline blending, and marine fuel applications under IMO emissions regulations. Supplied with specifications confirming purity, sulfur content, and water control.',
-            image: 'https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Methanol_Fuel_Grade.png',
             specs: ['Purity: ≥ 99.85%', 'Water: Controlled', 'Sulfur: Low', 'Appearance: Clear, colorless liquid', 'HS Code: 2905.11']
           }
         ]
