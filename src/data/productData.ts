@@ -47,7 +47,7 @@ export const categoryData: Category[] = [
             slug: '20-20-20',
             description: 'A fully water-soluble, balanced NPK fertilizer formulated for use throughout all stages of plant growth. The equal ratio of nitrogen, phosphorus, and potassium supports steady vegetative development, strong root establishment, and overall plant vitality.',
             details: 'Suitable for a wide range of crops and performs effectively in both early growth phases and intensive production systems. The formulation dissolves quickly, ensuring efficient nutrient delivery through modern irrigation systems.',
-            image: '/NPK_20-20-20.png',
+            image: '/NPK_20-20-201.png',
             specs: ['N: 20% | P: 20% | K: 20%', 'Application concentration: 0.5 – 0.8%', 'Secondary elements: S, Ca, Mg', 'Micronutrients: Zn, Cu, Fe, Mn, B', 'Form: fully water-soluble', 'HS Code: 3105.20']
           },
           {
@@ -71,7 +71,7 @@ export const categoryData: Category[] = [
             slug: '15-15-30-te',
             description: 'A balanced compound fertilizer with enhanced potassium content, formulated to support flowering, fruit setting, and fruit development stages. The combination of nitrogen and phosphorus sustains vegetative strength, while the higher potassium concentration contributes to fruit quality, improved size, and better maturation consistency.',
             details: 'Suitable for a broad range of crops during reproductive growth phases.',
-            image: '/15-15-30_+TE.png',
+            image: '/15-15-30_+TE1.png',
             specs: ['N: 15% | P: 15% | K: 30%', 'Application concentration: 0.5 – 0.8%', 'Secondary elements: S, Ca, Mg', 'Micronutrients: Zn, Cu, Fe, Mn, B', 'Form: fully water-soluble', 'HS Code: 3105.20']
           },
           {
