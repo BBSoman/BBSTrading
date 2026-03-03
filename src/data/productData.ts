@@ -558,7 +558,7 @@ export const categoryData: Category[] = [
             slug: 'epoxy-resin',
             description: 'Epoxy resins are thermosetting polymers used in coatings, adhesives, composites, and structural applications. They cure through chemical reaction with hardeners to form rigid cross-linked materials.',
             details: 'Widely specified for high-performance marine coatings, structural adhesives, printed circuit board laminates, wind turbine blades, and aerospace composite systems. Supplied in liquid and solid forms with documented epoxy value, viscosity, and density.',
-            image: 'https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/ResinEpoxy.png',
             specs: ['Epoxy Value: As specified', 'Viscosity: As per grade', 'Density: ~1.15 g/cm³', 'Form: Liquid / Solid', 'HS Code: 3909.10']
           },
           {
