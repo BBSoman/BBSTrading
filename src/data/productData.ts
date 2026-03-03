@@ -772,7 +772,7 @@ export const categoryData: Category[] = [
         slug: 'bauxite',
         description: 'Primary raw material for alumina and aluminum production. A sedimentary rock composed mainly of aluminum hydroxide minerals, supplied as raw ore and beneficiated concentrate for alumina refineries and smelting operations.',
         details: 'Bauxite is the world\'s primary ore of aluminum, refined through the Bayer process into alumina (Al₂O₃), which is then smelted via the Hall-Héroult process to produce primary aluminum metal. Global demand is driven by aluminum production essential for construction, transportation, packaging, aerospace, and renewable energy sectors. Commercial value is determined by Al₂O₃ content, silica content (especially reactive silica), and the alumina-to-silica ratio.',
-        image: 'https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Bauxite.png',
         specs: ['Forms: Raw Bauxite / Beneficiated Bauxite', 'Al₂O₃: 40% – 58%', 'Primary minerals: Gibbsite, Boehmite, Diaspore', 'HS Code: 2606'],
         hsCode: '2606',
         subProducts: [
