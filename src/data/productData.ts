@@ -781,7 +781,7 @@ export const categoryData: Category[] = [
             slug: 'raw-bauxite',
             description: 'Raw bauxite mined and supplied in lump or crushed form for transport to alumina refineries where it undergoes the Bayer process to extract alumina. Higher alumina and lower silica content improve refinery efficiency and reduce caustic soda consumption.',
             details: 'Primarily used in alumina refining (Bayer Process), aluminum smelting feedstock supply, and in cement and refractory industries for lower-grade material.',
-            image: 'https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Bauxite_ore.png',
             specs: ['Al₂O₃: 40% – 55%', 'SiO₂ (Total): 2% – 10%', 'Reactive Silica: < 5%', 'Fe₂O₃: 15% – 30%', 'TiO₂: 2% – 4%', 'Moisture: 5% – 12%', 'Form: Lump / Crushed', 'HS Code: 2606']
           },
           {
@@ -789,7 +789,7 @@ export const categoryData: Category[] = [
             slug: 'beneficiated-bauxite',
             description: 'Upgraded or washed bauxite produced through screening and washing processes to reduce silica content and improve alumina concentration. Preferred by alumina refineries requiring consistent chemical composition and higher recovery rates.',
             details: 'Lower silica and higher alumina ratio improve extraction yield and reduce refinery residue generation. Enhances refining efficiency and reduces operational costs. Used in primary alumina refineries, high-efficiency aluminum production, and metallurgical grade smelting feedstock.',
-            image: 'https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Bauxite_Concentrate.png',
             specs: ['Al₂O₃: 48% – 58%', 'SiO₂ (Total): 1% – 5%', 'Reactive Silica: < 3%', 'Fe₂O₃: 10% – 25%', 'Al₂O₃/SiO₂ Ratio: 8:1 – 15:1', 'Moisture: ≤ 10%', 'Form: Sized / Processed', 'HS Code: 2606']
           }
         ]
@@ -799,7 +799,7 @@ export const categoryData: Category[] = [
         slug: 'aluminum-ingots',
         description: 'Primary and secondary aluminum ingots for downstream casting, extrusion, rolling, and industrial manufacturing applications.',
         details: 'Aluminum ingots are refined, cast forms of primary or secondary aluminum metal produced by smelting alumina or remelting scrap aluminum. As one of the most widely used non-ferrous metals globally, aluminum is valued for its combination of low density, high strength-to-weight ratio, excellent corrosion resistance, thermal and electrical conductivity, and full recyclability. Primary aluminum ingots are produced through the Hall-Héroult electrolytic smelting process and are classified under various alloy series (1xxx through 8xxx) depending on their intended downstream application. Secondary aluminum ingots are produced from post-consumer or post-industrial scrap and are widely used in automotive castings, structural components, and general foundry work. We supply standard T-bar, sow, and notch-bar ingot formats in various alloy grades, with full chemical analysis certificates, country of origin documentation, and logistics support to port of destination.',
-        image: 'https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Aluminum_Ingot.png',
         specs: ['Purity: 99.7% min (primary grade)', 'Alloy series: 1xxx, 2xxx, 3xxx, 6xxx available', 'Form: T-bar, sow, and notch-bar ingots', 'Packaging: palletized or bulk, as per buyer specification']
       },
       {
@@ -807,7 +807,7 @@ export const categoryData: Category[] = [
         slug: 'gold',
         description: 'A globally traded precious metal recognized for its intrinsic value, corrosion resistance, high density, and monetary stability. Supplied as ore, ingots, bars, and nuggets for refinery, investment, and industrial applications.',
         details: 'Gold serves as both an investment asset and a critical material in jewelry, electronics, aerospace, and central bank reserves. We work within established compliance and documentation frameworks including provenance declarations, chain-of-custody documentation, LBMA-aligned due diligence, and AML/KYC-compliant trade structures to ensure all gold supply is responsibly and legally sourced. Purity is measured in percentage fineness or Karats: 24K = 99.9%/99.5%, 22K = 91.6%.',
-        image: 'https://images.pexels.com/photos/73910/mars-mars-rover-space-travel-robot-73910.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Gold.png',
         specs: ['Forms: Ore / Ingots / Bars / Nuggets', 'Purity range: 94% – 99.9%', 'Assay: Fire Assay Method / Refinery Certificate', 'HS Code: 7108'],
         hsCode: '7108',
         subProducts: [
@@ -832,7 +832,7 @@ export const categoryData: Category[] = [
             slug: 'gold-bars',
             description: 'Investment or wholesale bullion products manufactured in various sizes from 100 grams up to large delivery bars. Refined, stamped, and marked with purity and refinery details for institutional investment and large-scale trading.',
             details: 'High-purity bars (99.9% / 99.5%) meet international bullion trading standards, while lower purity bars (95% / 94%) are typically supplied for refinery feedstock or re-melting. Hallmarked for all bars 99.5% and above.',
-            image: 'https://images.pexels.com/photos/73910/mars-mars-rover-space-travel-robot-73910.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Gold_Bars.png',
             specs: ['Purity: 99.9% (Investment) / 99.5% (Wholesale) / 95% / 94%', 'Weight Options: 100g – 12.5kg', 'Form: Cast / Minted', 'Hallmark: Required for 99.5%+', 'HS Code: 7108']
           },
           {
