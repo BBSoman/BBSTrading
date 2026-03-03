@@ -192,7 +192,7 @@ export const categoryData: Category[] = [
             slug: '18-46-0',
             description: 'A high-analysis diammonium phosphate fertilizer containing a balanced ratio of nitrogen and phosphorus. It is primarily used to support early root development, strong plant establishment, and energy transfer within the plant.',
             details: 'The high phosphorus content promotes root expansion and improves crop vigor during the early growth stages. The product is fully water-soluble in soil moisture and suitable for direct field application or bulk blending.',
-            image: '/DAP18-48-0.png',
+            image: '/DAP18-46-0.png',
             specs: ['Nitrogen (N): 18%', 'Phosphorus (P₂O₅): 46%', 'Potassium (K₂O): 0%', 'Water solubility: High', 'Moisture: ≤ 1.5%', 'HS Code: 3105.30']
           },
           {
