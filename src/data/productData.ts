@@ -644,7 +644,7 @@ export const categoryData: Category[] = [
             slug: 'copper-concentrate',
             description: 'Copper concentrate is the processed product obtained after flotation of copper ore. It contains significantly higher copper content with controlled impurity levels and is the primary feedstock for copper smelters.',
             details: 'Typically supplied in fine powder form with controlled moisture content. Used for direct smelting to produce blister copper, refining into 99.99% copper cathodes, and LME-grade refined copper production. Impurity elements (As, Hg, Cd, Pb) are subject to commercial penalties based on smelter agreements.',
-            image: 'https://images.pexels.com/photos/162568/steel-grinding-factory-sparks-162568.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Copper_Concentrate.png',
             specs: ['Copper (Cu): 20% – 35%', 'Iron (Fe): 20% – 35%', 'Sulfur (S): 25% – 35%', 'Silica (SiO₂): 3% – 10%', 'Moisture: ≤ 10%', 'Arsenic (As): < 0.5%', 'HS Code: 2603']
           },
           {
