@@ -373,7 +373,7 @@ export const categoryData: Category[] = [
             slug: 'bitumen-60-70',
             description: 'A standard penetration-grade bitumen widely used in road construction and asphalt production. The 60/70 penetration range provides balanced hardness and flexibility, making it suitable for moderate climatic conditions.',
             details: 'This grade offers consistent performance in pavement layers and general infrastructure projects.',
-            image: 'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/b6070.png',
             specs: ['Penetration @ 25°C (0.1 mm): 60–70', 'Softening point: 49–56°C', 'Ductility @ 25°C: ≥ 100 cm', 'Flash point: ≥ 250°C', 'Solubility in TCE: ≥ 99%', 'Specific gravity @ 25°C: ~1.01', 'HS Code: 2713.20.00.90']
           },
           {
@@ -381,7 +381,7 @@ export const categoryData: Category[] = [
             slug: 'bitumen-80-100',
             description: 'A softer penetration-grade bitumen formulated for use in cooler climates and flexible pavement structures. The higher penetration value provides enhanced flexibility and resistance to cracking under lower temperature conditions.',
             details: 'Suitable for flexible pavement construction in regions with lower average temperatures.',
-            image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/b80100.png',
             specs: ['Penetration @ 25°C (0.1 mm): 80–100', 'Softening point: 42–50°C', 'Ductility @ 25°C: ≥ 100 cm', 'Flash point: ≥ 250°C', 'Solubility in TCE: ≥ 99%', 'Specific gravity @ 25°C: ~1.01', 'HS Code: 2713.20.00.90']
           },
           {
@@ -389,7 +389,7 @@ export const categoryData: Category[] = [
             slug: 'bitumen-85-100',
             description: 'A medium-soft penetration grade bitumen designed for pavement applications requiring improved flexibility while maintaining structural strength. Suitable for road surfacing projects in temperate environments.',
             details: 'This grade balances flexibility and structural performance for moderate climate road surfacing applications.',
-            image: 'https://images.pexels.com/photos/209249/pexels-photo-209249.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/b85100.png',
             specs: ['Penetration @ 25°C (0.1 mm): 85–100', 'Softening point: 42–50°C', 'Ductility @ 25°C: ≥ 100 cm', 'Flash point: ≥ 250°C', 'Solubility in TCE: ≥ 99%', 'Specific gravity @ 25°C: ~1.01', 'HS Code: 2713.20.00.90']
           },
           {
@@ -397,7 +397,7 @@ export const categoryData: Category[] = [
             slug: 'bitumen-200-300',
             description: 'A highly penetrable and softer grade bitumen intended for cold climate paving and specialized asphalt blends. Its increased fluidity improves workability during mixing and laying processes in lower temperature regions.',
             details: 'The high penetration value ensures excellent workability and adhesion in cold and sub-arctic paving environments.',
-            image: 'https://images.pexels.com/photos/3694711/pexels-photo-3694711.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/b200300.png',
             specs: ['Penetration @ 25°C (0.1 mm): 200–300', 'Softening point: 35–43°C', 'Ductility @ 25°C: ≥ 100 cm', 'Flash point: ≥ 220°C', 'Solubility in TCE: ≥ 99%', 'Specific gravity @ 25°C: ~1.00', 'HS Code: 2713.20.00.90']
           },
           {
@@ -405,7 +405,7 @@ export const categoryData: Category[] = [
             slug: 'bitumen-vg30',
             description: 'A viscosity-graded bitumen designed for use in road construction requiring higher stiffness and load-bearing capacity. Commonly applied in heavy traffic areas and high-temperature regions, providing improved resistance to rutting and deformation.',
             details: 'VG30 is widely specified for highways and urban roads in tropical and subtropical climates where high ambient temperatures increase the risk of pavement rutting.',
-            image: 'https://images.pexels.com/photos/929385/pexels-photo-929385.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/bvg30.png',
             specs: ['Absolute viscosity @ 60°C: 2400–3600 Poise', 'Kinematic viscosity @ 135°C: ≥ 350 cSt', 'Penetration @ 25°C (0.1 mm): 50–70', 'Softening point: ≥ 47°C', 'Flash point: ≥ 220°C', 'Solubility: ≥ 99%', 'HS Code: 2713.20.00.90']
           },
           {
@@ -413,7 +413,7 @@ export const categoryData: Category[] = [
             slug: 'bitumen-vg40',
             description: 'A high-viscosity grade bitumen formulated for projects exposed to heavy traffic loads and elevated ambient temperatures. It delivers enhanced structural integrity and durability for demanding infrastructure applications.',
             details: 'VG40 is the preferred grade for heavily loaded expressways, airport runways, and industrial pavements in hot climates.',
-            image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/bvg40.png',
             specs: ['Absolute viscosity @ 60°C: 3200–4800 Poise', 'Kinematic viscosity @ 135°C: ≥ 400 cSt', 'Penetration @ 25°C (0.1 mm): 40–60', 'Softening point: ≥ 50°C', 'Flash point: ≥ 220°C', 'Solubility: ≥ 99%', 'HS Code: 2713.20.00.90']
           },
           {
