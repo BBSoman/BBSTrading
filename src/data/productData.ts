@@ -516,7 +516,7 @@ export const categoryData: Category[] = [
             slug: 'polypropylene-pp',
             description: 'Polypropylene is a thermoplastic polymer known for its mechanical strength, thermal resistance, and lightweight properties. It is commonly used in automotive parts, packaging, textiles, injection molding, and industrial components.',
             details: 'Available in homopolymer and copolymer forms to suit a wide range of processing conditions and performance requirements, from rigid structural applications to flexible packaging and fiber production.',
-            image: '/Polymer_PP.png',
+            image: '/Polymer_PP1.png',
             specs: ['Density: ~0.90 g/cm³', 'Melt Flow Index: As specified', 'Tensile Strength: As per grade', 'Moisture Content: ≤ 0.1%', 'Form: Homopolymer / Copolymer', 'HS Code: 3902.10']
           },
           {
