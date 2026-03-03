@@ -703,7 +703,7 @@ export const categoryData: Category[] = [
             slug: 'manganese-concentrate-high-grade',
             description: 'High-purity beneficiated manganese concentrate with 46% – 55%+ Mn, suitable for direct smelting. Premium feedstock for FeMn & SiMn production at export-grade ferroalloy plants.',
             details: 'Produced through beneficiation processing to remove clay, silica, and phosphorus from raw ore. The refined concentrate is more uniform and energy-efficient to melt, making it the preferred feed for high-quality ferroalloys and battery chemicals.',
-            image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Manganese_Concentrate_High_Grade.png/Manganese_Concentrate_High_Grade.png',
             specs: ['Mn: 46% – 55%+', 'Fe: < 6%', 'SiO₂: < 8%', 'Al₂O₃: < 6%', 'P: < 0.15%', 'Moisture: < 8%', 'HS Code: 2602']
           },
           {
