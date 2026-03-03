@@ -964,14 +964,7 @@ export const categoryData: Category[] = [
             image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
             specs: ['CaCO₃: 45% – 55%', 'MgCO₃: 35% – 45%', 'SiO₂: ≤ 5%', 'Al₂O₃: ≤ 1%', 'Fe₂O₃: ≤ 1%', 'LOI: 40% – 48%', 'Form: Lump / Crushed', 'HS Code: 2518']
           },
-          {
-            name: 'Dolomite Concentrate',
-            slug: 'dolomite-concentrate',
-            description: 'Screened, washed, and size-controlled dolomite with improved chemical consistency, used in glass production, ceramic fillers, metallurgical blending, and paints.',
-            details: 'Dolomite concentrate undergoes screening, washing, and sometimes beneficiation to reduce silica and iron impurity levels and provide tighter chemical consistency. It is the preferred grade for the glass industry, where consistent MgO and SiO₂ ratios are critical for product quality. It is also used as a filler in paints, coatings, ceramics, and plastics, and as a blending material in metallurgical processes requiring precise flux chemistry.',
-            image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
-            specs: ['CaCO₃: 48% – 55%', 'MgCO₃: 38% – 44%', 'SiO₂: ≤ 3%', 'Fe₂O₃: ≤ 0.8%', 'Moisture: ≤ 3%', 'Size: Controlled grading', 'HS Code: 2518']
-          },
+         
           {
             name: 'Calcined Dolomite',
             slug: 'calcined-dolomite',
