@@ -492,7 +492,7 @@ export const categoryData: Category[] = [
   {
     name: 'Polymer Chemistry Essentials',
     slug: 'petrochemicals-industrial-chemicals',
-    image: '/Polymer.png',
+    image: '/Polymer_Chemistry_Essentials_Banner.png',
     overview: 'Our petrochemicals portfolio supports downstream manufacturing industries with consistent quality, competitive pricing, and reliable logistics from origin to destination.',
     products: [
       {
