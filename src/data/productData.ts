@@ -901,7 +901,7 @@ export const categoryData: Category[] = [
         slug: 'silica',
         description: 'Silicon dioxide (SiO₂), one of the most widely used industrial materials globally. Exists in both crystalline and amorphous forms serving critical roles in construction, glass manufacturing, electronics, rubber reinforcement, chemicals, pharmaceuticals, and high-tech industries.',
         details: 'Silica products are classified based on crystal structure, production process, purity level, and particle size and surface area. We supply both natural crystalline silica and synthetic amorphous silica variants — from glass-grade sands to high-surface-area precipitated, fumed, gel, and colloidal forms for specialty applications.',
-        image: 'https://images.pexels.com/photos/2397418/pexels-photo-2397418.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Silica.png',
         specs: ['Forms: Crystalline / Precipitated / Fumed / Gel / Colloidal', 'SiO₂ range: 95% – 99.99%', 'HS Code: 2506 (Sand & Quartz) / 2811 (Synthetic)', 'Applications: Glass, rubber, electronics, pharma'],
         hsCode: '2506',
         subProducts: [
@@ -910,7 +910,7 @@ export const categoryData: Category[] = [
             slug: 'crystalline-silica',
             description: 'Naturally occurring silica with a well-ordered atomic structure. The most common form is quartz. Widely used in glass production, construction materials, foundry casting, ceramics, and industrial abrasives.',
             details: 'Primary crystalline forms include Quartz, Cristobalite, and Tridymite. High silica and low iron are critical for transparent glass production. Used in glass manufacturing, foundry molds, construction aggregates, and ceramic production.',
-            image: 'https://images.pexels.com/photos/2397418/pexels-photo-2397418.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Crystalline_Silica.png',
             specs: ['SiO₂: 95% – 99.9%', 'Fe₂O₃: ≤ 0.5% (lower for glass grade)', 'Al₂O₃: ≤ 2%', 'Moisture: ≤ 2%', 'Hardness: 7 (Mohs)', 'Form: Sand / Lump / Powder', 'HS Code: 2506']
           },
           {
@@ -918,7 +918,7 @@ export const categoryData: Category[] = [
             slug: 'precipitated-silica',
             description: 'Synthetic amorphous silica produced via wet chemical processing of sodium silicate. Controlled particle size and high surface area. Enhances durability, strength, and performance of rubber products.',
             details: 'Used in rubber reinforcement (tires), toothpaste, animal feed additive, and industrial fillers. Generally safer for industrial handling compared to crystalline silica and preferred in specialty chemical applications.',
-            image: 'https://images.pexels.com/photos/2397418/pexels-photo-2397418.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Precipitated_Silica.png',
             specs: ['SiO₂: ≥ 98%', 'Surface Area (BET): 50 – 250 m²/g', 'Loss on Drying: ≤ 6%', 'pH: 6 – 8', 'Form: Fine white powder', 'HS Code: 2811']
           },
           {
@@ -926,7 +926,7 @@ export const categoryData: Category[] = [
             slug: 'fumed-silica',
             description: 'Produced by flame hydrolysis of silicon tetrachloride. Extremely small particle size and very high surface area, suitable for high-performance applications. Functions as a thickening, anti-settling, and reinforcing agent.',
             details: 'Used in paints & coatings, adhesives & sealants, silicone elastomers, and pharmaceutical formulations. Its ultra-high surface area and nano-scale particle size make it ideal for high-performance rheology control.',
-            image: 'https://images.pexels.com/photos/2397418/pexels-photo-2397418.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Fumed_silica.png',
             specs: ['SiO₂: ≥ 99.8%', 'Surface Area (BET): 150 – 400 m²/g', 'Particle Size: 7 – 40 nm', 'Loss on Ignition: ≤ 2%', 'Form: Ultrafine powder', 'HS Code: 2811']
           },
           {
