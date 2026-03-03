@@ -574,7 +574,7 @@ export const categoryData: Category[] = [
             slug: 'phenolic-resin',
             description: 'Phenolic resins are heat-resistant synthetic polymers used in insulation materials, laminates, molded components, and friction materials.',
             details: 'Available in Novolac and Resol types to suit a wide range of industrial applications including brake linings, abrasive bonded wheels, electrical laminates, molding compounds, and refractory binders. Supplied in powder and liquid form.',
-            image: 'https://images.pexels.com/photos/2547565/pexels-photo-2547565.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/PhenolicrResin.png',
             specs: ['Type: Novolac / Resol', 'Softening Point: As specified', 'Viscosity: As per grade', 'Form: Powder / Liquid', 'HS Code: 3909.40']
           },
           {
