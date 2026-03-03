@@ -652,7 +652,7 @@ export const categoryData: Category[] = [
             slug: 'copper-slag',
             description: 'Copper slag is a by-product generated during the smelting and refining of copper. It contains iron silicates and residual copper units and is widely used in abrasive blasting, construction, cement manufacturing, and secondary metal recovery operations.',
             details: 'Material properties vary depending on smelting source and recovery process. Applications include abrasive blasting media, cement and concrete additive, road construction base material, and metal recovery processing.',
-            image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Copper_Slag.png',
             specs: ['Iron (Fe/Fe₂O₃): 35% – 50%', 'Silica (SiO₂): 30% – 40%', 'Copper (Cu): 0.5% – 2.5%', 'Sulfur (S): < 2%', 'Moisture: < 8%', 'Form: Granulated / Crushed', 'HS Code: 2620']
           }
         ]
