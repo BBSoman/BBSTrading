@@ -439,7 +439,7 @@ export const categoryData: Category[] = [
         slug: 'propane',
         description: 'High-purity propane for industrial heating, petrochemical feedstock, and residential energy applications.',
         details: 'Propane (C₃H₈) is a lightweight hydrocarbon gas extracted during natural gas processing and crude oil refining, stored and transported as a liquid under moderate pressure. It is a clean-burning, high-calorific fuel used across a wide range of applications including industrial and commercial heating, agricultural crop drying, automotive autogas systems, and as a chemical feedstock for the production of propylene and other petrochemical derivatives. We supply commercial-grade propane in pressurized cylinders, ISO tanks, and bulk vessel cargo, sourced from certified gas fractionation facilities. HS Code: 2711.12.',
-        image: 'https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/Propane.png',
         specs: ['Chemical formula: C₃H₈', 'Purity: ≥ 95% propane', 'Butane content: ≤ 2.5%', 'Propylene content: ≤ 2% (as specified)', 'Sulfur content: ≤ 50 ppm', 'Water content: Free of visible water', 'Boiling point: -42°C', 'Appearance: Colorless, liquefied gas', 'HS Code: 2711.12'],
         hsCode: '2711.12'
       },
