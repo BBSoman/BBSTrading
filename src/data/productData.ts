@@ -1048,7 +1048,7 @@ export const categoryData: Category[] = [
             slug: 'crushed-gypsum',
             description: 'Size-reduced and screened gypsum for cement plants, wallboard production, and agricultural land plaster applications.',
             details: 'Crushed gypsum is produced by passing raw gypsum ore through primary and secondary crushers and screening to remove impurities such as shale, clay, and oversize material. The resulting product is a consistent granular material commonly traded at 0–50 mm or custom size fractions. It is the most widely traded form of gypsum internationally, supplying cement plants where it is further ground and blended with clinker, and wallboard factories where uniform feed is required. In agriculture, crushed gypsum (known as land plaster) is applied directly to soil to improve structure, reduce compaction, and provide calcium and sulfur to crops.',
-            image: 'https://images.pexels.com/photos/4491881/pexels-photo-4491881.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/gypsumprocessed.jpg',
             specs: ['CaSO4·2H2O: 80% – 95%', 'SO3: 35% – 44%', 'SiO2: ≤ 3%', 'Moisture: ≤ 5%', 'Size: 0 – 50 mm / Custom grading', 'HS Code: 2520']
           },
           {
@@ -1056,7 +1056,7 @@ export const categoryData: Category[] = [
             slug: 'calcined-gypsum-plaster-of-paris',
             description: 'Produced by heating gypsum to ~150°C to form calcium sulfate hemihydrate (CaSO4·½H2O), used in drywall manufacturing, interior construction plaster, decorative molding, and medical casts.',
             details: 'Calcined gypsum — commercially known as Plaster of Paris or stucco — is produced by heating raw gypsum to approximately 150°C in a calciner, driving off approximately 75% of the chemically combined water and converting CaSO4·2H2O to calcium sulfate hemihydrate (CaSO4·½H2O). When water is re-added to the calcined product, the reverse reaction occurs and the material re-hydrates and hardens back into a solid dihydrate structure. This reversible calcination property makes it the essential ingredient for drywall panels, wall and ceiling plaster systems, architectural moldings, dental and medical plaster casts, and ceramic investment molds. Setting time is a critical quality parameter, controlled by fineness and the presence of retarders or accelerators.',
-            image: 'https://images.pexels.com/photos/4491881/pexels-photo-4491881.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/pop.jpg',
             specs: ['CaSO4·½H2O: ≥ 85%', 'SO3: 40% – 46%', 'Initial Setting Time: 5 – 25 minutes', 'Fineness: 100 – 300 mesh', 'Form: Fine powder', 'HS Code: 2520']
           },
           {
