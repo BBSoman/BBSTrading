@@ -1031,7 +1031,7 @@ export const categoryData: Category[] = [
         slug: 'gypsum',
         description: 'Naturally occurring calcium sulfate mineral available in raw ore, crushed, calcined (Plaster of Paris), and industrial powder grades for cement, construction, agriculture, and industrial applications.',
         details: 'Gypsum — calcium sulfate dihydrate (CaSO4·2H2O) — is a soft sulfate mineral with a Mohs hardness of 2, valued for its chemically bound water content and unique calcination-rehydration properties. Commercial value depends on CaSO4·2H2O purity, low clay and silica impurities, whiteness, and moisture content. In cement manufacturing, gypsum is added to clinker to regulate setting time and prevent flash set. It is the primary raw material for drywall (plasterboard) — the dominant interior wall system globally — and for plaster of Paris in architectural and medical applications. Agricultural gypsum improves soil structure in clay-heavy soils, supplies sulfur and calcium to crops, and reduces sodium in irrigated farmland. We supply gypsum across four processing stages — from raw ore to ultra-fine industrial powder — with full purity, whiteness, and setting time analysis.',
-        image: 'https://images.pexels.com/photos/4491881/pexels-photo-4491881.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/gypsum.jpg',
         specs: ['Forms: Raw Ore / Crushed / Calcined (Plaster of Paris) / Industrial Powder', 'CaSO4·2H2O: 70% – 95%', 'HS Code: 2520', 'Applications: Cement, drywall, plaster, agriculture, industrial fillers'],
         hsCode: '2520',
         subProducts: [
