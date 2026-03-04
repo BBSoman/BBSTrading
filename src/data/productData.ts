@@ -1040,7 +1040,7 @@ export const categoryData: Category[] = [
             slug: 'raw-gypsum-ore',
             description: 'Naturally mined calcium sulfate dihydrate in lump form, used as cement retarder, gypsum board feedstock, and agricultural soil amendment.',
             details: 'Raw gypsum ore is extracted from open-pit mines or underground deposits as large, off-white or translucent chunks. It is the primary extracted form of the mineral and serves as the raw input for all downstream processed gypsum grades. Its naturally bound water content (CaSO4·2H2O) provides inherent fire resistance properties. In cement manufacturing, raw gypsum is ground and added to Portland clinker to regulate hydration and prevent flash setting. Higher purity grades with lower silica and clay content are preferred for direct use in cement plants and drywall manufacturing.',
-            image: '/Gypsum.jpg',
+            image: '/gypsum.jpg',
             specs: ['CaSO4·2H2O: 70% – 95%', 'SO3: 30% – 44%', 'CaO: 23% – 33%', 'SiO2: ≤ 5%', 'Moisture: 2% – 8%', 'Form: Lump', 'HS Code: 2520']
           },
           {
