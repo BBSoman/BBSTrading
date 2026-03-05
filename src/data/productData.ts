@@ -1512,7 +1512,7 @@ export const categoryData: Category[] = [
         slug: 'bentonite-cosmetic-grade',
         description: 'Highly purified natural clay composed predominantly of montmorillonite for face masks, skin care formulations, spa therapies, and personal care products. Available in Sodium, Calcium, and Ultra-Fine grades.',
         details: 'Cosmetic-grade bentonite is a highly refined smectite clay mineral composed predominantly of montmorillonite, prized in personal care formulations for its exceptional adsorptive capacity, rheological properties, and skin-conditioning performance. When hydrated, bentonite swells to form a colloidal gel that acts as a thickener, stabilizer, and suspending agent in creams, lotions, and emulsions, while also functioning as a natural detoxifying agent in clay masks and facial cleansers. It is processed under controlled conditions to ensure low heavy metal content, microbiological safety, and suitable particle fineness for personal care formulations. We supply three cosmetic grades — Sodium Bentonite, Calcium Bentonite, and Ultra-Fine Powder — with full heavy metals testing, microbial compliance, and ISO 16128 natural ingredient documentation.',
-        image: 'https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/bentonitecosmetic.png',
         specs: ['Grades: Sodium / Calcium / Ultra-Fine Powder', 'Montmorillonite: ≥ 70% – 80%+', 'HS Code: 2508', 'Compliance: EU Cosmetics Regulation / ISO 16128'],
         hsCode: '2508',
         subProducts: [
@@ -1521,7 +1521,7 @@ export const categoryData: Category[] = [
             slug: 'sodium-bentonite-cosmetic-grade',
             description: 'High-swelling cosmetic bentonite forming a smooth gel-like consistency when hydrated, ideal for facial masks, deep pore cleansers, detox treatments, and acne formulations.',
             details: 'Sodium bentonite is a smectite clay in which sodium is the dominant exchangeable cation, giving it a characteristically high swelling capacity and strong adsorption performance when hydrated. In contact with water, sodium bentonite can swell up to 15–20 times its dry volume, creating a gel matrix that draws out impurities, excess sebum, toxins, and pollutants from the skin surface through its negatively charged platelet structure. This makes it the preferred grade for intensive detox face masks, deep pore-cleansing products, and acne treatment formulations where maximum adsorptive performance is required. It is processed to cosmetic safety standards with controlled heavy metals (lead ≤10 ppm, arsenic ≤3 ppm), particle size reduction to 200–325 mesh, and microbiological compliance for dermal contact applications. Its high pH (8–10 in 5% solution) means it is generally formulated for normal to oily skin types rather than sensitive skin.',
-            image: 'https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/sodiumbentonitecosmetic.png',
             specs: ['Montmorillonite: ≥ 75%', 'pH (5% Solution): 8 – 10', 'Moisture: ≤ 10%', 'Heavy Metals (Pb): ≤ 10 ppm', 'Arsenic (As): ≤ 3 ppm', 'Particle Size: 200 – 325 mesh', 'Form: Powder', 'HS Code: 2508']
           },
           {
@@ -1529,7 +1529,7 @@ export const categoryData: Category[] = [
             slug: 'calcium-bentonite-cosmetic-grade',
             description: 'Moderate-swelling bentonite with gentler alkalinity and skin compatibility, preferred for sensitive skin formulations, gentle facial masks, body wraps, and spa therapies.',
             details: 'Calcium bentonite is a smectite clay in which calcium is the dominant exchangeable cation, resulting in a lower swelling capacity compared to sodium bentonite but a notably gentler pH profile (6–8 in solution) that makes it significantly more compatible with sensitive skin. Its moderate alkalinity and softer texture make it the preferred choice for baby care formulations, sensitive skin masks, and spa body wrap products where the harsh detoxifying action of sodium bentonite may cause irritation or skin barrier disruption. In hair care, calcium bentonite is used in conditioning clay masks to impart slip, detangle, and improve manageability, particularly in natural hair care and curly hair product lines. It is processed to ultra-fine powder grade for smooth application and even distribution in rinse-off and leave-on cosmetic matrices.',
-            image: 'https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/calciumbencosmetic.png',
             specs: ['Montmorillonite: ≥ 70%', 'pH: 6 – 8', 'Moisture: ≤ 10%', 'Heavy Metals: Within cosmetic safety limits', 'Microbial Load: Cosmetic compliant', 'Form: Ultra-fine powder', 'HS Code: 2508']
           },
           {
@@ -1537,7 +1537,7 @@ export const categoryData: Category[] = [
             slug: 'ultra-fine-cosmetic-bentonite-powder',
             description: 'Micronized bentonite processed to below 75 microns for superior blendability and smooth skin feel in creams, cosmetic emulsions, natural skincare, and soap manufacturing.',
             details: 'Ultra-fine cosmetic bentonite powder is a micronized, high-purity grade of montmorillonite processed to a maximum particle size of 75 microns, enabling seamless incorporation into cosmetic formulations without grittiness or uneven texture. The micronization process involves controlled jet milling or impact milling to reduce particle size while maintaining the mineral\'s functional properties — adsorption capacity, rheological contribution, and skin-conditioning performance. In skin care creams and lotions, ultra-fine bentonite contributes a velvety, smooth skin feel while acting as a mild thickener and stabilizer for emulsions. In natural soap manufacturing, it functions as a skin-conditioning additive that imparts a creamy lather and a smooth glide. Its high purity (≥80% montmorillonite) and controlled microbial count make it compliant with EU Cosmetics Regulation (EC No 1223/2009), US FDA cosmetic requirements, and ISO 16128 natural ingredient standards.',
-            image: 'https://images.pexels.com/photos/6621462/pexels-photo-6621462.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/ultrafineben',
             specs: ['Montmorillonite: ≥ 80%', 'Particle Size: < 75 micron', 'Heavy Metals: Cosmetic compliant', 'Microbial Count: Within EU / US limits', 'Appearance: Light grey powder', 'HS Code: 2508']
           }
         ]
