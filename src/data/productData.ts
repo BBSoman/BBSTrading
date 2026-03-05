@@ -1211,7 +1211,7 @@ export const categoryData: Category[] = [
         slug: 'salt',
         description: 'Industrial and food-grade sodium chloride for chemical production, water treatment, de-icing, and food processing applications.',
         details: 'Sodium chloride (NaCl), commonly known as salt, is one of the most widely produced and traded minerals globally, with applications spanning the chemical industry, food processing, water treatment, and infrastructure de-icing. The chemical industry is the largest consumer of industrial salt, using it as feedstock for the chlor-alkali process that produces chlorine and caustic soda — the building blocks of PVC, paper, bleach, and a vast range of industrial chemicals. Food-grade salt is used in food preservation, seasoning, and as a mineral supplement in animal feed. Water treatment plants use salt for ion exchange regeneration in water softening systems. We supply solar-evaporated sea salt and vacuum-refined food-grade salt in a range of particle sizes and purity grades, with NaCl content, moisture, and trace element analysis.',
-        image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/salt.png',
         specs: ['Forms: Rock Salt / Solar Salt / Refined Salt / Tablets & Pellets', 'NaCl Range: 90% – 99%+', 'Applications: Chemical, food, water treatment, de-icing', 'Packaging: Bulk, 50kg bags, or jumbo bags'],
         hsCode: '2501',
         subProducts: [
@@ -1220,7 +1220,7 @@ export const categoryData: Category[] = [
             slug: 'rock-salt',
             description: 'Naturally occurring halite mined from underground deposits, used in de-icing, chemical feedstock, and industrial processing applications.',
             details: 'Rock salt is mined from underground evaporite deposits formed by the evaporation of ancient seas. It is the least processed form of salt, typically available as lumps or crushed material. It is widely used for road de-icing, chemical manufacturing, and industrial processes where high purity is not required. Rock salt is supplied in bulk or bagged formats and can be further processed to produce higher-purity grades. Its high NaCl content and natural mineral composition make it suitable for a range of industrial applications.',
-            image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/rocksalt.png',
             specs: ['NaCl: 90% – 97%', 'Moisture: ≤ 5%', 'Insoluble: ≤ 5%', 'Ca + Mg: ≤ 3%', 'Form: Lump / Crushed', 'HS Code: 2501']
           },
           {
@@ -1228,7 +1228,7 @@ export const categoryData: Category[] = [
             slug: 'solar-salt',
             description: 'Solar-evaporated sea salt produced in coastal salt pans, used in chlor-alkali production, water softening, and industrial chemical processes.',
             details: 'Solar salt is produced by the natural evaporation of seawater or brine in large shallow pans using solar energy and wind. It is one of the most widely traded forms of industrial salt globally, valued for its consistent quality and cost-effective production. Solar salt is used as a primary feedstock in chlor-alkali plants for chlorine and caustic soda production, and in water treatment facilities for ion exchange regeneration. We supply solar salt in crystalline or crushed form with full chemical analysis, packaged in bulk or jumbo bags to meet large-volume industrial requirements.',
-            image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/solarsalt.png',
             specs: ['NaCl: 95% – 98.5%', 'Moisture: ≤ 3%', 'Ca²⁺: ≤ 0.5%', 'Mg²⁺: ≤ 0.5%', 'Insoluble: ≤ 2%', 'Form: Crystalline / Crushed', 'HS Code: 2501']
           },
           {
@@ -1236,7 +1236,7 @@ export const categoryData: Category[] = [
             slug: 'granular-refined-salt',
             description: 'High-purity vacuum or mechanically refined salt in granular or crushed form for food processing, pharmaceutical, and precision industrial applications.',
             details: 'Granular and crushed refined salt is produced through vacuum evaporation or mechanical refining processes that remove impurities and achieve high NaCl purity levels. It is used in food preservation, pickling, seasoning, and pharmaceutical formulations where precise particle size and chemical purity are critical. The granular form is also used in water softening systems, chemical synthesis, and as a raw material in industrial salt applications requiring controlled solubility. We supply refined salt with tight size grading and full compliance certification to international food and industrial standards.',
-            image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/crushedsalt.png',
             specs: ['NaCl: 98% – 99.5%', 'Moisture: ≤ 1%', 'Insoluble: ≤ 0.5%', 'Ca²⁺: ≤ 0.2%', 'Mg²⁺: ≤ 0.1%', 'Size: 0.5mm – 5mm', 'HS Code: 2501']
           },
           {
@@ -1244,7 +1244,7 @@ export const categoryData: Category[] = [
             slug: 'salt-tablets-pellets',
             description: 'Compressed high-purity salt tablets and pellets for water softeners, ion exchange systems, and brine generation in industrial and domestic applications.',
             details: 'Salt tablets and pellets are manufactured by compressing highly refined sodium chloride into uniform tablet or pellet shapes. They are specifically designed for use in water softening units and ion exchange regeneration systems, where consistent size and ultra-high purity are essential for effective performance. The compressed form ensures slow, controlled dissolution, optimising brine concentration and minimising system maintenance. Salt pellets are also used in industrial brine circuits, electrolysis plants, and pharmaceutical-grade processes. We supply certified salt tablets and pellets conforming to applicable standards for water treatment and food-grade applications.',
-            image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/tabletsalt.png',
             specs: ['NaCl: ≥ 99%', 'Moisture: ≤ 0.5%', 'Insoluble: ≤ 0.1%', 'Form: Tablet / Pellet', 'HS Code: 2501']
           }
         ]
