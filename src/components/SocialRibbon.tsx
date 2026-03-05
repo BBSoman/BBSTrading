@@ -25,11 +25,11 @@ export default function SocialRibbon() {
           <div className="flex items-center space-x-4 text-sm">
             <a href="mailto:info@example.com" className="flex items-center hover:text-blue-400 transition-colors">
               <Mail className="w-4 h-4 mr-1" />
-              <span className="hidden sm:inline">info@tradingco.com</span>
+              <span className="hidden sm:inline">info@bbst.global</span>
             </a>
             <a href="tel:+1234567890" className="flex items-center hover:text-blue-400 transition-colors">
               <Phone className="w-4 h-4 mr-1" />
-              <span className="hidden sm:inline">+1 (234) 567-890</span>
+              <span className="hidden sm:inline">+968 92882417</span>
             </a>
           </div>
           <div className="flex items-center space-x-4">
