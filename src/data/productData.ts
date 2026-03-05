@@ -1134,7 +1134,7 @@ export const categoryData: Category[] = [
             slug: 'zinc-concentrate',
             description: 'Intermediate semi-processed product — the primary bridge between mine and smelter. Created by crushing raw zinc ore and using flotation to separate valuable zinc minerals from waste rock. Zinc content boosted to 48%–60%. Traded based on Treatment Charges (TCs).',
             details: 'Available in Standard Grade (50%–55% Zn) as common smelter feedstock, High Grade (55%–60% Zn) for premium recovery, and Complex Concentrate containing higher Pb, Ag, or other recoverable elements. Higher Zn content with lower impurities increases recovery efficiency.',
-            image: '/zinceconcentrate.jpg',
+            image: '/zinceconcentrate.png',
             specs: ['Zinc (Zn): 45% – 60%', 'Sulfur (S): 25% – 35%', 'Iron (Fe): 5% – 12%', 'Lead (Pb): < 3%', 'Cadmium (Cd): < 0.3%', 'Arsenic (As): < 0.5%', 'Moisture: ≤ 10%', 'Form: Fine concentrate', 'HS Code: 2608']
           },
           {
