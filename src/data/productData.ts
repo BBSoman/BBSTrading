@@ -1314,7 +1314,7 @@ export const categoryData: Category[] = [
             slug: 'precast-concrete',
             description: 'Factory-manufactured reinforced concrete elements including beams, columns, wall panels, pipes, culverts, and bridge segments with controlled curing and precise dimensional tolerances.',
             details: 'Precast concrete elements are produced under factory-controlled conditions, with precision formwork, consistent mix design, steam or moist curing, and quality inspection prior to delivery. This method delivers superior dimensional accuracy, better surface finish, and faster on-site installation compared to in-situ concrete construction. Common precast products include structural beams and columns, hollow-core floor slabs, retaining wall panels, box culverts, drainage pipes, bridge girders, and tunnel liners. Higher strength classes (C30–C70) are achievable in a precast environment due to optimized production conditions and admixture use.',
-            image: 'precastconcrete.png',
+            image: '/precastconcrete.png',
             specs: ['Strength Class: C30 – C70', 'Reinforcement: Steel reinforced / Pre-stressed', 'Surface Finish: Smooth / Custom', 'Curing: Steam cured / Moist cured', 'HS Code: 6810']
           },
           {
