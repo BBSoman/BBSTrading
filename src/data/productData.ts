@@ -1254,7 +1254,7 @@ export const categoryData: Category[] = [
         slug: 'cement',
         description: 'Hydraulic binding material available in OPC, Portland Pozzolana, Sulfate Resistant, and White Cement grades for construction, infrastructure, and specialty applications.',
         details: 'Portland cement is the fundamental binding material in modern construction, produced by grinding and calcining a carefully proportioned mixture of limestone, clay, and corrective materials in a rotary kiln to form clinker, which is then ground with gypsum to the final product. When mixed with water, cement undergoes hydration reactions that produce a hard, durable matrix capable of bonding aggregates, filling structural voids, and resisting compressive loads. We supply four primary cement types — OPC for general structural use, PPC for mass concrete and marine conditions, SRC for aggressive soil and chemical environments, and White Cement for architectural and decorative applications — from certified manufacturing plants with full compliance documentation to ASTM C150, EN 197-1, and equivalent national standards.',
-        image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/cement',
         specs: ['Grades: OPC / PPC / SRC / White Cement', 'Compliance: ASTM C150 / EN 197-1', 'HS Code: 2523', 'Packaging: 50kg bags, 1-tonne big bags, bulk tanker'],
         hsCode: '2523',
         subProducts: [
@@ -1263,7 +1263,7 @@ export const categoryData: Category[] = [
             slug: 'ordinary-portland-cement',
             description: 'The most widely used cement type globally, available in 32.5, 42.5, and 52.5 MPa grades for residential buildings, structural concrete, and infrastructure projects.',
             details: 'Ordinary Portland Cement is the standard hydraulic binder used across general construction. It is produced by grinding Portland clinker with gypsum to control setting time. Three strength classes are available — 32.5, 42.5, and 52.5 — classified by 28-day compressive strength in MPa. Higher clinker grades provide faster strength gain, making 52.5N preferred for pre-stressed concrete and fast-track construction. All grades comply with EN 197-1 and ASTM C150. Suitable for residential construction, structural slabs and columns, road pavement, and general infrastructure.',
-            image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/opc.png',
             specs: ['CaO: 60% – 67%', 'SiO₂: 17% – 25%', 'Al₂O₃: 3% – 8%', 'Fe₂O₃: 0.5% – 6%', 'MgO: ≤ 5%', 'SO₃: ≤ 3%', 'LOI: ≤ 3%', 'Grades: 32.5 / 42.5 / 52.5 MPa', 'HS Code: 2523']
           },
           {
@@ -1271,7 +1271,7 @@ export const categoryData: Category[] = [
             slug: 'portland-pozzolana-cement',
             description: 'Blended cement containing 15–35% pozzolanic materials (fly ash or volcanic ash) for mass concrete, marine construction, foundations, and dam works.',
             details: 'Portland Pozzolana Cement is a blended hydraulic binder produced by intergrinding OPC clinker with pozzolanic materials such as fly ash, volcanic ash, or silica fume. The pozzolanic reaction produces additional CSH gel that reduces pore size and permeability over time, resulting in improved durability, lower heat of hydration, and superior resistance to sulfate attack and chloride ingress. It is the preferred cement for mass concrete pours, marine and coastal structures, large foundations, and dam construction where thermal cracking must be minimized and long-term durability is critical.',
-            image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/ppc.png',
             specs: ['Clinker: 65% – 85%', 'Fly Ash / Pozzolana: 15% – 35%', 'SO₃: ≤ 3%', 'Setting Time (Initial): ≥ 30 min', '28-Day Strength: ≥ 32.5 MPa', 'HS Code: 2523']
           },
           {
@@ -1279,7 +1279,7 @@ export const categoryData: Category[] = [
             slug: 'sulfate-resistant-cement',
             description: 'Modified Portland cement with very low C₃A content for marine structures, sewage treatment plants, and foundations in sulfate-bearing soils.',
             details: 'Sulfate Resistant Cement is a modified Portland cement engineered with a very low tricalcium aluminate (C₃A) content, which is the primary reactive phase attacked by sulfate ions. By limiting C₃A to ≤5%, the cement resists the expansive ettringite-forming reaction that causes cracking and deterioration in structures exposed to sulfate-bearing environments. It is the required specification for marine structures, foundations in gypsiferous or sulfate-bearing soils, sewage pipes and treatment infrastructure, retaining walls in coastal and industrial zones, and tunneling in aggressive ground conditions.',
-            image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/sulfatecement.png',
             specs: ['C₃A: ≤ 5%', 'CaO: 60% – 65%', 'SO₃: ≤ 2.5%', '28-Day Strength: ≥ 42.5 MPa', 'HS Code: 2523']
           },
           {
@@ -1287,7 +1287,7 @@ export const categoryData: Category[] = [
             slug: 'white-cement',
             description: 'High-whiteness architectural cement manufactured from white chalk and china clay with minimal iron oxide for decorative concrete, tile grout, and architectural finishes.',
             details: 'White cement is manufactured using white chalk or limestone combined with china clay, processed to remove virtually all iron oxide and manganese — the minerals responsible for the grey color of standard Portland cement. The result is a high-whiteness hydraulic binder suitable for architectural, decorative, and specialty applications where color and aesthetic appearance are critical. It is used in architectural concrete facades, precast decorative elements, colored concrete systems, tile adhesives and grout, white or light-colored plaster systems, and terrazzo and polished concrete finishes. White cement achieves equivalent structural performance to OPC and is available in 42.5 and 52.5 MPa grades.',
-            image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/whitecement.png',
             specs: ['Whiteness: ≥ 85%', 'Fe₂O₃: ≤ 0.5%', 'CaO: 60% – 67%', '28-Day Strength: ≥ 42.5 MPa', 'HS Code: 2523']
           }
         ]
