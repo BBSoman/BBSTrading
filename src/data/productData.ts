@@ -1547,7 +1547,7 @@ export const categoryData: Category[] = [
         slug: 'ethanol-cosmetic-pharma-grade',
         description: 'High-purity ethyl alcohol produced and treated for use in perfumes, skincare, sanitizers, and cosmetic formulations. Available as Rectified, Extra Neutral Alcohol (ENA), Denatured, and Anhydrous grades.',
         details: 'Cosmetic-grade ethanol is high-purity ethyl alcohol (C2H5OH) specifically produced and treated for use in perfumes, skincare products, sanitizers, and cosmetic formulations. Manufactured through fermentation and multi-column distillation, followed by additional purification to ensure low impurity levels suitable for topical use. Unlike food-grade ethanol, cosmetic ethanol is typically denatured according to regional cosmetic regulations to prevent ingestion while maintaining formulation safety. In cosmetic formulations, ethanol functions as a solvent for fragrance compounds, plant extracts, and active ingredients; as a penetration enhancer; and as a preservative and antimicrobial agent. We supply four grades — Rectified, ENA, Denatured, and Anhydrous — with full pharmacopoeia compliance (USP, Ph.Eur., BP) and GMP origin traceability.',
-        image: 'https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/ethanol.png',
         specs: ['Grades: Rectified / ENA / Denatured / Anhydrous', 'ABV: 95% – 99%+', 'HS Code: 2207', 'Compliance: USP / Ph.Eur. / BP'],
         hsCode: '2207',
         subProducts: [
@@ -1556,7 +1556,7 @@ export const categoryData: Category[] = [
             slug: 'rectified-ethanol-cosmetic-grade',
             description: 'Cosmetic-grade rectified spirit at 95–96% ABV with controlled impurity levels and neutral odor, used in perfumes, skin toners, cosmetic sprays, and sanitizing solutions.',
             details: 'Rectified cosmetic ethanol is a highly purified ethyl alcohol produced through multi-stage distillation and rectification of fermented agricultural substrates, reaching 95–96% ABV with tightly controlled congener levels suitable for topical cosmetic use. Its neutral odor characteristics are critical for perfume manufacturing, where any residual aldehydes or fusel oils would compromise fragrance integrity and shelf life stability. In skincare formulations, rectified cosmetic ethanol serves as a solvent for plant extracts, fragrance compounds, and hydrophilic active ingredients, as well as a rapid-drying carrier in facial mists, toners, and setting sprays. It also provides antimicrobial preservation at effective concentrations in hand sanitizers and disinfecting cosmetic products. Supplied with COA including full purity profile and EU Cosmetics Regulation compliance documentation.',
-            image: 'https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/rectifiedspirit.png',
             specs: ['Alcohol Content: 95% – 96% v/v', 'Methanol: ≤ 50 ppm', 'Aldehydes: ≤ 5 ppm', 'Fusel Oil: ≤ 100 ppm', 'Acidity: ≤ 0.003%', 'Appearance: Clear, colorless', 'Odor: Neutral', 'HS Code: 2207']
           },
           {
@@ -1564,7 +1564,7 @@ export const categoryData: Category[] = [
             slug: 'extra-neutral-alcohol-ena-cosmetic',
             description: 'Superior purity ethanol with ultra-low congeners and minimal organoleptic impact, preferred for luxury perfumery, premium skincare, and fine fragrance production.',
             details: 'Extra Neutral Alcohol (ENA) cosmetic grade is the premium ethanol for high-end perfumery and personal care formulations, characterized by its near-complete absence of detectable aroma (odorless to highly neutral) and exceptionally low levels of methanol (≤30 ppm), aldehydes (≤2 ppm), and fusel oils (≤50 ppm). These stringent purity requirements — exceeding those of standard rectified cosmetic spirit — ensure that ENA does not interfere with the olfactory profile of fine fragrances or introduce any off-notes that would compromise the sensory experience of premium cosmetic products. For luxury perfume brands, the use of ENA as the fragrance carrier is a hallmark of quality that preserves the integrity of expensive fragrance compounds from top to base note. Its low conductivity also makes it suitable for sensitive electronic and optical cosmetic analysis applications.',
-            image: 'https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/ena.png',
             specs: ['Alcohol Content: 95% – 96% v/v', 'Methanol: ≤ 30 ppm', 'Aldehydes: ≤ 2 ppm', 'Fusel Oil: ≤ 50 ppm', 'Conductivity: Low', 'Odor: Odorless / Highly neutral', 'HS Code: 2207']
           },
           {
@@ -1580,7 +1580,7 @@ export const categoryData: Category[] = [
             slug: 'anhydrous-ethanol-cosmetic-grade',
             description: 'Ultra-high purity cosmetic ethanol at ≥99% with very low water content for advanced cosmetic formulations, pharmaceutical topical products, and specialty sprays where moisture control is critical.',
             details: 'Anhydrous cosmetic ethanol is produced by dehydrating rectified spirit to a water content below 1% (≥99% ethanol purity) through molecular sieve technology or azeotropic distillation. Its near-waterless composition makes it essential for cosmetic and pharmaceutical formulations where water introduction must be avoided — such as anhydrous gel formulations, water-sensitive active ingredient delivery systems, and precision fragrance concentrate production. In advanced cosmetic formulations, anhydrous ethanol is used as a solvent for highly concentrated botanical extracts, oil-soluble active ingredients, and water-sensitive compounds that would degrade or become unstable in the presence of water. For pharmaceutical topical products, its anhydrous nature supports precise formulation of transdermal delivery systems and topical antiseptic preparations. It must meet heavy metals limits and residue-on-evaporation specifications to ensure no contamination of the cosmetic or pharmaceutical matrix.',
-            image: 'https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Anhydrous Ethanol.png',
             specs: ['Ethanol Purity: ≥ 99%', 'Water Content: ≤ 1%', 'Methanol: ≤ 30 ppm', 'Residue on Evaporation: Minimal', 'Heavy Metals: Cosmetic compliant', 'HS Code: 2207']
           }
         ]
