@@ -1375,7 +1375,7 @@ export const categoryData: Category[] = [
         slug: 'ethanol-food-beverage-grade',
         description: 'High-purity edible ethyl alcohol produced by fermentation of agricultural feedstocks for beverage alcohol, food flavoring, pharmaceutical, and cosmetic applications. Available as Rectified Spirit, Extra Neutral Alcohol (ENA), and Anhydrous Ethanol.',
         details: 'Food and beverage grade ethanol is a high-purity ethyl alcohol (C2H5OH) produced through fermentation of agricultural feedstocks — primarily sugarcane molasses, corn, or grains — followed by distillation, rectification, and dehydration to achieve the required alcohol strength and purity profile. It must comply with international food safety and purity standards for beverage and pharmaceutical applications. Neutral cane spirit and grain neutral spirit (GNS) are the foundational inputs for blended whisky, vodka, gin, liqueurs, and flavored alcoholic beverages. In the food industry, food-grade ethanol is used as a solvent for flavoring extracts, food colorings, and natural aromas. In pharmaceuticals and cosmetics, it serves as a solvent, preservative, and penetration enhancer. We supply three grades — Rectified Spirit, Extra Neutral Alcohol, and Anhydrous — with full food-grade certification, COA, and origin documentation.',
-        image: 'https://images.pexels.com/photos/3407777/pexels-photo-3407777.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/ethanol.png',
         specs: ['Grades: Rectified Spirit / Extra Neutral Alcohol (ENA) / Anhydrous', 'ABV: 95% – 99%+', 'HS Code: 2207', 'Packaging: ISO tanks, flexitanks, IBC totes'],
         hsCode: '2207',
         subProducts: [
@@ -1384,7 +1384,7 @@ export const categoryData: Category[] = [
             slug: 'rectified-spirit',
             description: 'Highly concentrated ethanol produced at 95–96% ABV, widely used in beverage production, tinctures, flavor extraction, and industrial food processing applications.',
             details: 'Rectified Spirit is the standard distillation product of fermented agricultural substrates, purified through a multi-column rectification process to reach 95–96% ABV. It is the most widely produced and traded grade of food-grade ethanol globally. In the beverage industry, it is used as the base alcohol for blended spirits, liqueurs, and flavored alcoholic beverages. In food processing, it serves as a solvent for natural flavor extracts, food colorings, and preservatives. In pharmaceutical applications, it is used for the preparation of tinctures, oral solutions, and topical preparations. The purity parameters — particularly methanol, aldehyde, and fusel oil content — are tightly controlled to ensure safety and organoleptic neutrality.',
-            image: 'https://images.pexels.com/photos/3407777/pexels-photo-3407777.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/rectifiedspirit.png',
             specs: ['Alcohol (ABV): 95% – 96%', 'Methanol: ≤ 50 ppm', 'Aldehydes: ≤ 5 ppm', 'Higher Alcohols (Fusel Oil): ≤ 100 ppm', 'Acidity: ≤ 0.003%', 'Form: Clear / Colorless liquid', 'HS Code: 2207']
           },
           {
@@ -1392,7 +1392,7 @@ export const categoryData: Category[] = [
             slug: 'extra-neutral-alcohol-ena',
             description: 'Premium-grade edible ethanol with ultra-low impurities and a neutral aroma profile, primarily used for high-quality vodka, premium spirits, and sensitive beverage manufacturing.',
             details: 'Extra Neutral Alcohol (ENA) is the premium tier of food-grade ethanol, distinguished from standard Rectified Spirit by its significantly lower levels of congeners — methanol, aldehydes, and fusel oils — achieved through additional rectification and purification stages. Its near-odorless, neutral sensory profile makes it the preferred base alcohol for premium vodka production, where any residual aroma would compromise the final product\'s quality. Spirit blenders also use ENA as the neutral base for compound gin, liqueurs, and flavored spirits, as its low congener content allows the botanical and flavor profiles to express cleanly without interference. The stringent purity requirements of ENA make it suitable for food ingredient applications where alcohol must not contribute any off-flavors or aromas, such as high-value natural extract production and pharmaceutical-grade oral preparations.',
-            image: 'https://images.pexels.com/photos/3407777/pexels-photo-3407777.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/ena.png',
             specs: ['Alcohol (ABV): 95% – 96%', 'Methanol: ≤ 30 ppm', 'Aldehydes: ≤ 2 ppm', 'Fusel Oil: ≤ 50 ppm', 'Odor: Neutral / Odorless', 'Conductivity: Low', 'HS Code: 2207']
           },
           {
@@ -1400,7 +1400,7 @@ export const categoryData: Category[] = [
             slug: 'anhydrous-ethanol-food-grade',
             description: 'Ultra-high purity ethanol at ≥99% with very low water content, used in pharmaceutical formulations, beverage fortification, specialty food extracts, and laboratory applications.',
             details: 'Anhydrous ethanol is produced by dehydrating rectified spirit through molecular sieve or azeotropic distillation to reduce the water content to below 1% (≥99% ethanol purity). Food and pharmaceutical grade anhydrous ethanol must meet strict limits on methanol and heavy metal contamination to ensure safety in sensitive applications. In pharmaceutical manufacturing, anhydrous ethanol is an essential solvent for oral liquid formulations, tablet film coatings, and topical preparations where water content must be minimized. In the beverage industry, it is used for fortification of wines (e.g., port and sherry production), specialty spirits, and as a carrier for highly concentrated flavor extracts. Its high purity and low water content also make it suitable for sensitive chromatographic applications and food-grade extract production where precise solvent-to-extract ratios are critical.',
-            image: 'https://images.pexels.com/photos/3407777/pexels-photo-3407777.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Anhydrous_Ethanol.png',
             specs: ['Ethanol Purity: ≥ 99%', 'Water Content: ≤ 1%', 'Methanol: ≤ 30 ppm', 'Heavy Metals: ≤ 1 ppm', 'Residue on Evaporation: Minimal', 'HS Code: 2207']
           }
         ]
