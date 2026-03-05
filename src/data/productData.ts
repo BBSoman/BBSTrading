@@ -1297,7 +1297,7 @@ export const categoryData: Category[] = [
         slug: 'concrete',
         description: 'Composite construction material available in dry mix, precast, and specialized forms including high-strength, self-compacting, fiber-reinforced, and lightweight concrete.',
         details: 'Concrete is the world\'s most consumed construction material, formed by combining Portland cement, water, fine aggregates (sand), and coarse aggregates (crushed stone or gravel) in carefully designed proportions to achieve specified compressive strength, durability, and workability. Different concrete types are engineered for specific structural, environmental, and performance requirements. Dry mix concrete provides a cost-effective bagged solution for smaller or remote projects. Precast concrete delivers factory-manufactured precision elements for structural frames, bridge segments, and civil infrastructure. Specialized concrete types — including high-strength, self-compacting, fiber-reinforced, and lightweight varieties — address demanding applications from high-rise construction to industrial flooring. We supply concrete mix designs and precast elements with full mix design documentation, cube test results, and material traceability.',
-        image: 'https://images.pexels.com/photos/209249/pexels-photo-209249.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/concrete.png',
         specs: ['Types: Dry Mix / Precast / Specialized', 'Strength Range: C15 – C100+', 'HS Code: 6810 (Precast) / 3824 (Dry Mix)', 'Mix design documentation and cube test reports provided'],
         hsCode: '6810',
         subProducts: [
@@ -1306,7 +1306,7 @@ export const categoryData: Category[] = [
             slug: 'dry-mix-concrete',
             description: 'Pre-blended dry concrete mix in bulk or bagged format for small-scale construction, remote projects, and repair works — requiring only water addition on site.',
             details: 'Dry mix concrete is a factory-proportioned blend of cement, sand, and crushed aggregate in controlled ratios, supplied in bulk or bagged form for on-site mixing with water. It eliminates the need for on-site batching equipment and is ideal for small-scale construction, repair works, isolated infrastructure projects, and remote locations where ready-mix delivery is impractical. Strength classes from C15 to C40 are available, covering applications from non-structural fill to structural footings. Bagged formats include 25 kg and 50 kg options.',
-            image: 'https://images.pexels.com/photos/209249/pexels-photo-209249.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/drymix.png',
             specs: ['Strength Class: C15 – C40', 'Cement Content: 250 – 450 kg/m³', 'Moisture: Controlled', 'Aggregate: Crushed stone / sand', 'Packaging: Bulk / 25kg / 50kg bags', 'HS Code: 3824']
           },
           {
@@ -1314,7 +1314,7 @@ export const categoryData: Category[] = [
             slug: 'precast-concrete',
             description: 'Factory-manufactured reinforced concrete elements including beams, columns, wall panels, pipes, culverts, and bridge segments with controlled curing and precise dimensional tolerances.',
             details: 'Precast concrete elements are produced under factory-controlled conditions, with precision formwork, consistent mix design, steam or moist curing, and quality inspection prior to delivery. This method delivers superior dimensional accuracy, better surface finish, and faster on-site installation compared to in-situ concrete construction. Common precast products include structural beams and columns, hollow-core floor slabs, retaining wall panels, box culverts, drainage pipes, bridge girders, and tunnel liners. Higher strength classes (C30–C70) are achievable in a precast environment due to optimized production conditions and admixture use.',
-            image: 'https://images.pexels.com/photos/209249/pexels-photo-209249.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: 'precastconcrete.png',
             specs: ['Strength Class: C30 – C70', 'Reinforcement: Steel reinforced / Pre-stressed', 'Surface Finish: Smooth / Custom', 'Curing: Steam cured / Moist cured', 'HS Code: 6810']
           },
           {
@@ -1322,7 +1322,7 @@ export const categoryData: Category[] = [
             slug: 'specialized-concrete',
             description: 'Engineered concrete variants — high-strength (C60–C100+), self-compacting (SCC), fiber-reinforced (FRC), and lightweight — for demanding structural and infrastructure applications.',
             details: 'Specialized concrete types are formulated with admixtures, supplementary cementitious materials, and fiber reinforcement to meet performance requirements beyond standard concrete grades. High-strength concrete (C60–C100+) incorporates superplasticizers and low water-cement ratios for high-rise buildings and heavy infrastructure. Self-compacting concrete (SCC) achieves high flowability without vibration, ideal for complex reinforcement congestion. Fiber-reinforced concrete (FRC) incorporates steel or synthetic fibers to improve impact resistance, reduce shrinkage cracking, and enhance post-crack ductility for industrial floors and pavements. Lightweight concrete reduces dead load through the use of lightweight aggregates, expanding applications in high-rise and thermally insulated structures.',
-            image: 'https://images.pexels.com/photos/209249/pexels-photo-209249.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/specializedconcrete.png',
             specs: ['High-Strength: C60 – C100+ | Admixtures: Superplasticizers', 'SCC: Slump Flow 600 – 800 mm | High segregation resistance', 'FRC: Fiber content 0.5% – 2% (steel or synthetic)', 'Lightweight: Density 1,400 – 1,900 kg/m³', 'HS Code: 6810']
           }
         ]
