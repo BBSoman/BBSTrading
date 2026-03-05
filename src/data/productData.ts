@@ -1410,7 +1410,7 @@ export const categoryData: Category[] = [
         slug: 'salt-edible-grade',
         description: 'Refined edible sodium chloride for human consumption, food processing, dairy, and bakery applications. Available as fine table salt, coarse edible salt, iodized salt, and vacuum evaporated salt.',
         details: 'Edible grade salt is sodium chloride (NaCl) refined to human consumption standards, produced from solar-evaporated sea salt, rock salt deposits, or vacuum-pan evaporation processes. It is one of the oldest and most universally consumed food ingredients, serving as both a seasoning and a critical preservative that inhibits microbial growth in cured meats, cheeses, pickled vegetables, and canned goods. In the food processing industry, edible salt is used as a texture modifier, flavor enhancer, and fermentation control agent in bread baking, dairy production, and ready-meal manufacturing. Iodized salt — fortified with potassium iodate or potassium iodide — is supplied for markets with mandatory iodization programs. We supply four grades from fine table salt to ultra-pure vacuum salt, in retail packaging and bulk formats, with full food safety certification, NaCl purity analysis, and heavy metals compliance.',
-        image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/saltfood.png',
         specs: ['Grades: Fine Table / Coarse Edible / Iodized / Vacuum Evaporated', 'NaCl: 99.0% – 99.9%', 'HS Code: 2501', 'Packaging: 1kg, 25kg, 50kg bags or bulk'],
         hsCode: '2501',
         subProducts: [
@@ -1419,7 +1419,7 @@ export const categoryData: Category[] = [
             slug: 'fine-edible-salt-table-salt',
             description: 'Finely granulated refined sodium chloride for direct household and food service use, seasoning, and food processing applications.',
             details: 'Fine edible table salt is sodium chloride refined to food-grade purity through washing, evaporation, and fine milling to produce a uniform, free-flowing crystal. It is the most widely consumed form of salt globally, used for direct seasoning, food service, and retail consumer packaging. In food manufacturing, fine salt provides controlled and even distribution in bakery products, sauces, seasonings, and snacks. Anti-caking agents (such as sodium aluminosilicate or calcium silicate) may be added in small permitted amounts to maintain free-flowing properties in humid conditions. Fine table salt meets stringent heavy metals, microbiological, and food additive standards and is supplied with full food safety certification and compliance documentation for food manufacturers and distributors.',
-            image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/tablesalt.png',
             specs: ['NaCl: ≥ 99.5%', 'Moisture: ≤ 0.1%', 'Insoluble Matter: ≤ 0.1%', 'Ca + Mg: ≤ 0.15%', 'Particle Size: 0.1 – 0.5 mm (fine)', 'Form: Free-flowing fine crystals', 'HS Code: 2501']
           },
           {
@@ -1427,7 +1427,7 @@ export const categoryData: Category[] = [
             slug: 'coarse-edible-salt',
             description: 'Larger-crystal edible salt for pickling, curing, brining, artisan bread making, and specialty food processing where slow dissolution is preferred.',
             details: 'Coarse edible salt is produced in larger crystal sizes compared to fine table salt, achieved by controlling the evaporation rate or by coarse screening of mined salt. Its larger surface area and slower dissolution rate make it preferred for dry-curing and brining meat and fish, where controlled salt penetration is essential for food safety and texture development. In artisan bread making, coarse salt crystals are used as a finishing ingredient for visual appeal and burst of flavor. It is also widely used in Mediterranean and specialty cuisine applications as a premium finishing salt. Coarse edible salt must meet the same food-grade purity requirements as fine table salt, with controlled heavy metals and microbiological parameters, and is supplied with full food safety certification.',
-            image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/coarsesalt.png',
             specs: ['NaCl: ≥ 99.0%', 'Moisture: ≤ 0.5%', 'Insoluble Matter: ≤ 0.2%', 'Ca + Mg: ≤ 0.3%', 'Particle Size: 1 – 6 mm (coarse)', 'Form: Coarse crystals', 'HS Code: 2501']
           },
           {
@@ -1435,7 +1435,7 @@ export const categoryData: Category[] = [
             slug: 'iodized-salt',
             description: 'Edible salt fortified with potassium iodate (KIO3) or potassium iodide (KI) to address iodine deficiency in mandatory or voluntary iodization programs.',
             details: 'Iodized salt is food-grade salt to which a precise quantity of potassium iodate (KIO3) or potassium iodide (KI) has been added as a micronutrient fortification measure. Iodine deficiency disorders (IDD) — including goiter and impaired cognitive development — are a significant public health concern in many regions, and mandatory salt iodization programs have been widely adopted as the most cost-effective intervention. We supply iodized salt in both fine and coarse crystal grades, with iodine fortification levels customized to meet the regulatory requirements of the destination market. Typical fortification levels range from 20–40 mg KIO3 per kilogram of salt (equivalent to approximately 12–25 mg iodine/kg). Full documentation of iodine content, uniformity of distribution, and stability data is provided for regulatory submissions.',
-            image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/iodizedsalt.png',
             specs: ['NaCl: ≥ 99.0%', 'Iodine (as KIO3): 20 – 40 mg/kg (customizable)', 'Moisture: ≤ 0.1%', 'Heavy Metals: Per Codex Alimentarius limits', 'Form: Fine / Coarse crystals', 'HS Code: 2501']
           },
           {
@@ -1443,7 +1443,7 @@ export const categoryData: Category[] = [
             slug: 'vacuum-evaporated-salt',
             description: 'Ultra-pure sodium chloride produced by vacuum pan evaporation, achieving the highest NaCl purity for pharmaceutical-grade, dairy, and sensitive food processing applications.',
             details: 'Vacuum evaporated salt is produced by dissolving raw salt in water to form a saturated brine, purifying the brine through chemical treatment and filtration to remove calcium, magnesium, and sulfate impurities, and then re-crystallizing the purified sodium chloride in vacuum evaporators at reduced temperature and pressure. The resulting product achieves the highest NaCl purity available in commercial salt, with exceptionally low levels of trace mineral impurities. This grade is preferred for pharmaceutical preparations, infant formula, dairy processing (cheese and butter where mineral impurities would affect flavor and texture), and sensitive food manufacturing processes where precise salt chemistry is required. Vacuum salt is supplied with comprehensive certificates of analysis including trace element profiles and microbiological testing.',
-            image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/vaccumsalt.png',
             specs: ['NaCl: ≥ 99.9%', 'Moisture: ≤ 0.05%', 'Ca²⁺: ≤ 0.02%', 'Mg²⁺: ≤ 0.01%', 'SO4²⁻: ≤ 0.03%', 'Form: Uniform fine crystals', 'HS Code: 2501']
           }
         ]
