@@ -1340,7 +1340,7 @@ export const categoryData: Category[] = [
         slug: 'molasses-food-grade',
         description: 'Food-grade cane and beet molasses for use in food manufacturing, fermentation, animal feed, and specialty beverage production. Available in Sugarcane, Sugar Beet, and Blackstrap grades.',
         details: 'Molasses is a dense, viscous by-product of the sugar refining process, produced during the repeated crystallization of sucrose from sugarcane or sugar beet juice. Food-grade molasses retains a rich concentration of residual sugars, vitamins, and minerals — including iron, calcium, magnesium, and potassium — making it a valued ingredient in food manufacturing and nutrition. In the food industry, it is used as a natural sweetener, flavor enhancer, and colorant in baked goods, sauces, marinades, and confectionery. It is also a primary fermentation substrate for rum production, yeast manufacturing, and the production of citric acid and amino acids. We supply blackstrap, sugarcane, and beet molasses in food-grade specifications, with full sugar content, Brix, pH, and microbiological analysis, shipped in flexitanks, ISO tanks, or lined drums.',
-        image: 'https://images.pexels.com/photos/6546019/pexels-photo-6546019.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/molasses.png',
         specs: ['Grades: Sugarcane / Sugar Beet / Blackstrap', 'Brix: 75% – 85%', 'HS Code: 1703', 'Packaging: Flexitanks, ISO tanks, lined 275L drums'],
         hsCode: '1703',
         subProducts: [
@@ -1349,7 +1349,7 @@ export const categoryData: Category[] = [
             slug: 'sugarcane-molasses-food-grade',
             description: 'The most common commercial food-grade molasses, obtained after crystallization of sugar from sugarcane juice, used in baking, confectionery, beverage flavoring, and fermentation.',
             details: 'Sugarcane molasses is the primary by-product of sugar extraction from harvested sugarcane. After juice extraction and multiple stages of crystallization to recover sucrose, the remaining dark syrup — rich in residual sugars, organic acids, and minerals — is the commercial molasses product. Food-grade sugarcane molasses is processed and stored under hygienic conditions with controlled microbiological parameters to ensure suitability for direct use in food and beverage manufacturing. Its characteristic deep flavor and high fermentable sugar content make it the preferred substrate for rum distillation, industrial yeast production, and citric acid fermentation. In bakery, it contributes color, moisture retention, and a distinctive caramel flavor to products such as gingerbread, brown bread, and dark sauces.',
-            image: 'https://images.pexels.com/photos/6546019/pexels-photo-6546019.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/sugarcanemolasses.png',
             specs: ['Brix: 75% – 85%', 'Total Sugars: 45% – 55%', 'Sucrose: 30% – 40%', 'Reducing Sugars: 10% – 20%', 'Moisture: 15% – 25%', 'Ash: 8% – 12%', 'pH: 4.5 – 6.0', 'HS Code: 1703']
           },
           {
@@ -1357,7 +1357,7 @@ export const categoryData: Category[] = [
             slug: 'sugar-beet-molasses-food-grade',
             description: 'Derived from sugar beet processing, with a slightly different mineral composition and more alkaline pH, widely used in fermentation, specialty food ingredients, and animal nutrition.',
             details: 'Sugar beet molasses is obtained as a by-product of the beet sugar refining process in temperate growing regions. Its mineral composition differs from cane molasses, particularly in its betaine content and more alkaline pH profile, which makes it suitable for distinct fermentation processes and specialty food ingredient applications. Sugar beet molasses is widely used as a fermentation substrate for yeast production (baker\'s yeast and fodder yeast), as well as for the production of lysine, glutamic acid, and other amino acids. Its higher pH (6.5–8.5) compared to cane molasses makes it preferred for certain bacterial fermentation processes. In the animal nutrition sector, it serves as an energy-dense feed additive and a palatability enhancer for compound animal feeds.',
-            image: 'https://images.pexels.com/photos/6546019/pexels-photo-6546019.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/sugarbeet.png',
             specs: ['Brix: 75% – 85%', 'Total Sugars: 45% – 50%', 'Sucrose: 25% – 35%', 'Moisture: 18% – 25%', 'Ash: 8% – 12%', 'pH: 6.5 – 8.5', 'Form: Dark brown liquid', 'HS Code: 1703']
           },
           {
@@ -1365,7 +1365,7 @@ export const categoryData: Category[] = [
             slug: 'blackstrap-molasses',
             description: 'Final extraction stage molasses with lower sugar content but elevated iron, calcium, and magnesium — used as a nutritional food ingredient, fermentation substrate, and animal feed supplement.',
             details: 'Blackstrap molasses is the concentrated syrup remaining after the third and final extraction of sugar crystals from the boiled sugarcane or beet juice. As the "final run" of the refining process, blackstrap contains the lowest recoverable sugar content of all molasses grades, but the highest concentration of minerals — particularly iron, calcium, magnesium, and potassium — making it a nutritionally distinct ingredient. In the health food market, blackstrap molasses is used as a natural iron and mineral supplement and as a flavor component in specialty health foods, energy bars, and natural sweetener blends. In industrial fermentation, its lower sugar content is compensated by its rich mineral content which supports robust yeast and bacterial growth. It is also extensively used as an energy and palatability supplement in animal feed rations for cattle, horses, and poultry.',
-            image: 'https://images.pexels.com/photos/6546019/pexels-photo-6546019.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/blackstrap.png',
             specs: ['Brix: 75% – 85%', 'Total Sugars: 35% – 45%', 'Ash: 10% – 15%', 'Iron: Elevated (trace mineral rich)', 'Moisture: 20% – 25%', 'Form: Very dark, dense syrup', 'HS Code: 1703']
           }
         ]
