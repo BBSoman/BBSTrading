@@ -1074,7 +1074,7 @@ export const categoryData: Category[] = [
         slug: 'aggregate',
         description: 'Construction-grade granular materials including coarse aggregates, fine sand, crushed stone, recycled aggregate, and specialized lightweight and heavyweight types.',
         details: 'Construction aggregate is the granular mineral material — including crushed stone, gravel, and sand — that forms the structural backbone of concrete, asphalt, and road base materials. It is the single most consumed material in the construction industry globally, used in everything from high-rise foundations and bridge decks to highway sub-base layers and drainage systems. The mechanical properties of aggregate — particle shape, gradation, hardness, and abrasion resistance — directly influence the strength and durability of the final construction. We supply crushed granite, basalt, and limestone aggregates in a full range of sizes, compliant with ASTM and EN standards, tested for Los Angeles abrasion and particle shape, available in bulk or bagged form. Specialized variants include lightweight aggregates for thermal insulation applications and heavyweight aggregates for radiation shielding.',
-        image: '/aggregate.jpg',
+        image: '/aggregate.png',
         specs: ['Types: Coarse / Fine / Crushed Stone / Recycled / Specialized', 'Size Range: 0.075 mm – 50 mm', 'LA Abrasion tested per ASTM C131', 'Available in bulk or bagged'],
         hsCode: '2517',
         subProducts: [
@@ -1083,7 +1083,7 @@ export const categoryData: Category[] = [
             slug: 'coarse-aggregates',
             description: 'Crushed stone or gravel sized 10–40 mm, used as the primary structural component in reinforced concrete, road base layers, and infrastructure foundations.',
             details: 'Coarse aggregates are the backbone of structural concrete and road construction. Their angular, crushed shape ensures excellent mechanical interlock within concrete matrices, contributing to high compressive and flexural strength. They are sourced from quarried granite, basalt, and limestone, selected for hardness, low water absorption, and resistance to abrasion. Suitable for reinforced concrete slabs, structural columns, bridge decks, road sub-base, and heavy infrastructure foundations.',
-            image: '/coarseaggregate.jpg',
+            image: '/coarse.png',
             specs: ['Size: 10 mm – 40 mm', 'Specific Gravity: 2.5 – 3.0', 'Water Absorption: ≤ 2%', 'Los Angeles Abrasion: ≤ 35%', 'Fines Content: ≤ 2%', 'Shape: Angular / Crushed', 'HS Code: 2517']
           },
           {
@@ -1091,7 +1091,7 @@ export const categoryData: Category[] = [
             slug: 'fine-aggregates-sand',
             description: 'Natural or crushed sand sized 0.075–4.75 mm, used in concrete production, plastering mortar, block manufacturing, and asphalt production.',
             details: 'Fine aggregates fill the voids between coarse aggregate particles in concrete, improving workability, density, and surface finish. They are characterized by fineness modulus and grading to ensure uniform particle size distribution. Natural river sand and manufactured crushed sand are both available, each offering different surface textures and grading characteristics. Used in ready-mix concrete, masonry mortar, plaster, precast elements, and asphalt wearing courses.',
-            image: '/fineaggregate.jpg',
+            image: '/sand.png',
             specs: ['Size: 0.075 mm – 4.75 mm', 'Fineness Modulus: 2.3 – 3.1', 'Silt Content: ≤ 5%', 'Moisture: ≤ 5%', 'Bulk Density: 1,500 – 1,700 kg/m³', 'HS Code: 2505']
           },
           {
@@ -1099,7 +1099,7 @@ export const categoryData: Category[] = [
             slug: 'crushed-stone-aggregate',
             description: 'High-strength crushed rock sized 5–50 mm with superior mechanical properties, used in high-grade concrete, highway construction, railway ballast, and drainage systems.',
             details: 'Crushed stone aggregate is produced from hard rock quarries using primary and secondary crushing, resulting in angular particles with excellent shape and high compressive strength. Its angular geometry provides superior bond in concrete and asphalt compared to rounded natural gravel. Widely used in high-performance concrete mixes, motorway base layers, railway track ballast, and drainage blanket systems. Available in standard size fractions and custom gradings.',
-            image: '/crushedstone.jpg',
+            image: '/crushedstone.png',
             specs: ['Size: 5 mm – 50 mm', 'Compressive Strength: ≥ 100 MPa', 'LA Abrasion: ≤ 30%', 'Flakiness Index: ≤ 25%', 'Water Absorption: ≤ 2%', 'HS Code: 2517']
           },
           {
@@ -1107,7 +1107,7 @@ export const categoryData: Category[] = [
             slug: 'recycled-aggregate',
             description: 'Processed construction and demolition waste aggregate used in road sub-base, backfilling, and non-structural concrete applications.',
             details: 'Recycled aggregate is produced from crushed concrete, masonry, and demolition waste processed to remove contaminants and sized to specification. It provides a cost-effective and environmentally responsible alternative to virgin aggregate for lower-specification applications. Suitable for road and pavement sub-base, bulk backfilling, non-structural concrete, and landscaping applications. Its use supports sustainability targets and reduces construction waste going to landfill.',
-            image: '/recycled.jpg',
+            image: '/recycled.png',
             specs: ['Size: 10 mm – 40 mm', 'Recycled Content: ≥ 85%', 'Water Absorption: ≤ 6%', 'Impurities: ≤ 3%', 'HS Code: 2517']
           },
           {
@@ -1115,7 +1115,7 @@ export const categoryData: Category[] = [
             slug: 'specialized-aggregates',
             description: 'Lightweight (expanded clay/shale) and heavyweight (barite/magnetite) aggregates engineered for thermal insulation concrete and radiation shielding applications.',
             details: 'Specialized aggregates are engineered materials produced for non-standard concrete applications requiring specific density or thermal properties. Lightweight aggregates — typically expanded clay or shale — are used in the production of low-density structural concrete for high-rise buildings and insulation slabs, significantly reducing dead load on structures. Heavyweight aggregates — typically barite or magnetite — are used to produce high-density concrete for radiation shielding in nuclear facilities, medical imaging rooms, and specialized infrastructure, where high mass per unit volume is essential.',
-            image: '/specialized.jpg',
+            image: '/specialized.png',
             specs: ['Lightweight: Expanded Clay/Shale | Density: 800 – 1,200 kg/m³', 'Heavyweight: Barite/Magnetite | Density: 3,200 – 4,000 kg/m³', 'Applications: High-rise insulation / Radiation shielding', 'HS Code: 2517']
           }
         ]
@@ -1125,7 +1125,7 @@ export const categoryData: Category[] = [
         slug: 'zinc',
         description: 'Versatile industrial metal widely used for galvanizing steel, alloy production, die casting, and battery manufacturing. Its primary function is corrosion protection, making it essential in infrastructure, automotive, marine, and construction sectors. Traded in concentrate, refined, and ingot form.',
         details: 'Approximately 50% of global zinc production is used for galvanizing steel to prevent rust and extend structural lifespan. Zinc is internationally traded across three primary forms — concentrate from mine to smelter, refined zinc for end-use applications, and standardized ingots for global commodity exchange and factory supply.',
-        image: '/zinc.jpg',
+        image: '/zinc.png',
         specs: ['Forms: Concentrate / Refined / Ingots', 'Zn: 45%–60% (concentrate) to ≥ 99.995% (SHG)', 'HS Code: 2608 (Ores & Concentrates) / 7901 (Refined)', 'LME-compliant SHG grade available'],
         hsCode: '2608',
         subProducts: [
@@ -1150,7 +1150,7 @@ export const categoryData: Category[] = [
             slug: 'zinc-ingots',
             description: 'Standardized physical form of refined zinc metal for global trade, shipping, and storage. Rectangular bars (20–25 kg) bundled into 1-ton pallets, or Jumbo blocks up to 1,200 kg. The most liquid form of zinc on commodity exchanges like the LME.',
             details: 'Essential plug-and-play raw material for factories producing galvanized steel, automotive die-cast parts, and high-performance alloys like brass. Available in SHG (≥ 99.995%), HG (≥ 99.95%), and PWG (≥ 98.5%) grades.',
-            image: '/zincingots.jpg',
+            image: '/zincingots.png',
             specs: ['SHG: ≥ 99.995% Zn', 'HG: ≥ 99.95% Zn', 'PWG: ≥ 98.5% Zn', 'Weight: 25 kg – 1 MT', 'Form: Cast slab / Ingot', 'Packaging: Bundled / Strapped', 'HS Code: 7901']
           }
         ]
