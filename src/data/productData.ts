@@ -1160,7 +1160,7 @@ export const categoryData: Category[] = [
         slug: 'bentonite',
         description: 'Highly absorbent smectite clay available in ore, sodium, calcium, activated, and industrial powder grades for drilling, civil engineering, foundry, and industrial applications.',
         details: 'Bentonite is a highly plastic, swelling clay composed predominantly of montmorillonite, formed by the weathering and alteration of volcanic ash in marine environments. Its exceptional water absorption, swelling capacity, and rheological properties make it indispensable across multiple industries. In oil and gas drilling, sodium bentonite is the primary viscosifying and filtration-control agent in water-based drilling fluids, suspending cuttings and stabilizing the borehole wall. In foundry operations, calcium bentonite is used to bond molding sand into the precise shapes required for metal casting. Civil engineers use bentonite slurries for diaphragm wall construction and as a sealing agent in landfill liners and geosynthetic clay liners. Activated bentonite — either sodium-activated or acid-activated (bleaching earth) — is used in edible oil refining, petroleum processing, and industrial filtration. We supply bentonite across five grades — from raw ore to industrial powder — with full swelling index, fluid loss, and rheological analysis.',
-        image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/bentonite.png',
         specs: ['Grades: Ore / Sodium / Calcium / Activated / Industrial Powder', 'Montmorillonite: 60% – 85%', 'HS Code: 2508', 'Forms: Lump / Powder / Granules'],
         hsCode: '2508',
         subProducts: [
@@ -1169,7 +1169,7 @@ export const categoryData: Category[] = [
             slug: 'bentonite-ore',
             description: 'Raw extracted bentonite in lump form, used as feedstock for drilling mud production, foundry sand bonding, and iron ore pelletizing.',
             details: 'Bentonite ore is the primary extracted form of the mineral, supplied directly from mining operations as lump material before further drying or milling. It contains a natural montmorillonite content of 60–85% alongside silica, alumina, and iron oxides from the original geological deposit. It serves as the raw input for all processed bentonite grades and is also used directly in foundry operations and iron ore pelletizing where particle size requirements are less critical.',
-            image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/bentoniteore.png',
             specs: ['Montmorillonite: 60% – 85%', 'Moisture: 8% – 18%', 'SiO₂: 55% – 65%', 'Al₂O₃: 15% – 25%', 'CaO: 1% – 5%', 'Na₂O: 1% – 4%', 'Form: Lump', 'HS Code: 2508']
           },
           {
@@ -1177,7 +1177,7 @@ export const categoryData: Category[] = [
             slug: 'sodium-bentonite',
             description: 'High-swelling sodium bentonite (Wyoming-type) used in oil and gas drilling fluids, civil engineering slurry walls, landfill liners, and geosynthetic waterproofing systems.',
             details: 'Sodium bentonite — also known as swelling bentonite or Wyoming bentonite — is the highest-performance grade of bentonite, characterized by its exceptional swelling capacity in water. When hydrated, sodium bentonite can swell to up to 20 times its dry volume, forming a dense, low-permeability gel. This property makes it the standard additive for water-based drilling fluids in oil and gas exploration, where it provides viscosity, filtration control, and borehole stabilization. It is also used in civil engineering for slurry trench walls, horizontal directional drilling (HDD), and as the active component in geosynthetic clay liners (GCLs) for landfill containment and waterproofing membranes.',
-            image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/sodiumbentonite.png',
             specs: ['Montmorillonite: ≥ 70%', 'Swelling Capacity: 20 – 35 ml/2g', 'Viscosity (API): 15 – 30 cP', 'Moisture: ≤ 12%', 'pH: 8 – 10', 'Form: Powder / Granules', 'HS Code: 2508']
           },
           {
@@ -1185,7 +1185,7 @@ export const categoryData: Category[] = [
             slug: 'calcium-bentonite',
             description: 'Non-swelling calcium bentonite (Fuller\'s Earth) used in cat litter, soil conditioning, wine and oil clarification, and industrial absorbent applications.',
             details: 'Calcium bentonite — also known as non-swelling bentonite or Fuller\'s Earth — has a lower swelling capacity than sodium bentonite but retains strong adsorption and absorption properties. It is the preferred grade for consumer and agricultural applications, including cat litter production, where its natural absorbency and clumping behavior are valued. In food and beverage processing, calcium bentonite is used to clarify wines, juices, and edible oils by adsorbing proteins and colloidal matter. It also serves as a soil conditioner, improving structure and water retention in sandy soils, and as an industrial absorbent for oil spills and chemical spills.',
-            image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/calciumbentonite.png',
             specs: ['Montmorillonite: 60% – 75%', 'Swelling Capacity: 8 – 15 ml/2g', 'Moisture: ≤ 12%', 'pH: 6 – 8', 'Form: Powder / Granular', 'HS Code: 2508']
           },
           {
@@ -1193,7 +1193,7 @@ export const categoryData: Category[] = [
             slug: 'activated-bentonite',
             description: 'Chemically treated bentonite — sodium-activated for enhanced swelling, or acid-activated (bleaching earth) for edible oil purification, petroleum refining, and industrial filtration.',
             details: 'Activated bentonite is produced through chemical treatment of natural calcium or lower-grade bentonite. Sodium-activated bentonite is produced by treating low-grade calcium bentonite with soda ash to convert exchangeable calcium ions to sodium ions, inducing high-swelling sodium bentonite behavior at reduced cost. Acid-activated bentonite — commercially traded as bleaching earth — is produced by treating bentonite with inorganic acids such as sulfuric or hydrochloric acid, which dissolves carbonate impurities and opens the clay structure to dramatically increase surface area and porosity. Acid-activated grades are the industry standard for refining and bleaching edible oils, vegetable oils, and fats, as well as for petroleum refining and industrial adsorption processes.',
-            image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/activatedbentonite.png',
             specs: ['Surface Area: 200 – 300 m²/g', 'Moisture: ≤ 10%', 'pH: 3 – 5 (acid activated)', 'Form: Fine powder', 'Variants: Sodium-Activated / Acid-Activated (Bleaching Earth)', 'HS Code: 2508']
           },
           {
@@ -1201,7 +1201,7 @@ export const categoryData: Category[] = [
             slug: 'bentonite-powder',
             description: 'Finely milled bentonite powder for foundry mold bonding, iron ore pelletizing, construction grouting, and agricultural applications.',
             details: 'Industrial bentonite powder is produced by drying and milling bentonite ore to fine particle sizes of 200–325 mesh. The particle size and montmorillonite content are controlled to meet the requirements of specific industrial applications. In foundry operations, bentonite powder is mixed with sand to create green sand molds capable of withstanding the heat and pressure of molten metal casting. In iron ore pelletizing, bentonite acts as a binder to form green pellets with sufficient mechanical strength for direct reduction and blast furnace operations. It is also used in construction grouting, waterproofing membranes, and as a soil additive in agriculture.',
-            image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/industrialbentonite.png',
             specs: ['Montmorillonite: 65% – 85%', 'Moisture: ≤ 10%', 'Particle Size: 200 – 325 mesh', 'Swelling Index: Grade dependent', 'Form: Fine powder', 'HS Code: 2508']
           }
         ]
