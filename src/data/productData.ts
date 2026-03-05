@@ -1453,7 +1453,7 @@ export const categoryData: Category[] = [
         slug: 'sugar-food-grade',
         description: 'Naturally derived sucrose available in refined white, raw brown, powdered, and specialty grades for food manufacturing, beverage production, confectionery, and bakery applications.',
         details: 'Sugar — chemically sucrose (C12H22O11) — is the world\'s most widely traded food commodity, derived primarily from sugarcane and sugar beet through extraction, clarification, and crystallization. Commercial sugar is graded by its ICUMSA color rating, a standardized measure of whiteness and purity (lower ICUMSA values indicate higher refinement and whiteness). Refined white sugar (ICUMSA 45) is the global benchmark for food and beverage production, while Very High Polarization (VHP) raw sugar is the primary internationally traded commodity grade consumed by refineries. Brown sugar retains molasses for distinctive flavor, and powdered/icing sugar is milled for confectionery and decoration. We supply all five commercial grades — ICUMSA 45, ICUMSA 100-150, VHP Raw Sugar, Brown Sugar, and Powdered Sugar — with full origin documentation, ICUMSA certificates, and quality analysis.',
-        image: 'https://images.pexels.com/photos/6546019/pexels-photo-6546019.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/sugarfood.png',
         specs: ['Grades: ICUMSA 45 / ICUMSA 100-150 / VHP Raw / Brown / Powdered', 'Polarization: 99.4° – 99.8°', 'HS Code: 1701', 'Applications: Beverage, confectionery, bakery, dairy, industrial fermentation'],
         hsCode: '1701',
         subProducts: [
@@ -1462,7 +1462,7 @@ export const categoryData: Category[] = [
             slug: 'refined-white-sugar-icumsa-45',
             description: 'The most widely exported food-grade sugar, produced through refining and crystallization to achieve the highest purity and lowest ICUMSA color value — the international benchmark for food and beverage manufacturing.',
             details: 'Refined White Sugar ICUMSA 45 is the premium standard for global sugar trade, named after the International Commission for Uniform Methods of Sugar Analysis (ICUMSA) color measurement unit. An ICUMSA value of 45 IU corresponds to a bright white, highly refined product with less than 45 color units — the international threshold for export-grade white refined sugar. It is produced by processing raw cane sugar through affination, carbonation or phosphatation, activated carbon filtration, and multi-stage crystallization to achieve the strictest purity and whiteness standards. ICUMSA 45 sugar is the primary ingredient in soft drinks, confectionery, dairy products, processed foods, and pharmaceutical sugar-coated formulations. It is the most demanded grade globally due to its consistent quality, neutral flavor, and compliance with international food safety standards including Codex Alimentarius.',
-            image: 'https://images.pexels.com/photos/6546019/pexels-photo-6546019.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/refinedsugar.png',
             specs: ['Polarization: ≥ 99.8°', 'ICUMSA Color: ≤ 45 IU', 'Moisture: ≤ 0.04%', 'Ash: ≤ 0.04%', 'Reducing Sugars: ≤ 0.05%', 'Form: Fine / medium granulated crystals', 'HS Code: 1701']
           },
           {
@@ -1470,7 +1470,7 @@ export const categoryData: Category[] = [
             slug: 'white-sugar-icumsa-100-150',
             description: 'Slightly less refined than ICUMSA 45, used in general food manufacturing, industrial baking, and regional markets where premium whiteness is not required.',
             details: 'White Sugar ICUMSA 100-150 is an intermediate refined grade positioned between the premium ICUMSA 45 standard and raw sugar grades. It undergoes most of the same refining steps as ICUMSA 45 but with fewer decolorization passes, resulting in a slightly higher color value while still meeting food-grade purity standards. It is commonly used in food manufacturing applications where the slight color difference has no impact on the final product, such as in baked goods, jams, syrups, industrial sauces, and fermentation. In many regional and domestic markets, ICUMSA 100-150 is the standard retail-grade white sugar and is sold under national sugar specifications. It offers a cost-effective alternative to ICUMSA 45 for applications where ultra-white appearance is not a quality requirement.',
-            image: 'https://images.pexels.com/photos/6546019/pexels-photo-6546019.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/whitesugaricumsa.png',
             specs: ['Polarization: ≥ 99.5°', 'ICUMSA Color: 100 – 150 IU', 'Moisture: ≤ 0.06%', 'Ash: ≤ 0.08%', 'Form: Granulated', 'HS Code: 1701']
           },
           {
@@ -1478,7 +1478,7 @@ export const categoryData: Category[] = [
             slug: 'raw-brown-sugar-vhp',
             description: 'Very High Polarization (VHP) raw cane sugar — the primary internationally traded raw sugar commodity — supplied to refineries for further processing into white sugar grades.',
             details: 'Very High Polarization (VHP) raw sugar is the dominant commodity grade traded on international sugar markets (London, New York) and is the primary feedstock for white sugar refineries worldwide. Despite its "raw" designation, VHP sugar has a polarization of ≥99.4° — nearly as high as refined white sugar — and is distinguished mainly by its higher ICUMSA color value (600–1,200 IU) reflecting retained surface molasses. It is produced by centrifuging the massecuite (crystallized sugar + molasses mixture) after the first crystallization stage. Raw VHP sugar is purchased by refineries who affinate and process it into ICUMSA 45 or ICUMSA 100-150 white sugar. Its high sucrose content, well-defined crystal structure, and established commodity standards make it the most traded raw agricultural material globally after crude oil.',
-            image: 'https://images.pexels.com/photos/6546019/pexels-photo-6546019.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/rawbrownsugar.png',
             specs: ['Polarization: ≥ 99.4°', 'ICUMSA Color: 600 – 1,200 IU', 'Moisture: ≤ 0.15%', 'Ash: ≤ 0.15%', 'Form: Light to golden brown crystals', 'HS Code: 1701']
           },
           {
@@ -1486,7 +1486,7 @@ export const categoryData: Category[] = [
             slug: 'brown-sugar-food-grade',
             description: 'Food-grade brown sugar containing 3–5% molasses content which provides its characteristic golden-to-dark color, moist texture, and rich caramel flavor for bakery and specialty culinary applications.',
             details: 'Food-grade brown sugar is produced either by incomplete refinement of raw sugar (natural brown sugar) or by coating refined white sugar with a controlled amount of molasses (soft brown sugar). The molasses content — typically 3–5% by weight — gives brown sugar its distinctive golden to dark brown color, moist granular texture, and characteristic flavor profile combining sweetness with caramel and toffee notes. In bakery applications, brown sugar contributes moisture retention, browning, and depth of flavor that white sugar cannot replicate, making it essential in cookies, cakes, dark bread, and gingerbread. It is also a key ingredient in sauces, marinades, glazes, and specialty beverages such as artisan coffees and cocktails. We supply both light brown and dark brown grades with consistent molasses content and particle size.',
-            image: 'https://images.pexels.com/photos/6546019/pexels-photo-6546019.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/brownsugar.png',
             specs: ['Sucrose: ≥ 95%', 'Moisture: ≤ 2%', 'Molasses Content: 3% – 5%', 'Form: Moist granular texture, golden to dark brown', 'Grades: Light Brown / Dark Brown', 'HS Code: 1701']
           },
           {
@@ -1494,7 +1494,7 @@ export const categoryData: Category[] = [
             slug: 'powdered-icing-sugar',
             description: 'Ultra-fine milled white sugar with a silky powder texture, used in frosting, icing, confectionery decoration, dessert production, and premium baking applications.',
             details: 'Powdered sugar — also known as icing sugar or confectioners\' sugar — is produced by finely grinding refined white sugar (typically ICUMSA 45 base) in specialized mills to an ultra-fine particle size. A small quantity of anti-caking agent (typically cornstarch at ≤3%) is usually added to prevent caking and maintain free-flowing powder consistency in humid environments. The ultra-fine particle size creates a smooth, rapid-dissolving product that integrates seamlessly into buttercreams, fondants, royal icing, and glaze coatings without grittiness. It is also dusted directly onto cakes, pastries, and desserts as a decorative finish. In industrial confectionery production, powdered sugar is used in chocolate and candy formulations where smooth texture is a critical quality attribute.',
-            image: 'https://images.pexels.com/photos/6546019/pexels-photo-6546019.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/icingsugar.png',
             specs: ['Sucrose: ≥ 99%', 'Moisture: ≤ 0.1%', 'Particle Size: Ultra-fine (mesh 200+)', 'Anti-caking Agent: ≤ 3% starch', 'Form: Fine white powder', 'HS Code: 1701']
           }
         ]
