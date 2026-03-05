@@ -1254,7 +1254,7 @@ export const categoryData: Category[] = [
         slug: 'cement',
         description: 'Hydraulic binding material available in OPC, Portland Pozzolana, Sulfate Resistant, and White Cement grades for construction, infrastructure, and specialty applications.',
         details: 'Portland cement is the fundamental binding material in modern construction, produced by grinding and calcining a carefully proportioned mixture of limestone, clay, and corrective materials in a rotary kiln to form clinker, which is then ground with gypsum to the final product. When mixed with water, cement undergoes hydration reactions that produce a hard, durable matrix capable of bonding aggregates, filling structural voids, and resisting compressive loads. We supply four primary cement types — OPC for general structural use, PPC for mass concrete and marine conditions, SRC for aggressive soil and chemical environments, and White Cement for architectural and decorative applications — from certified manufacturing plants with full compliance documentation to ASTM C150, EN 197-1, and equivalent national standards.',
-        image: '/cement',
+        image: '/cement.png',
         specs: ['Grades: OPC / PPC / SRC / White Cement', 'Compliance: ASTM C150 / EN 197-1', 'HS Code: 2523', 'Packaging: 50kg bags, 1-tonne big bags, bulk tanker'],
         hsCode: '2523',
         subProducts: [
