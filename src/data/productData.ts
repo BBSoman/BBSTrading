@@ -1064,7 +1064,7 @@ export const categoryData: Category[] = [
             slug: 'gypsum-powder-industrial',
             description: 'Ultra-fine milled gypsum powder used as a cement additive, agricultural soil conditioner, industrial filler in paints and paper, and calcium supplement in food-grade applications.',
             details: 'Industrial gypsum powder is the final refined form of processed gypsum, ground to ultra-fine particle sizes of 200–325 mesh in its non-calcined form. High purity and consistent fineness are essential properties for its diverse applications. As a cement additive, fine gypsum powder provides precise setting time control and sulfate balance in blended cements. In agriculture, it acts as a soil conditioner and sulfur-calcium supplement with faster soil incorporation than coarser grades. In the paint, paper, and plastics industries, fine white gypsum powder is used as a cost-effective inert filler that contributes brightness, opacity, and surface smoothness. Food-grade variants are used for calcium enrichment in tofu production and other applications.',
-            image: 'https://images.pexels.com/photos/4491881/pexels-photo-4491881.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/gypsumpowder.jpg',
             specs: ['CaSO4·2H2O: ≥ 80%', 'SO3: 35% – 44%', 'Moisture: ≤ 2%', 'Fineness: 200 – 325 mesh', 'Color: White to off-white', 'HS Code: 2520']
           }
         ]
