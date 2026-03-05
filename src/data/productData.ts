@@ -1462,7 +1462,7 @@ export const categoryData: Category[] = [
             slug: 'refined-white-sugar-icumsa-45',
             description: 'The most widely exported food-grade sugar, produced through refining and crystallization to achieve the highest purity and lowest ICUMSA color value — the international benchmark for food and beverage manufacturing.',
             details: 'Refined White Sugar ICUMSA 45 is the premium standard for global sugar trade, named after the International Commission for Uniform Methods of Sugar Analysis (ICUMSA) color measurement unit. An ICUMSA value of 45 IU corresponds to a bright white, highly refined product with less than 45 color units — the international threshold for export-grade white refined sugar. It is produced by processing raw cane sugar through affination, carbonation or phosphatation, activated carbon filtration, and multi-stage crystallization to achieve the strictest purity and whiteness standards. ICUMSA 45 sugar is the primary ingredient in soft drinks, confectionery, dairy products, processed foods, and pharmaceutical sugar-coated formulations. It is the most demanded grade globally due to its consistent quality, neutral flavor, and compliance with international food safety standards including Codex Alimentarius.',
-            image: '/refinedsugar.png',
+            image: '/refinedwhitesugar.png',
             specs: ['Polarization: ≥ 99.8°', 'ICUMSA Color: ≤ 45 IU', 'Moisture: ≤ 0.04%', 'Ash: ≤ 0.04%', 'Reducing Sugars: ≤ 0.05%', 'Form: Fine / medium granulated crystals', 'HS Code: 1701']
           },
           {
