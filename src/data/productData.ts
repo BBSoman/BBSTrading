@@ -1590,7 +1590,7 @@ export const categoryData: Category[] = [
         slug: 'resins-specialty-use',
         description: 'Natural and synthetic polymeric resins providing film-forming, thickening, binding, and gloss-enhancing properties for personal care, hair styling, nail care, and decorative cosmetics. Available in 4 functional grades.',
         details: 'Cosmetic-grade resins are purified natural or synthetic polymeric materials used in personal care, skincare, hair styling, perfumery, and decorative cosmetics. These resins provide film-forming, thickening, binding, gloss-enhancing, and stabilizing properties in finished formulations. Natural resins — including shellac, dammar, colophony (rosin), and benzoin — are valued for their botanical origin, gloss, and adhesion in natural cosmetic products. Synthetic resins such as PVP, acrylate copolymers, and styrene-acrylates deliver controlled, consistent performance in high-hold hair care and long-wear color cosmetics. We supply all four functional resin categories — Natural, Synthetic, Film-Forming, and Thickening/Functional — with full INCI documentation, heavy metals compliance, and cosmetic safety dossier support.',
-        image: 'https://images.pexels.com/photos/3762875/pexels-photo-3762875.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/resincosmetic.png',
         specs: ['Grades: Natural / Synthetic / Film-Forming / Thickening', 'Purity: ≥ 95% (natural) / ≥ 99% (synthetic)', 'HS Code: Varies by resin type', 'Compliance: INCI / EU Cosmetics Regulation'],
         hsCode: '3806',
         subProducts: [
