@@ -1580,7 +1580,7 @@ export const categoryData: Category[] = [
             slug: 'anhydrous-ethanol-cosmetic-grade',
             description: 'Ultra-high purity cosmetic ethanol at ≥99% with very low water content for advanced cosmetic formulations, pharmaceutical topical products, and specialty sprays where moisture control is critical.',
             details: 'Anhydrous cosmetic ethanol is produced by dehydrating rectified spirit to a water content below 1% (≥99% ethanol purity) through molecular sieve technology or azeotropic distillation. Its near-waterless composition makes it essential for cosmetic and pharmaceutical formulations where water introduction must be avoided — such as anhydrous gel formulations, water-sensitive active ingredient delivery systems, and precision fragrance concentrate production. In advanced cosmetic formulations, anhydrous ethanol is used as a solvent for highly concentrated botanical extracts, oil-soluble active ingredients, and water-sensitive compounds that would degrade or become unstable in the presence of water. For pharmaceutical topical products, its anhydrous nature supports precise formulation of transdermal delivery systems and topical antiseptic preparations. It must meet heavy metals limits and residue-on-evaporation specifications to ensure no contamination of the cosmetic or pharmaceutical matrix.',
-            image: '/Anhydrous Ethanol.png',
+            image: '/AnhydrousEthanol.png',
             specs: ['Ethanol Purity: ≥ 99%', 'Water Content: ≤ 1%', 'Methanol: ≤ 30 ppm', 'Residue on Evaporation: Minimal', 'Heavy Metals: Cosmetic compliant', 'HS Code: 2207']
           }
         ]
