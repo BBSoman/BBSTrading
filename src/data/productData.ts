@@ -1633,7 +1633,7 @@ export const categoryData: Category[] = [
         slug: 'silica-specialty-grade',
         description: 'Highly purified silicon dioxide (SiO2) engineered for cosmetic absorbency, mattifying, thickening, texture enhancement, and film stabilization. Available in Precipitated, Fumed, Microsphere, and Colloidal grades.',
         details: 'Cosmetic-grade silica is highly purified silicon dioxide (SiO2) used in personal care, skincare, decorative cosmetics, oral care, and haircare formulations. It functions as an absorbent, anti-caking agent, thickener, viscosity controller, mattifying agent, and texture enhancer. Each grade is engineered through a distinct production process — wet chemical precipitation, flame hydrolysis, spherical forming, or aqueous dispersion — resulting in unique particle morphology, surface area, and functional properties optimized for specific cosmetic applications. We supply all four cosmetic silica grades with detailed particle size distribution, surface area, oil absorption data, and full EU Cosmetics Regulation compliance.',
-        image: 'https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800',
+        image: '/silicagrade.png',
         specs: ['Grades: Precipitated / Fumed / Microsphere / Colloidal', 'SiO2 Purity: ≥ 98% – 99.8%', 'HS Code: 2811.22', 'Compliance: EU Cosmetics Regulation / ISO 16128'],
         hsCode: '2811.22',
         subProducts: [
@@ -1642,7 +1642,7 @@ export const categoryData: Category[] = [
             slug: 'precipitated-silica-cosmetic-grade',
             description: 'Synthetically produced through wet chemical processing with controlled porosity and high oil absorption capacity, used for oil control, texture enhancement, face powders, foundations, and toothpaste.',
             details: 'Precipitated silica is produced by the controlled acidification of sodium silicate solution, resulting in a porous, amorphous silicon dioxide powder with a high specific surface area (100–250 m²/g) and excellent oil absorption capacity. Its porous structure enables it to absorb excess sebum and surface oils from the skin, making it the primary mattifying agent in face powders, primers, and oil-control skincare products. The absorbed oils are held within the pore network of the silica particles, providing a sustained matte effect throughout wear. In foundations and pressed powders, precipitated silica also functions as a flow-promoting anti-caking agent that improves powder texture and processability. In toothpaste, food-grade precipitated silica serves as an abrasive cleaning agent and rheology modifier for gel-type dentifrice formulations. All cosmetic grades meet heavy metals (Pb ≤10 ppm) and microbial compliance requirements.',
-            image: 'https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/Precipitatedsilica.png',
             specs: ['SiO2 Purity: ≥ 98%', 'Surface Area (BET): 100 – 250 m²/g', 'Particle Size: 5 – 50 microns', 'pH (5% Suspension): 6 – 8', 'Loss on Drying: ≤ 6%', 'Heavy Metals (Pb): ≤ 10 ppm', 'HS Code: 2811.22']
           },
           {
@@ -1650,7 +1650,7 @@ export const categoryData: Category[] = [
             slug: 'fumed-silica-cosmetic-grade',
             description: 'Ultra-fine nano-sized silica produced via flame hydrolysis with very high surface area, used as a thickener, rheology modifier, and gel stabilizer in creams, long-wear cosmetics, and silicone-based products.',
             details: 'Fumed silica (also known as pyrogenic silica) is produced by the hydrolysis of silicon tetrachloride (SiCl4) in a hydrogen-oxygen flame at extremely high temperatures, yielding ultra-fine, nano-sized primary particles that aggregate into three-dimensional chain-like structures with an exceptionally high surface area (150–400 m²/g). When dispersed in liquid cosmetic matrices, these structures form a three-dimensional network that imparts thixotropic rheology — the material thins under shear (allowing easy application) but recovers its gel structure at rest (preventing settling and phase separation). This makes fumed silica the principal rheology modifier for gels, sunscreens, antiperspirants, and silicone-based formulations. Its high purity (≥99.8% SiO2) and extremely low loss on ignition make it chemically inert and non-irritating in cosmetic applications. In long-wear color cosmetics, fumed silica improves pigment suspension stability and contributes to matte, transfer-resistant finishes.',
-            image: 'https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/fumedsilica.png',
             specs: ['SiO2 Purity: ≥ 99.8%', 'Surface Area: 150 – 400 m²/g', 'Particle Size: 7 – 40 nm', 'Loss on Ignition: ≤ 2%', 'Heavy Metals: Within cosmetic limits', 'HS Code: 2811.22']
           },
           {
@@ -1658,7 +1658,7 @@ export const categoryData: Category[] = [
             slug: 'microsphere-silica-spherical',
             description: 'Spherical silica particles providing soft-focus optical blurring, smoothing effects, and improved skin feel in blurring primers, matte foundations, setting powders, and skincare emulsions.',
             details: 'Microsphere silica — also known as spherical silica — consists of near-perfect spherical silicon dioxide particles in the 3–20 micron size range, engineered to deliver two distinct and highly valued cosmetic benefits: a soft-focus optical effect and a smooth, silky tactile skin feel. The spherical particle geometry creates a unique optical scattering pattern when applied to skin — light reflects off the multiple curved surfaces in multiple directions, softening the appearance of fine lines, pores, and uneven skin texture through an effect known as "optical blurring." This makes microsphere silica the key performance ingredient in blurring primers, pore-minimizing foundations, and anti-aging powders. The perfect spherical morphology also provides a ball-bearing effect during application, giving skin care and makeup products an exceptionally smooth, effortless glide that consumers perceive as a premium sensory experience. The moderate-to-high oil absorption capacity of spherical silica also contributes to sebum control and matte finish maintenance.',
-            image: 'https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/MicrosphereSilica.png',
             specs: ['SiO2: ≥ 99%', 'Particle Size: 3 – 20 microns', 'Oil Absorption: Moderate to high', 'Appearance: Free-flowing powder', 'Effect: Soft-focus / optical blurring', 'HS Code: 2811.22']
           },
           {
@@ -1666,7 +1666,7 @@ export const categoryData: Category[] = [
             slug: 'colloidal-silica-cosmetic-grade',
             description: 'Liquid dispersion of nano-silica particles in water used as a film stabilizer, emulsion enhancer, and polishing agent in specialty cosmetic formulations.',
             details: 'Colloidal silica is an aqueous dispersion of nanometric silicon dioxide particles (5–100 nm) stabilized in suspension at a concentration of 20–50% SiO2 by weight. Unlike dry silica grades, colloidal silica is incorporated into cosmetic formulations as a liquid, making it especially suitable for aqueous-based cosmetic systems where dry powder handling is undesirable or where uniform, molecular-level silica distribution is required. In cosmetic films and coatings, colloidal silica enhances adhesion, film hardness, and surface gloss. As an emulsion stabilizer, nano-sized silica particles adsorb at the oil-water interface (Pickering emulsion mechanism), creating physically stabilized emulsions with exceptional shelf-life stability without the need for traditional emulsifier systems. In specialty skin care, colloidal silica contributes to a smooth, polished skin finish and is used in nail care formulations for its hardening and gloss-enhancing properties. Its pH range (3–10, grade dependent) allows formulation across a wide range of cosmetic pH conditions.',
-            image: 'https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/ColloidalSilica.png',
             specs: ['SiO2 Content: 20% – 50%', 'Particle Size: 5 – 100 nm', 'pH: 3 – 10 (grade dependent)', 'Appearance: Clear to milky liquid', 'Form: Aqueous dispersion', 'HS Code: 2811.22']
           }
         ]
