@@ -1504,7 +1504,7 @@ export const categoryData: Category[] = [
   {
     name: 'Cosmetic Raw Materials',
     slug: 'cosmetic-raw-materials',
-    image: 'https://images.pexels.com/photos/3373736/pexels-photo-3373736.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/cosmeticbanner.png',
     overview: 'At Bright Business Services & Trading, we supply a curated range of cosmetic-grade raw materials to formulation houses, personal care manufacturers, and pharmaceutical producers worldwide. Every material is sourced from certified facilities and supplied with full compliance documentation, safety data sheets, and quality analysis reports to meet the stringent requirements of international cosmetic and pharmaceutical regulations.',
     products: [
       {
