@@ -1537,7 +1537,7 @@ export const categoryData: Category[] = [
             slug: 'ultra-fine-cosmetic-bentonite-powder',
             description: 'Micronized bentonite processed to below 75 microns for superior blendability and smooth skin feel in creams, cosmetic emulsions, natural skincare, and soap manufacturing.',
             details: 'Ultra-fine cosmetic bentonite powder is a micronized, high-purity grade of montmorillonite processed to a maximum particle size of 75 microns, enabling seamless incorporation into cosmetic formulations without grittiness or uneven texture. The micronization process involves controlled jet milling or impact milling to reduce particle size while maintaining the mineral\'s functional properties — adsorption capacity, rheological contribution, and skin-conditioning performance. In skin care creams and lotions, ultra-fine bentonite contributes a velvety, smooth skin feel while acting as a mild thickener and stabilizer for emulsions. In natural soap manufacturing, it functions as a skin-conditioning additive that imparts a creamy lather and a smooth glide. Its high purity (≥80% montmorillonite) and controlled microbial count make it compliant with EU Cosmetics Regulation (EC No 1223/2009), US FDA cosmetic requirements, and ISO 16128 natural ingredient standards.',
-            image: '/ultrafineben.png',
+            image: '/ultrafine.png',
             specs: ['Montmorillonite: ≥ 80%', 'Particle Size: < 75 micron', 'Heavy Metals: Cosmetic compliant', 'Microbial Count: Within EU / US limits', 'Appearance: Light grey powder', 'HS Code: 2508']
           }
         ]
