@@ -1658,7 +1658,7 @@ export const categoryData: Category[] = [
             slug: 'microsphere-silica-spherical',
             description: 'Spherical silica particles providing soft-focus optical blurring, smoothing effects, and improved skin feel in blurring primers, matte foundations, setting powders, and skincare emulsions.',
             details: 'Microsphere silica — also known as spherical silica — consists of near-perfect spherical silicon dioxide particles in the 3–20 micron size range, engineered to deliver two distinct and highly valued cosmetic benefits: a soft-focus optical effect and a smooth, silky tactile skin feel. The spherical particle geometry creates a unique optical scattering pattern when applied to skin — light reflects off the multiple curved surfaces in multiple directions, softening the appearance of fine lines, pores, and uneven skin texture through an effect known as "optical blurring." This makes microsphere silica the key performance ingredient in blurring primers, pore-minimizing foundations, and anti-aging powders. The perfect spherical morphology also provides a ball-bearing effect during application, giving skin care and makeup products an exceptionally smooth, effortless glide that consumers perceive as a premium sensory experience. The moderate-to-high oil absorption capacity of spherical silica also contributes to sebum control and matte finish maintenance.',
-            image: '/MicrosphereSilica.png',
+            image: '/MicrosphereSilica .png',
             specs: ['SiO2: ≥ 99%', 'Particle Size: 3 – 20 microns', 'Oil Absorption: Moderate to high', 'Appearance: Free-flowing powder', 'Effect: Soft-focus / optical blurring', 'HS Code: 2811.22']
           },
           {
