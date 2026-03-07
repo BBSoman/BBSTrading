@@ -1599,7 +1599,7 @@ export const categoryData: Category[] = [
             slug: 'natural-cosmetic-resins',
             description: 'Botanical-origin resins — including Rosin (Colophony), Shellac, Dammar, and Benzoin — for natural perfumes, lip balms, nail polishes, and organic hair styling products.',
             details: 'Natural cosmetic resins are derived from botanical sources — plant exudates, tree saps, and insect-derived secretions — and processed to cosmetic-grade purity for use in natural, organic, and conventional personal care formulations. Colophony (rosin) is extracted from conifer tree resins and used as a film former and adhesive in nail products, depilatory wax preparations, and hair styling. Shellac, secreted by the lac insect, is used in nail lacquers and mascara for its exceptional gloss, hardness, and film flexibility. Dammar resin, from tropical Dipterocarpaceae trees, is valued in specialty varnishes, mascara, and natural perfumes for its clarity and fixative properties. Benzoin resin serves as a fragrance fixative and natural preservative in perfumery and skin care. All natural resins are supplied in cosmetic-grade purity with acid value analysis, heavy metals testing (Pb ≤10 ppm, As ≤3 ppm), and full traceability documentation.',
-            image: 'https://images.pexels.com/photos/3762875/pexels-photo-3762875.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/naturalresins.png',
             specs: ['Types: Rosin (Colophony) / Shellac / Dammar / Benzoin', 'Purity: ≥ 95%', 'Heavy Metals (Pb): ≤ 10 ppm', 'Arsenic (As): ≤ 3 ppm', 'Appearance: Light yellow to amber solid flakes / powder', 'HS Code: 3806 / 3904']
           },
           {
@@ -1607,7 +1607,7 @@ export const categoryData: Category[] = [
             slug: 'synthetic-cosmetic-resins',
             description: 'Manufactured synthetic polymers — including PVP, Acrylates Copolymer, and Styrene-Acrylates Copolymer — for hair styling gels, mascara, long-wear foundations, and cosmetic fixatives.',
             details: 'Synthetic cosmetic resins are engineered polymers designed to deliver controlled, consistent performance characteristics — film strength, hold level, flexibility, and humidity resistance — in hair care and color cosmetic formulations. Polyvinylpyrrolidone (PVP) is one of the most widely used hair fixatives globally, providing variable hold levels (light to maximum) in hair sprays, mousses, gels, and styling creams, with excellent compatibility across cosmetic systems and a clean, transparent film. Acrylates copolymers offer superior humidity resistance and film durability, making them the standard film former in waterproof mascara, long-wear foundations, and setting sprays. Styrene-acrylates copolymers provide high-gloss, hard film properties used in nail topcoats and high-definition color cosmetics. All synthetic resins are supplied in cosmetic-grade with residual monomer content within EU Cosmetics Regulation limits and full INCI compliance documentation.',
-            image: 'https://images.pexels.com/photos/3762875/pexels-photo-3762875.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/sysntheticresin.png',
             specs: ['Types: PVP / Acrylates Copolymer / Styrene-Acrylates Copolymer', 'Purity: ≥ 99%', 'Residual Monomer: Within cosmetic limits', 'Heavy Metals: Cosmetic compliant', 'Form: White powder or liquid dispersion', 'HS Code: 3905 / 3906']
           },
           {
