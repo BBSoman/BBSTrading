@@ -28,13 +28,13 @@ export default function ContactPage() {
     {
       icon: Mail,
       label: ci.emailLabel,
-      value: 'info@brightbusinesstrading.com',
+      value: 'info@bbst.global',
       sub: ci.emailSub,
     },
     {
       icon: Phone,
       label: ci.phoneLabel,
-      value: '+1 (555) 000-0000',
+      value: '+968 92882417',
       sub: ci.phoneSub,
     },
     {
@@ -46,7 +46,7 @@ export default function ContactPage() {
     {
       icon: Globe,
       label: ci.globalLabel,
-      value: 'Africa · Asia · Europe · Americas',
+      value: 'Asia · Europe · Americas',
       sub: ci.globalSub,
     },
     {
