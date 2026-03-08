@@ -160,8 +160,7 @@ export default function HomePage() {
                 <Mail className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-bold text-slate-900 mb-2">{t.homeContact.emailUs}</h3>
-              <p className="text-slate-700">info@tradingco.com</p>
-              <p className="text-slate-700">sales@tradingco.com</p>
+              <p className="text-slate-700">info@bbst.global</p>
             </div>
 
             <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-8 text-center hover:shadow-xl transition-shadow">
@@ -169,8 +168,7 @@ export default function HomePage() {
                 <Phone className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-bold text-slate-900 mb-2">{t.homeContact.callUs}</h3>
-              <p className="text-slate-700">+1 (234) 567-890</p>
-              <p className="text-slate-700">+1 (234) 567-891</p>
+              <p className="text-slate-700">+968 92882417</p>
             </div>
 
             <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-8 text-center hover:shadow-xl transition-shadow">
