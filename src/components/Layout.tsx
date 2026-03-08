@@ -35,7 +35,7 @@ export default function Layout({ children }: LayoutProps) {
               <ul className="space-y-2 text-slate-400">
                 <li><Link to="/" className="hover:text-white transition-colors">{t.footer.home}</Link></li>
                 <li><Link to="/products" className="hover:text-white transition-colors">{t.footer.productsSection}</Link></li>
-                <li><a href="#about" className="hover:text-white transition-colors">{t.footer.about}</a></li>
+                <li><a href="/about" className="hover:text-white transition-colors">{t.footer.about}</a></li>
                 <li><Link to="/contact" className="hover:text-white transition-colors">{t.footer.contact}</Link></li>
               </ul>
             </div>
