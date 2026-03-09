@@ -43,16 +43,19 @@ export default function HomePage() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section
-        id="home"
-        className="relative"
-        style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/1117210/pexels-photo-1117210.jpeg?auto=compress&cs=tinysrgb&w=1600)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
-        }}
-      >
+     <section id="home" className="relative overflow-hidden">
+        {/* Video Background */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          // No poster attribute - video is the only background
+          className="absolute inset-0 w-full h-full object-cover z-0"
+        >
+          {/* REPLACE '/your-video-file.webm' with your actual file path */}
+          <source src="/Homepage.webm" type="video/webm" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/60 to-slate-900/40" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 lg:py-40">
           <div className="max-w-2xl">
