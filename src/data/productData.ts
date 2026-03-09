@@ -619,7 +619,7 @@ export const categoryData: Category[] = [
   {
     name: 'Metals & Metallic Ores',
     slug: 'metals-metallic-ores',
-    image: 'https://images.pexels.com/photos/162568/steel-grinding-factory-sparks-162568.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/MetalBanner.webp',
     overview: 'Metals are the foundation of infrastructure, manufacturing, and technological advancement.At Bright Business Services & Trading, we specialize in the structured sourcing and international distribution of metallic ores and refined mineral products essential to heavy industry and advanced production sectors.',
     products: [
       {
