@@ -10,16 +10,27 @@ import SubProductDetailPage from './pages/SubProductDetailPage';
 function App() {
   return (
     <LanguageProvider>
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/products" element={<ProductsPage />} />
-        <Route path="/products/:slug" element={<CategoryDetailPage />} />
-        <Route path="/products/:categorySlug/:productSlug" element={<ProductDetailPage />} />
-        <Route path="/products/:categorySlug/:productSlug/:subProductSlug" element={<SubProductDetailPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-      </Routes>
-    </Router>
+      <Router>
+        <Routes>
+          {/* Home & Contact */}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/contact" element={<ContactPage />} />
+
+          {/* ✅ Product Routes - MOST SPECIFIC FIRST */}
+          <Route 
+            path="/products/:categorySlug/:productSlug/:subProductSlug" 
+            element={<SubProductDetailPage />} 
+          />
+          <Route 
+            path="/products/:categorySlug/:productSlug" 
+            element={<ProductDetailPage />} 
+          />
+
+          {/* ✅ Product Routes - LESS SPECIFIC LAST */}
+          <Route path="/products/:slug" element={<CategoryDetailPage />} />
+          <Route path="/products" element={<ProductsPage />} />
+        </Routes>
+      </Router>
     </LanguageProvider>
   );
 }
