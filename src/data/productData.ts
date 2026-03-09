@@ -1615,7 +1615,7 @@ export const categoryData: Category[] = [
             slug: 'film-forming-resins',
             description: 'Resins that create a thin, uniform, adherent layer over skin or hair to improve water resistance, longevity, and durability of cosmetic products including waterproof makeup and setting sprays.',
             details: 'Film-forming resins are a specialized functional class of polymeric cosmetic ingredients engineered to deposit a continuous, flexible, and adherent film on skin, hair, or nail surfaces upon application and drying. This thin film layer delivers the key cosmetic benefits of water resistance, smudge resistance, transfer resistance, and extended wear performance — the defining characteristics of modern waterproof makeup, long-wear lipstick, and durable mascara formulations. Film-forming resins are compatible with both water and alcohol systems, allowing their incorporation into aqueous emulsions, hydro-alcoholic sprays, and anhydrous formulations. Their fast-setting properties minimize tacky application feel and reduce dry-down time. Film-forming systems are dermatologically tested for skin compatibility and evaluated for clean film removal without harsh mechanical scrubbing, an important sensory attribute in consumer cosmetic products.',
-            image: 'https://images.pexels.com/photos/3762875/pexels-photo-3762875.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/FilmResins.webp',
             specs: ['Solid Content: 20% – 60%', 'Drying Time: Fast-setting', 'Compatibility: Water / Alcohol soluble', 'Safety: Dermatologically tested', 'Form: Liquid dispersion or powder', 'HS Code: 3906']
           },
           {
@@ -1623,7 +1623,7 @@ export const categoryData: Category[] = [
             slug: 'functional-thickening-resins',
             description: 'Stabilizers, texture modifiers, and suspension agents used in creams, lotions, emulsions, and gel formulations to control viscosity, structure, and product consistency.',
             details: 'Functional and thickening resins serve as the rheological backbone of cosmetic creams, lotions, gels, and emulsions, controlling viscosity, imparting body and structure, stabilizing suspended particles and droplets, and delivering the tactile skin feel that defines product quality in the consumer experience. These resins function across both oil and water phases, enabling versatile formulation in O/W (oil-in-water), W/O (water-in-oil), and anhydrous systems. In skincare emulsions, thickening resins maintain emulsion stability over shelf life by preventing coalescence and phase separation, and contribute to the sensory profile — richness, spreadability, and absorption speed — that differentiates premium skin care products. Their pH stability range (4–8) covers the full spectrum of cosmetic formulation pH conditions, from acidic vitamin C serums to mildly alkaline cleansing products. All functional resin grades are supplied with full microbial compliance and compatibility testing data.',
-            image: 'https://images.pexels.com/photos/3762875/pexels-photo-3762875.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/ThickeningResin.webp',
             specs: ['pH Stability: 4 – 8', 'Compatibility: Oil / Water phases', 'Microbial Compliance: Within cosmetic limits', 'Form: Powder or liquid', 'Applications: Creams, lotions, gels, emulsions', 'HS Code: 3906']
           }
         ]
