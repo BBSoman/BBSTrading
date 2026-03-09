@@ -1,5 +1,5 @@
 import { Search, X, ChevronDown, Globe } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 import { categoryData } from '../data/productData';
 import { LANGUAGES } from '../data/translations';
@@ -8,12 +8,32 @@ import AboutModal from './AboutModal';
 
 export default function Header() {
   const { t, language, setLanguage } = useLanguage();
+  const navigate = useNavigate();
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [aboutOpen, setAboutOpen] = useState(false);
   const [productsOpen, setProductsOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const langRef = useRef<HTMLDivElement>(null);
+
+  // Close search on Escape key
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setSearchOpen(false);
+        setSearchQuery('');
+      }
+    };
+    window.addEventListener('keydown', handleEsc);
+    return () => window.removeEventListener('keydown', handleEsc);
+  }, []);
+
+  // Clear search query when searchOpen becomes false
+  useEffect(() => {
+    if (!searchOpen) {
+      setSearchQuery('');
+    }
+  }, [searchOpen]);
 
   useEffect(() => {
     document.body.style.overflow = aboutOpen ? 'hidden' : '';
@@ -31,6 +51,20 @@ export default function Header() {
   }, []);
 
   const currentLang = LANGUAGES.find((l) => l.code === language)!;
+
+  const handleSearch = () => {
+    if (!searchQuery.trim()) return;
+    // Navigate to products page with search query parameter
+    navigate(`/products?search=${encodeURIComponent(searchQuery)}`);
+    setSearchOpen(false);
+    setSearchQuery('');
+  };
+
+  const handleSearchKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      handleSearch();
+    }
+  };
 
   return (
     <>
@@ -92,19 +126,33 @@ export default function Header() {
 
               <div className="flex items-center gap-1">
                 {searchOpen ? (
-                  <div className="flex items-center bg-slate-100 rounded-full px-3 py-1.5 gap-2 transition-all">
+                  <div className="flex items-center bg-slate-100 rounded-full px-3 py-1.5 gap-2 transition-all w-64">
                     <Search className="w-4 h-4 text-black-500 flex-shrink-0" />
                     <input
                       autoFocus
                       type="text"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
+                      onKeyDown={handleSearchKeyDown}
                       placeholder={t.search.placeholder}
-                      className="bg-transparent text-sm text-black-800 placeholder-slate-400 outline-none w-40"
+                      className="bg-transparent text-sm text-black-800 placeholder-slate-400 outline-none w-full"
                     />
-                    <button onClick={() => { setSearchOpen(false); setSearchQuery(''); }} className="text-black-400 hover:text-slate-600 transition-colors">
-                      <X className="w-4 h-4" />
-                    </button>
+                    <div className="flex items-center gap-1">
+                      <button 
+                        onClick={handleSearch} 
+                        className="text-blue-600 hover:text-blue-700 transition-colors"
+                        title="Search"
+                      >
+                        <Search className="w-4 h-4" />
+                      </button>
+                      <button 
+                        onClick={() => { setSearchOpen(false); setSearchQuery(''); }} 
+                        className="text-black-400 hover:text-slate-600 transition-colors"
+                        title="Close"
+                      >
+                        <X className="w-4 h-4" />
+                      </button>
+                    </div>
                   </div>
                 ) : (
                   <button
