@@ -29,6 +29,7 @@ export default function ContactPage() {
       icon: Mail,
       label: ci.emailLabel,
       value: 'info@bbst.global',
+      value: 'Trading@bbs.global,
       sub: ci.emailSub,
     },
     {
