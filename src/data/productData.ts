@@ -1573,42 +1573,42 @@ export const categoryData: Category[] = [
     {
       name: 'Feed By-products',
       slug: 'feed-by-products',
-      description: 'Agro-industrial processing residues providing cost-effective fiber, energy, and protein supplementation in livestock and poultry compound feeds.',
+      description: 'Feed by-products are valuable secondary materials derived from food processing and agricultural industries. They provide important nutrients such as fiber, energy, and proteins, making them a cost-effective and sustainable component in animal feed formulations. Ingredients like wheat bran, rice bran, DDGS, and molasses contribute to improved digestion, enhanced palatability, and balanced nutrition while supporting efficient feed production.',
       details: 'Feed by-products are the co-products of grain milling, oil extraction, ethanol fermentation, and sugar refining industries, redirected into animal nutrition as valuable and cost-competitive feed ingredients. We supply wheat bran, rice bran, DDGS, and molasses — four of the most widely traded agro-industrial feed by-products — each offering distinct nutritional contributions to compound feed rations. Full proximate analysis, mycotoxin screening, and origin documentation are provided for all by-product shipments.',
-      image: '/feedbyproducts.webp',
+      image: '/ByproductBanners.webp',
       specs: ['Products: Wheat Bran / Rice Bran / DDGS / Molasses', 'HS Codes: 2302 / 2303 / 1703', 'Packaging: Bulk, bagged, or flexitank'],
       hsCode: '2302',
       subProducts: [
         {
           name: 'Wheat Bran',
           slug: 'wheat-bran',
-          description: 'The outer fibrous layer of the wheat kernel, separated during flour milling, providing dietary fiber, moderate protein, and B vitamins for ruminant, swine, and poultry rations.',
+          description: 'Wheat bran is a nutritious by-product obtained during the wheat milling process. It is rich in dietary fiber, vitamins, and minerals, making it a valuable ingredient in animal feed. Wheat bran helps support digestive health in livestock and improves the overall nutritional balance of feed formulations.',
           details: 'Wheat bran is the outer pericarp and aleurone layer of the wheat kernel, the primary co-product of the wheat flour milling industry. It contains 14–17% crude protein, 10–13% crude fiber, and a rich supply of B vitamins and minerals — particularly phosphorus, though largely in phytate-bound form that requires phytase enzyme addition for optimal bioavailability in monogastrics. In ruminant rations, wheat bran is a highly palatable, digestible fiber source that supports rumen function and contributes to total mixed ration (TMR) dry matter. In swine and poultry feeds, its high fiber content limits inclusion rates but provides beneficial gut health effects. Wheat bran is available as a co-product from flour mills in wheat-producing regions and is supplied in bulk or bagged formats.',
-          image: '/wheat-bran.webp',
+          image: '/WheatBran.webp',
           specs: ['Crude Protein: 14% – 17%', 'Moisture: ≤ 13%', 'Crude Fiber: 10% – 13%', 'Crude Fat: 3% – 5%', 'Ash: 5% – 7%', 'HS Code: 2302']
         },
         {
           name: 'Rice Bran',
           slug: 'rice-bran',
-          description: 'The outer layer and germ fraction of milled rice, providing moderate protein, high fat, and energy for poultry, swine, and ruminant feeds, particularly in rice-producing Asian markets.',
+          description: 'Rice bran is produced during the milling of rice and is known for its good energy content and beneficial nutrients. It contains natural oils, proteins, and fiber that contribute to balanced animal diets. Rice bran is commonly used in feed for livestock and poultry to enhance nutrition and feed efficiency.',
           details: 'Rice bran is the nutrient-dense layer removed from brown rice during the milling process to produce white rice, comprising the pericarp, aleurone layer, and germ. It is particularly rich in fat (12–22% in raw form), providing a high energy density, and contains oryzanol, a natural antioxidant. However, lipase enzyme activity in raw rice bran causes rapid fat hydrolysis and rancidity after milling; therefore, stabilized rice bran — which has been heat-treated to inactivate lipase — is the commercially preferred feed ingredient. Stabilized rice bran is used in poultry, swine, and equine feeds as an energy-dense ingredient with moderate protein (12–15%). We supply stabilized full-fat rice bran and de-oiled rice bran (after oil extraction) with peroxide value and moisture specifications.',
-          image: '/rice-bran.webp',
+          image: '/ricebran.webp',
           specs: ['Crude Protein: 12% – 15%', 'Moisture: ≤ 12%', 'Crude Fat: 12% – 22% (full-fat)', 'Crude Fiber: 7% – 12%', 'Form: Stabilized (heat-treated)', 'HS Code: 2302']
         },
         {
           name: 'DDGS (Distillers Dried Grains with Solubles)',
           slug: 'ddgs',
-          description: 'Concentrated co-product of corn or wheat ethanol fermentation, delivering 26–30% crude protein and high digestible energy for cattle, swine, and poultry rations.',
+          description: 'DDGS is a co-product of the ethanol production process and is widely used in animal feed due to its high protein and energy value. It provides essential nutrients that support growth and performance in livestock. DDGS is also valued for its digestibility and its ability to complement other feed ingredients in balanced rations.',
           details: 'Distillers Dried Grains with Solubles (DDGS) is the concentrated, dried residue remaining after the fermentation of corn or wheat starch into ethanol. Because starch is consumed during fermentation, the protein, fat, and fiber components of the original grain are concentrated approximately three-fold in the DDGS product, yielding 26–30% crude protein and 8–12% crude fat. Corn DDGS is the most widely traded variety, particularly from US ethanol plants, and is used extensively in beef cattle finishing, dairy cow TMR, swine, and poultry feeds. Its high rumen-bypass protein content makes it particularly valuable in ruminant rations. Color (light golden) is an important quality indicator — darker DDGS indicates over-heating during drying and reduced lysine availability. We supply corn and wheat DDGS with full proximate analysis and lysine digestibility data.',
-          image: '/ddgs.webp',
+          image: '/DDGS.webp',
           specs: ['Crude Protein: 26% – 30%', 'Moisture: ≤ 12%', 'Crude Fat: 8% – 12%', 'Crude Fiber: 7% – 9%', 'Lysine: ~0.7%', 'Color: Light to golden (quality indicator)', 'HS Code: 2303']
         },
         {
           name: 'Molasses (Food Grade)',
           slug: 'molasses-food-grade',
-          description: 'Food-grade cane and beet molasses for use in food manufacturing, fermentation, animal feed, and specialty beverage production. Available in Sugarcane, Sugar Beet, and Blackstrap grades.',
+          description: 'Molasses is a by-product of the sugar refining process and is commonly used in feed as a natural energy source and flavor enhancer. Its sweet taste improves feed palatability, encouraging better feed intake among animals. Molasses also helps reduce dust in feed mixtures and provides additional minerals and energy.',
           details: 'Molasses is a dense, viscous by-product of the sugar refining process, produced during the repeated crystallization of sucrose from sugarcane or sugar beet juice. Food-grade molasses retains a rich concentration of residual sugars, vitamins, and minerals — including iron, calcium, magnesium, and potassium — making it a valued ingredient in food manufacturing and nutrition. In the food industry, it is used as a natural sweetener, flavor enhancer, and colorant in baked goods, sauces, marinades, and confectionery. It is also a primary fermentation substrate for rum production, yeast manufacturing, and the production of citric acid and amino acids. We supply blackstrap, sugarcane, and beet molasses in food-grade specifications, with full sugar content, Brix, pH, and microbiological analysis, shipped in flexitanks, ISO tanks, or lined drums.',
-          image: '/molasses.webp',
+          image: '/molasses2.webp',
           specs: ['Grades: Sugarcane / Sugar Beet / Blackstrap', 'Brix: 75% – 85%', 'HS Code: 1703', 'Packaging: Flexitanks, ISO tanks, lined 275L drums'],
           hsCode: '1703',
           subProducts: [
