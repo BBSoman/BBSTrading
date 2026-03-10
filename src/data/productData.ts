@@ -1501,7 +1501,7 @@ export const categoryData: Category[] = [
       slug: 'protein-meals',
       description: 'High-protein plant-based meal ingredients providing essential amino acids for livestock, poultry, and aquaculture compound feed formulation.',
       details: 'Plant protein meals are the primary source of supplemental dietary protein in compound animal feeds globally, used to balance the amino acid deficiencies of cereal grain-based rations. We supply the three major traded oilseed meals — soybean meal, canola meal, and sunflower meal — each with distinct protein levels, amino acid profiles, and fiber characteristics suited to different species and formulation strategies. Full proximate analysis, amino acid profiles, and anti-nutritional factor data are provided for each shipment.',
-      image: '/proteinmeals.webp',
+      image: '/protein.webp',
       specs: ['Meals: Soybean / Canola / Sunflower', 'Crude Protein: 28% – 48%', 'HS Codes: 2304 / 2306', 'Packaging: Bulk or bagged (25kg, 50kg)'],
       hsCode: '2304',
       subProducts: [
