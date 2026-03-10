@@ -1330,7 +1330,7 @@ export const categoryData: Category[] = [
     ]
   },
   {
-  name: 'Food & Beverages',
+  name: 'Feed Additives & Raw Materials',
   slug: 'food-beverages',
   image: '/FeedRawMaterials&Additives.webp',
   overview: 'Our Feed Additives & Raw Materials section includes a carefully selected range of high-quality ingredients essential for balanced animal nutrition and efficient feed production. We supply main grains such as corn, wheat, barley, sorghum, and millet, along with protein meals including soybean meal, canola meal, and sunflower meal to support healthy growth. Our portfolio also features animal proteins like fish meal, meat & bone meal, and blood meal, as well as valuable by-products such as wheat bran, rice bran, DDGS, and molasses. In addition, we provide key minerals including limestone, dicalcium phosphate, and salt, together with essential fats and oils like soybean oil, poultry fat, and palm oil to enhance energy levels and overall feed quality.',
@@ -1647,7 +1647,7 @@ export const categoryData: Category[] = [
       slug: 'feed-minerals',
       description: 'Minerals are essential components in animal nutrition, playing a critical role in supporting bone development, metabolic functions, and overall health. In feed formulations, minerals help ensure balanced diets and proper growth for livestock and poultry. Ingredients such as limestone and dicalcium phosphate are commonly used to provide vital minerals like calcium and phosphorus, which are necessary for strong bones, eggshell formation, and optimal animal performance.',
       details: 'Mineral supplementation is critical in compound animal feeds because cereal grain and oilseed meal-based rations are inherently deficient in calcium, phosphorus, and sodium relative to the requirements of high-performing livestock and poultry. We supply limestone, dicalcium phosphate, and salt — the three primary macro-mineral ingredients used in feed manufacturing — with guaranteed minimum mineral content, controlled fluorine levels, and heavy metals compliance for all major export markets.',
-      image: '/feedminerals.webp',
+      image: '/feedmineral.webp',
       specs: ['Products: Limestone / Dicalcium Phosphate / Salt', 'HS Codes: 2521 / 2835 / 2501', 'Packaging: Bagged (25kg, 50kg) or bulk'],
       hsCode: '2521',
       subProducts: [
