@@ -1510,7 +1510,7 @@ export const categoryData: Category[] = [
           slug: 'soybean-meal',
           description: 'The world\'s most widely used plant protein source in animal feed, produced by solvent extraction of soybeans, supplying 44–48% crude protein with a well-balanced amino acid profile for poultry, swine, and aquaculture.',
           details: 'Soybean meal (SBM) is the dominant plant-based protein ingredient in global compound animal feed, accounting for the majority of protein supplementation in broiler, layer, swine, dairy, beef, and aquaculture rations worldwide. Produced by solvent extraction of dehulled soybeans, it delivers 44–48% crude protein with the highest biological value of any commercial plant protein, rich in lysine and threonine — the first and second limiting amino acids in poultry and swine diets. We supply both 44% protein (with hulls) and 48% protein (dehulled, high protein) grades, with full amino acid profiles, urease activity (indicating anti-nutritional factor inactivation), and moisture specifications from major origins.',
-          image: '/soybean.webp',
+          image: '/soyabean.webp',
           specs: ['Crude Protein: 44% – 48%', 'Moisture: ≤ 12%', 'Crude Fiber: ≤ 7%', 'Lysine: ~2.9% (48% grade)', 'Urease Activity: 0.05 – 0.30 pH rise', 'HS Code: 2304']
         },
         {
