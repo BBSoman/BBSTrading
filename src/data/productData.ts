@@ -1536,26 +1536,26 @@ export const categoryData: Category[] = [
     {
       name: 'Animal Proteins',
       slug: 'animal-proteins',
-      description: 'Processed animal protein ingredients delivering high-quality amino acids, minerals, and energy for poultry, swine, and aquaculture compound feeds.',
+      description: 'Animal protein ingredients are highly nutritious feed components that provide concentrated sources of protein, essential amino acids, and minerals required for animal growth and performance. Products such as fish meal, meat & bone meal, and blood meal are widely used in feed formulations to support muscle development, improve feed efficiency, and ensure balanced nutrition for livestock, poultry, and aquaculture.',
       details: 'Animal-derived protein ingredients provide the most concentrated and biologically complete protein sources available in compound feed manufacturing. We supply fish meal, meat and bone meal, and blood meal — three complementary animal protein ingredients covering a range of protein levels, amino acid profiles, and mineral contributions. All animal protein products are supplied with full species identification, pathogen testing, and compliance documentation for the destination market\'s regulatory requirements.',
-      image: '/animalproteins.webp',
+      image: '/AnimalProteinBanner.webp',
       specs: ['Products: Fish Meal / Meat & Bone Meal / Blood Meal', 'Crude Protein: 45% – 85%', 'HS Code: 2301', 'Packaging: Bagged (25kg, 50kg) or bulk'],
       hsCode: '2301',
       subProducts: [
         {
           name: 'Fish Meal',
           slug: 'fish-meal',
-          description: 'Premium high-protein ingredient produced from whole fish or fish trimmings, delivering 60–72% crude protein with exceptional amino acid balance and omega-3 fatty acids for aquaculture, poultry, and swine feeds.',
+          description: 'Fish meal is a high-quality protein ingredient produced from processed fish or fish by-products. It is rich in essential amino acids, omega fatty acids, and minerals, making it highly beneficial for animal growth and health. Fish meal is widely used in poultry, livestock, and aquaculture feeds due to its excellent digestibility and nutritional value.',
           details: 'Fish meal is the most nutritionally concentrated commercially available protein ingredient, produced by cooking, pressing, drying, and milling whole fish (typically anchovies, herrings, or menhaden) or fish processing trimmings. It delivers 60–72% crude protein with a complete essential amino acid profile — particularly rich in lysine, methionine, and threonine — as well as naturally occurring omega-3 fatty acids (EPA and DHA), phospholipids, and minerals including calcium, phosphorus, and selenium. In aquaculture feeds, fish meal is the benchmark ingredient for salmon, shrimp, and sea bass diets due to its palatability and growth-promoting performance. In poultry and swine feeds, it is used at moderate inclusion rates to improve amino acid balance and early growth performance. We supply both prime (65%+ protein) and FAQ grades with full TVN, histamine, and amino acid analysis.',
-          image: '/fish-meal.webp',
+          image: '/FishMeal.webp',
           specs: ['Crude Protein: 60% – 72%', 'Moisture: ≤ 10%', 'Crude Fat: 6% – 12%', 'Ash: 12% – 20%', 'TVN: ≤ 150 mg/100g', 'Histamine: ≤ 500 ppm', 'HS Code: 2301']
         },
         {
           name: 'Meat & Bone Meal (MBM)',
           slug: 'meat-bone-meal',
-          description: 'Rendered protein and mineral ingredient produced from non-ruminant animal by-products, supplying 45–55% crude protein with high calcium and phosphorus for poultry and swine feed.',
+          description: 'Meat and bone meal is a protein-rich feed ingredient made from rendered animal tissues and bones. It provides valuable nutrients such as protein, calcium, and phosphorus that support strong bone development and overall animal health. It is commonly used in livestock and poultry feed to enhance nutritional balance.',
           details: 'Meat and Bone Meal (MBM) is produced by high-temperature rendering of non-ruminant animal by-products — primarily pork and poultry processing residuals — followed by fat extraction and milling to produce a dry protein-mineral powder. It supplies 45–55% crude protein alongside high levels of bioavailable calcium (8–10%) and phosphorus (4–5%), making it a valuable dual-purpose protein and mineral ingredient in compound feed. Its high ash and mineral content make it particularly useful for balancing calcium and phosphorus in growing and finishing rations, reducing the need for dicalcium phosphate supplementation. Regulatory restrictions apply in various markets regarding the species of origin and permitted use in ruminant feeds; we supply MBM with full species identification, rendering temperature certification, and salmonella-free documentation.',
-          image: '/meat-bone-meal.webp',
+          image: '/MeatandBoneMeal.webp',
           specs: ['Crude Protein: 45% – 55%', 'Moisture: ≤ 8%', 'Crude Fat: 8% – 14%', 'Calcium: 8% – 10%', 'Phosphorus: 4% – 5%', 'Salmonella: Absent', 'HS Code: 2301']
         },
         {
