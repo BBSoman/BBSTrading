@@ -37,24 +37,14 @@ export default function ContactPage() {
       value: '+968 92882417',
       sub: ci.phoneSub,
     },
-    {
-      icon: MapPin,
-      label: ci.officeLabel,
-      value: 'Dubai, United Arab Emirates',
-      sub: ci.officeSub,
-    },
+   
     {
       icon: Globe,
       label: ci.globalLabel,
       value: 'Asia · Europe · Americas',
       sub: ci.globalSub,
     },
-    {
-      icon: Clock,
-      label: ci.hoursLabel,
-      value: ci.hoursValue,
-      sub: ci.hoursSub,
-    },
+   
   ];
 
   const [form, setForm] = useState<FormState>(initialForm);
