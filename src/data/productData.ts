@@ -1693,7 +1693,7 @@ export const categoryData: Category[] = [
           slug: 'soybean-oil-feed-grade',
           description: 'Soybean oil is a high-energy vegetable oil widely used in animal feed. It provides essential fatty acids that support healthy growth, skin condition, and overall metabolism in livestock and poultry. Soybean oil also helps improve feed texture and enhances the absorption of important nutrients.',
           details: 'Feed-grade soybean oil is a vegetable fat derived from solvent extraction of soybeans, supplying approximately 8,800 kcal ME/kg — the highest metabolizable energy of any commonly used feed ingredient. Its high linoleic acid content (omega-6, ~53%) makes it particularly valuable in poultry broiler feeds, where essential fatty acid supply is directly linked to growth performance, feed conversion, and breast meat yield. In pellet feed manufacturing, the addition of soybean oil at 2–5% improves pellet durability, reduces mill energy consumption, and adds palatability. We supply both crude degummed soybean oil and refined soybean oil for feed applications, with full fatty acid profile, free fatty acid (FFA) content, and moisture and impurities specifications.',
-          image: '/soybeanoil.webp',
+          image: '/soyabeanoil.webp',
           specs: ['Metabolizable Energy: ~8,800 kcal/kg', 'Linoleic Acid (C18:2): ~53%', 'Free Fatty Acids (FFA): ≤ 2% (refined)', 'Moisture & Impurities: ≤ 1%', 'Peroxide Value: ≤ 5 meq/kg', 'HS Code: 1507']
         },
         {
