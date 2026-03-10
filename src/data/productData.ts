@@ -1645,7 +1645,7 @@ export const categoryData: Category[] = [
     {
       name: 'Feed Minerals',
       slug: 'feed-minerals',
-      description: 'Essential inorganic mineral ingredients supplying calcium, phosphorus, and sodium for bone development, metabolic function, and electrolyte balance in livestock and poultry feeds.',
+      description: 'Minerals are essential components in animal nutrition, playing a critical role in supporting bone development, metabolic functions, and overall health. In feed formulations, minerals help ensure balanced diets and proper growth for livestock and poultry. Ingredients such as limestone and dicalcium phosphate are commonly used to provide vital minerals like calcium and phosphorus, which are necessary for strong bones, eggshell formation, and optimal animal performance.',
       details: 'Mineral supplementation is critical in compound animal feeds because cereal grain and oilseed meal-based rations are inherently deficient in calcium, phosphorus, and sodium relative to the requirements of high-performing livestock and poultry. We supply limestone, dicalcium phosphate, and salt — the three primary macro-mineral ingredients used in feed manufacturing — with guaranteed minimum mineral content, controlled fluorine levels, and heavy metals compliance for all major export markets.',
       image: '/feedminerals.webp',
       specs: ['Products: Limestone / Dicalcium Phosphate / Salt', 'HS Codes: 2521 / 2835 / 2501', 'Packaging: Bagged (25kg, 50kg) or bulk'],
@@ -1654,7 +1654,7 @@ export const categoryData: Category[] = [
         {
           name: 'Limestone (Feed Grade)',
           slug: 'limestone-feed-grade',
-          description: 'Ground calcium carbonate (CaCO₃) providing the primary source of dietary calcium in poultry and livestock feeds, essential for eggshell quality, bone development, and milk production.',
+          description: 'Limestone is a natural mineral widely used in animal feed as a primary source of calcium. It plays an important role in supporting bone strength, skeletal development, and eggshell quality in poultry. Limestone is valued for its high calcium content and effectiveness in maintaining proper mineral balance in feed.',
           details: 'Feed-grade limestone is ground calcium carbonate (CaCO₃) derived from natural limestone deposits, refined to controlled particle size and calcium content specifications for use as the primary calcium source in compound animal feeds. It is the most cost-effective and widely used calcium supplement in poultry layer rations, where calcium demand for eggshell production is the highest single nutritional requirement of any livestock application. Particle size is a critical specification: coarse limestone (2–4 mm) is preferred for layer hens as it dissolves more slowly in the gizzard, providing a sustained overnight supply of calcium for nocturnal shell deposition. Fine limestone is used in broiler, swine, and ruminant feeds. We supply feed-grade limestone in both fine and coarse grades with guaranteed minimum calcium content and heavy metals compliance.',
           image: '/limestone.webp',
           specs: ['Calcium (Ca): ≥ 36%', 'CaCO₃: ≥ 90%', 'Moisture: ≤ 0.5%', 'Heavy Metals: Per feed safety limits', 'Grades: Fine (0.1–1 mm) / Coarse (2–4 mm)', 'HS Code: 2521']
@@ -1662,7 +1662,7 @@ export const categoryData: Category[] = [
         {
           name: 'Dicalcium Phosphate (DCP)',
           slug: 'dicalcium-phosphate',
-          description: 'Feed-grade mineral supplement supplying highly bioavailable calcium and phosphorus, essential for skeletal development, egg production, and metabolic function across all livestock species.',
+          description: 'Dicalcium phosphate is a key mineral supplement used in animal feed to provide both calcium and phosphorus. These minerals are essential for bone growth, teeth development, and overall metabolic functions in animals. It is commonly included in feed formulations to ensure balanced mineral intake and support healthy animal development.',
           details: 'Dicalcium Phosphate (DCP, CaHPO₄) is the most widely used inorganic phosphorus supplement in compound animal feed, providing both calcium and phosphorus in a highly bioavailable mineral form. Unlike phytate-bound phosphorus in plant-based feed ingredients (which requires phytase enzyme for release), the phosphorus in DCP is directly available for intestinal absorption. Adequate dietary phosphorus is essential for skeletal development and integrity in growing animals, milk production in dairy cattle, egg production in layers, and energy metabolism (as a component of ATP and phospholipids) in all species. We supply feed-grade DCP with guaranteed minimum phosphorus (18%) and calcium (21%) content, with fluorine controlled below the maximum permitted level (0.18% F) to ensure livestock safety.',
           image: '/dcp.webp',
           specs: ['Phosphorus (P): ≥ 18%', 'Calcium (Ca): ≥ 21%', 'Fluorine (F): ≤ 0.18%', 'Moisture: ≤ 4%', 'Form: Off-white granular powder', 'HS Code: 2835']
@@ -1682,7 +1682,7 @@ export const categoryData: Category[] = [
     {
       name: 'Fats & Oils',
       slug: 'fats-oils',
-      description: 'High-energy lipid ingredients supplying essential fatty acids, fat-soluble vitamins, and concentrated metabolizable energy for livestock and poultry feed formulation.',
+      description: 'Fats and oils are important ingredients in animal feed, providing a concentrated source of energy that supports growth, productivity, and overall animal performance. They also help improve feed palatability, reduce dust in feed mixtures, and enhance the absorption of fat-soluble vitamins. Ingredients such as soybean oil, poultry fat, and palm oil are commonly used to increase the energy value and efficiency of feed formulations.',
       details: 'Dietary fats and oils are the most energy-dense class of feed ingredients, supplying approximately 2.25 times the metabolizable energy of carbohydrates per unit weight. They are used in compound feeds to increase energy density without increasing feed volume, improve pellet quality, reduce dustiness, and supply essential fatty acids. We supply three complementary fat and oil ingredients — soybean oil, poultry fat, and palm oil — covering vegetable and animal fat options for diverse species and formulation requirements.',
       image: '/feedfats.webp',
       specs: ['Products: Soybean Oil / Poultry Fat / Palm Oil', 'Energy: ~7,500 – 8,800 kcal ME/kg', 'HS Codes: 1507 / 1502 / 1511', 'Packaging: ISO tanks, flexitanks, IBC totes, drums'],
@@ -1691,7 +1691,7 @@ export const categoryData: Category[] = [
         {
           name: 'Soybean Oil (Feed Grade)',
           slug: 'soybean-oil-feed-grade',
-          description: 'Refined or crude soybean oil used as a high-energy, high-linoleic acid fat supplement in poultry, swine, and aquaculture feeds to increase energy density and improve pellet quality.',
+          description: 'Soybean oil is a high-energy vegetable oil widely used in animal feed. It provides essential fatty acids that support healthy growth, skin condition, and overall metabolism in livestock and poultry. Soybean oil also helps improve feed texture and enhances the absorption of important nutrients.',
           details: 'Feed-grade soybean oil is a vegetable fat derived from solvent extraction of soybeans, supplying approximately 8,800 kcal ME/kg — the highest metabolizable energy of any commonly used feed ingredient. Its high linoleic acid content (omega-6, ~53%) makes it particularly valuable in poultry broiler feeds, where essential fatty acid supply is directly linked to growth performance, feed conversion, and breast meat yield. In pellet feed manufacturing, the addition of soybean oil at 2–5% improves pellet durability, reduces mill energy consumption, and adds palatability. We supply both crude degummed soybean oil and refined soybean oil for feed applications, with full fatty acid profile, free fatty acid (FFA) content, and moisture and impurities specifications.',
           image: '/soybean-oil.webp',
           specs: ['Metabolizable Energy: ~8,800 kcal/kg', 'Linoleic Acid (C18:2): ~53%', 'Free Fatty Acids (FFA): ≤ 2% (refined)', 'Moisture & Impurities: ≤ 1%', 'Peroxide Value: ≤ 5 meq/kg', 'HS Code: 1507']
@@ -1699,7 +1699,7 @@ export const categoryData: Category[] = [
         {
           name: 'Poultry Fat',
           slug: 'poultry-fat',
-          description: 'Rendered fat from poultry processing operations, used as a cost-effective, highly digestible energy source in broiler, swine, and pet food rations.',
+          description: 'Poultry fat is an animal-derived fat commonly used in feed to provide a rich and efficient energy source. It is highly digestible and contributes to improved feed conversion and animal performance. Poultry fat also enhances the taste and palatability of feed, encouraging better intake.',
           details: 'Poultry fat is rendered from poultry processing by-products — primarily skin, fat trim, and off-cuts — through high-temperature continuous rendering followed by centrifugal separation of fat from water and protein fractions. It is a highly digestible energy source (approximately 8,500 kcal ME/kg) with a fatty acid profile intermediate between vegetable oils and ruminant fats, containing significant oleic (C18:1) and linoleic (C18:2) acid fractions. In broiler feeds, poultry fat is the preferred fat supplement due to its superior digestibility in young chicks compared to saturated tallow. Its incorporation at 3–6% in broiler finisher diets increases energy density, improves carcass fat composition, and enhances feed palatability. We supply food-chain poultry fat with guaranteed free fatty acid, moisture, and impurity specifications.',
           image: '/poultry-fat.webp',
           specs: ['Metabolizable Energy: ~8,500 kcal/kg', 'Free Fatty Acids (FFA): ≤ 15%', 'Moisture & Impurities: ≤ 1%', 'Oleic Acid (C18:1): ~40%', 'Linoleic Acid (C18:2): ~20%', 'HS Code: 1502']
@@ -1707,7 +1707,7 @@ export const categoryData: Category[] = [
         {
           name: 'Palm Oil (Feed Grade)',
           slug: 'palm-oil-feed-grade',
-          description: 'High-energy saturated vegetable fat used in ruminant, swine, and poultry feeds, particularly valued as a rumen-protected fat source in dairy cow rations to increase energy density without disrupting rumen fermentation.',
+          description: 'Palm oil is a stable and energy-rich vegetable oil used in feed formulations to increase the caloric value of diets. It contains beneficial fatty acids that support energy supply and overall animal health. Palm oil is valued for its consistency, availability, and effectiveness in improving feed quality.',
           details: 'Feed-grade palm oil and palm-derived fats (including palm acid oil and palm fatty acid distillate) are widely used in animal nutrition as cost-competitive energy supplements, particularly in tropical and subtropical regions where palm products are abundantly available. Crude palm oil is high in saturated palmitic acid (C16:0, ~44%) and oleic acid (C18:1, ~40%), giving it a semi-solid consistency at room temperature that improves handling properties compared to liquid oils. In ruminant nutrition, palm-derived fats are formulated into calcium soap or hydrogenated rumen-protected fat supplements for high-producing dairy cows, where supplemental fat must bypass rumen fermentation to avoid inhibiting fiber-digesting bacteria. In poultry and swine feeds, palm acid oil is used as a cost-effective energy ingredient where digestibility is adequate. We supply crude palm oil, palm acid oil, and palm fatty acid distillate with full specifications.',
           image: '/palm-oil.webp',
           specs: ['Metabolizable Energy: ~7,500 – 8,000 kcal/kg', 'Free Fatty Acids (FFA): Variable by grade', 'Palmitic Acid (C16:0): ~44%', 'Moisture & Impurities: ≤ 1%', 'Form: Semi-solid to liquid (temperature dependent)', 'HS Code: 1511']
