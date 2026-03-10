@@ -97,7 +97,7 @@ const en = {
     'petrochemicals-industrial-chemicals': 'Petrochemicals & Industrial Chemicals',
     'metals-metallic-ores': 'Metals & Metallic Ores',
     'industrial-minerals-construction-materials': 'Industrial Minerals & Construction Materials',
-    'food-beverages': 'Food & Beverages',
+    'feed-additives-raw-materials': 'Feed Additives & Raw Materials',
     'cosmetic-raw-materials': 'Cosmetic Raw Materials',
   } as Record<string, string>,
   categoryOverviews: {
@@ -106,7 +106,7 @@ const en = {
     'petrochemicals-industrial-chemicals': 'Our petrochemicals portfolio supports downstream manufacturing industries with consistent quality, competitive pricing, and reliable logistics from origin to destination.',
     'metals-metallic-ores': 'Metals are the foundation of infrastructure, manufacturing, and technological advancement. At Bright Business Services & Trading, we specialize in the structured sourcing and international distribution of metallic ores and refined mineral products essential to heavy industry and advanced production sectors.',
     'industrial-minerals-construction-materials': 'Industrial growth begins with the right raw foundation. At Bright Business Services & Trading, we supply high-grade industrial minerals and construction materials that support infrastructure development, cement production, glass manufacturing, and specialized industrial applications.',
-    'food-beverages': 'At Bright Business Services & Trading, we supply a carefully selected range of food and beverage commodities that meet international food safety standards. Our food-grade products are sourced from certified facilities, with full traceability documentation, compliance certifications, and quality analysis to support food manufacturers, processors, and beverage producers worldwide.',
+    'feed-additives-raw-materials': 'At Bright Business Services & Trading, we supply a carefully selected range of feed additives and raw materials that meet international quality standards. Our products are sourced from certified facilities, with full traceability documentation, compliance certifications, and quality analysis to support animal feed manufacturers, processors, and producers worldwide.',
     'cosmetic-raw-materials': 'At Bright Business Services & Trading, we supply a curated range of cosmetic-grade raw materials to formulation houses, personal care manufacturers, and pharmaceutical producers worldwide. Every material is sourced from certified facilities and supplied with full compliance documentation, safety data sheets, and quality analysis reports.',
   } as Record<string, string>,
   contact: {
@@ -250,7 +250,7 @@ const zh: typeof en = {
     'petrochemicals-industrial-chemicals': '石化及工业化学品',
     'metals-metallic-ores': '金属及金属矿石',
     'industrial-minerals-construction-materials': '工业矿产及建筑材料',
-    'food-beverages': '食品及饮料',
+    'feed-additives-raw-materials': '饲料添加剂及原材料',
     'cosmetic-raw-materials': '化妆品原料',
   },
   categoryOverviews: {
@@ -259,7 +259,7 @@ const zh: typeof en = {
     'petrochemicals-industrial-chemicals': '我们的石化产品组合以稳定的质量、有竞争力的价格和可靠的从产地到目的地的物流，为下游制造业提供支持。',
     'metals-metallic-ores': '金属是基础设施、制造业和技术进步的基石。在 Bright Business Services & Trading，我们专注于金属矿石和精制矿产品的结构化采购和国际分销，这些产品对重工业和先进生产行业至关重要。',
     'industrial-minerals-construction-materials': '工业增长始于正确的原料基础。在 Bright Business Services & Trading，我们供应高品质的工业矿产和建筑材料，支持基础设施开发、水泥生产、玻璃制造和专业工业应用。',
-    'food-beverages': '在 Bright Business Services & Trading，我们供应精心挑选的符合国际食品安全标准的食品和饮料商品。我们的食品级产品来自认证设施，配有完整的溯源文件、合规认证和质量分析，支持全球食品制造商、加工商和饮料生产商。',
+    'feed-additives-raw-materials': '在 Bright Business Services & Trading，我们供应精心挑选的符合国际质量标准的饲料添加剂和原材料。我们的产品来自认证设施，配有完整的溯源文件、合规认证和质量分析，支持全球动物饲料制造商、加工商和生产商。',
     'cosmetic-raw-materials': '在 Bright Business Services & Trading，我们向全球配方公司、个人护理制造商和药品生产商供应精选化妆品级原材料。每种材料均来自认证设施，并附有完整的合规文件、安全数据表和质量分析报告。',
   },
   contact: {
@@ -393,7 +393,7 @@ const ar: typeof en = {
     'petrochemicals-industrial-chemicals': 'البتروكيماويات والكيماويات الصناعية',
     'metals-metallic-ores': 'المعادن وخامات المعادن',
     'industrial-minerals-construction-materials': 'المعادن الصناعية ومواد البناء',
-    'food-beverages': 'الأغذية والمشروبات',
+    'feed-additives-raw-materials': 'المضافات الغذائية والمواد الخام',
     'cosmetic-raw-materials': 'مواد أولية للتجميل',
   },
   categoryOverviews: {
@@ -402,7 +402,7 @@ const ar: typeof en = {
     'petrochemicals-industrial-chemicals': 'تدعم محفظة البتروكيماويات لدينا صناعات التصنيع في المراحل اللاحقة بجودة متسقة وأسعار تنافسية ولوجستيات موثوقة من المنشأ إلى الوجهة.',
     'metals-metallic-ores': 'المعادن هي أساس البنية التحتية والتصنيع والتقدم التكنولوجي. في Bright Business Services & Trading، نتخصص في الحصول المنظم والتوزيع الدولي لخامات المعادن والمنتجات المعدنية المكررة الضرورية للصناعات الثقيلة وقطاعات الإنتاج المتقدمة.',
     'industrial-minerals-construction-materials': 'النمو الصناعي يبدأ بالمواد الخام الصحيحة. في Bright Business Services & Trading، نوفر معادن صناعية ومواد بناء عالية الجودة تدعم تطوير البنية التحتية وإنتاج الأسمنت وصناعة الزجاج والتطبيقات الصناعية المتخصصة.',
-    'food-beverages': 'في Bright Business Services & Trading، نوفر مجموعة مختارة بعناية من السلع الغذائية والمشروبات التي تستوفي معايير سلامة الغذاء الدولية. يتم الحصول على منتجاتنا من المنشآت المعتمدة، مع توفير وثائق التتبع الكاملة وشهادات الامتثال وتقارير تحليل الجودة.',
+    'feed-additives-raw-materials': 'في Bright Business Services & Trading، نوفر مجموعة مختارة بعناية من المضافات الغذائية والمواد الخام التي تستوفي معايير الجودة الدولية. يتم الحصول على منتجاتنا من المنشآت المعتمدة، مع توفير وثائق التتبع الكاملة وشهادات الامتثال وتقارير تحليل الجودة لدعم مصنعي الأعلاف الحيوانية والمصنّعين والمنتجين في جميع أنحاء العالم.',
     'cosmetic-raw-materials': 'في Bright Business Services & Trading، نوفر مجموعة مختارة من المواد الخام ذات الدرجة التجميلية لدور الصياغة ومصنعي العناية الشخصية ومنتجي الأدوية في جميع أنحاء العالم. يتم الحصول على كل مادة من منشآت معتمدة وتُورد مع وثائق الامتثال الكاملة وصحائف بيانات السلامة وتقارير تحليل الجودة.',
   },
   contact: {
