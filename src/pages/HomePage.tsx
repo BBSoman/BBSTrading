@@ -139,7 +139,7 @@ export default function HomePage() {
                 <div className="text-slate-700 font-medium">{t.stats.happyClients}</div>
               </div>
               <div className="bg-white rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
-                <div className="text-4xl font-bold text-black-600 mb-2">24/7</div>
+                <div className="text-4xl font-bold text-black-600 mb-2">24/5</div>
                 <div className="text-slate-700 font-medium">{t.stats.customerSupport}</div>
               </div>
             </div>
@@ -164,6 +164,7 @@ export default function HomePage() {
               </div>
               <h3 className="font-bold text-slate-900 mb-2">{t.homeContact.emailUs}</h3>
               <p className="text-slate-700">info@bbst.global</p>
+              <p className="text-slate-700">Trading@bbst.global</p>
             </div>
 
             <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-8 text-center hover:shadow-xl transition-shadow">
@@ -172,6 +173,7 @@ export default function HomePage() {
               </div>
               <h3 className="font-bold text-slate-900 mb-2">{t.homeContact.callUs}</h3>
               <p className="text-slate-700">+968 92882417</p>
+              <p className="text-slate-700">+968 71119624</p>              
             </div>
 
             <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-8 text-center hover:shadow-xl transition-shadow">
@@ -179,8 +181,7 @@ export default function HomePage() {
                 <MapPin className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-bold text-slate-900 mb-2">{t.homeContact.visitUs}</h3>
-              <p className="text-slate-700">123 Trading Street</p>
-              <p className="text-slate-700">Business District, City</p>
+              <p className="text-slate-700">Level 4, Business Center, Building #325 Office #411, Dohat Al Adab Street, Al Khuwair South, Muscat 133, Oman</p>
             </div>
           </div>
         </div>
