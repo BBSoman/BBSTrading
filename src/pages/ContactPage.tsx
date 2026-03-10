@@ -29,14 +29,14 @@ export default function ContactPage() {
       icon: Mail,
       label: ci.emailLabel,
       value: 'info@bbst.global',
-      value: 'Trading@bbs.global,
+      value: 'Trading@bbs.global',
       sub: ci.emailSub,
     },
     {
       icon: Phone,
       label: ci.phoneLabel,
       value: '+968 92882417',
-      value: '+96871119624',
+      value: '+968 71119624',
       sub: ci.phoneSub,
     },
    
