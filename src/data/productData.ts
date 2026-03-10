@@ -1330,177 +1330,393 @@ export const categoryData: Category[] = [
     ]
   },
   {
-    name: 'Food & Beverages',
-    slug: 'food-beverages',
-    image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
-    overview: 'At Bright Business Services & Trading, we supply a carefully selected range of food and beverage commodities that meet international food safety standards. Our food-grade products are sourced from certified facilities, with full traceability documentation, compliance certifications, and quality analysis to support food manufacturers, processors, and beverage producers worldwide.',
-    products: [
-      {
-        name: 'Molasses (Food Grade)',
-        slug: 'molasses-food-grade',
-        description: 'Food-grade cane and beet molasses for use in food manufacturing, fermentation, animal feed, and specialty beverage production. Available in Sugarcane, Sugar Beet, and Blackstrap grades.',
-        details: 'Molasses is a dense, viscous by-product of the sugar refining process, produced during the repeated crystallization of sucrose from sugarcane or sugar beet juice. Food-grade molasses retains a rich concentration of residual sugars, vitamins, and minerals — including iron, calcium, magnesium, and potassium — making it a valued ingredient in food manufacturing and nutrition. In the food industry, it is used as a natural sweetener, flavor enhancer, and colorant in baked goods, sauces, marinades, and confectionery. It is also a primary fermentation substrate for rum production, yeast manufacturing, and the production of citric acid and amino acids. We supply blackstrap, sugarcane, and beet molasses in food-grade specifications, with full sugar content, Brix, pH, and microbiological analysis, shipped in flexitanks, ISO tanks, or lined drums.',
-        image: '/molasses.webp',
-        specs: ['Grades: Sugarcane / Sugar Beet / Blackstrap', 'Brix: 75% – 85%', 'HS Code: 1703', 'Packaging: Flexitanks, ISO tanks, lined 275L drums'],
-        hsCode: '1703',
-        subProducts: [
-          {
-            name: 'Sugarcane Molasses (Food Grade)',
-            slug: 'sugarcane-molasses-food-grade',
-            description: 'The most common commercial food-grade molasses, obtained after crystallization of sugar from sugarcane juice, used in baking, confectionery, beverage flavoring, and fermentation.',
-            details: 'Sugarcane molasses is the primary by-product of sugar extraction from harvested sugarcane. After juice extraction and multiple stages of crystallization to recover sucrose, the remaining dark syrup — rich in residual sugars, organic acids, and minerals — is the commercial molasses product. Food-grade sugarcane molasses is processed and stored under hygienic conditions with controlled microbiological parameters to ensure suitability for direct use in food and beverage manufacturing. Its characteristic deep flavor and high fermentable sugar content make it the preferred substrate for rum distillation, industrial yeast production, and citric acid fermentation. In bakery, it contributes color, moisture retention, and a distinctive caramel flavor to products such as gingerbread, brown bread, and dark sauces.',
-            image: '/sugarcanemolasses.webp',
-            specs: ['Brix: 75% – 85%', 'Total Sugars: 45% – 55%', 'Sucrose: 30% – 40%', 'Reducing Sugars: 10% – 20%', 'Moisture: 15% – 25%', 'Ash: 8% – 12%', 'pH: 4.5 – 6.0', 'HS Code: 1703']
-          },
-          {
-            name: 'Sugar Beet Molasses (Food Grade)',
-            slug: 'sugar-beet-molasses-food-grade',
-            description: 'Derived from sugar beet processing, with a slightly different mineral composition and more alkaline pH, widely used in fermentation, specialty food ingredients, and animal nutrition.',
-            details: 'Sugar beet molasses is obtained as a by-product of the beet sugar refining process in temperate growing regions. Its mineral composition differs from cane molasses, particularly in its betaine content and more alkaline pH profile, which makes it suitable for distinct fermentation processes and specialty food ingredient applications. Sugar beet molasses is widely used as a fermentation substrate for yeast production (baker\'s yeast and fodder yeast), as well as for the production of lysine, glutamic acid, and other amino acids. Its higher pH (6.5–8.5) compared to cane molasses makes it preferred for certain bacterial fermentation processes. In the animal nutrition sector, it serves as an energy-dense feed additive and a palatability enhancer for compound animal feeds.',
-            image: '/sugarbeet.webp',
-            specs: ['Brix: 75% – 85%', 'Total Sugars: 45% – 50%', 'Sucrose: 25% – 35%', 'Moisture: 18% – 25%', 'Ash: 8% – 12%', 'pH: 6.5 – 8.5', 'Form: Dark brown liquid', 'HS Code: 1703']
-          },
-          {
-            name: 'Blackstrap Molasses',
-            slug: 'blackstrap-molasses',
-            description: 'Final extraction stage molasses with lower sugar content but elevated iron, calcium, and magnesium — used as a nutritional food ingredient, fermentation substrate, and animal feed supplement.',
-            details: 'Blackstrap molasses is the concentrated syrup remaining after the third and final extraction of sugar crystals from the boiled sugarcane or beet juice. As the "final run" of the refining process, blackstrap contains the lowest recoverable sugar content of all molasses grades, but the highest concentration of minerals — particularly iron, calcium, magnesium, and potassium — making it a nutritionally distinct ingredient. In the health food market, blackstrap molasses is used as a natural iron and mineral supplement and as a flavor component in specialty health foods, energy bars, and natural sweetener blends. In industrial fermentation, its lower sugar content is compensated by its rich mineral content which supports robust yeast and bacterial growth. It is also extensively used as an energy and palatability supplement in animal feed rations for cattle, horses, and poultry.',
-            image: '/blackstrap.webp',
-            specs: ['Brix: 75% – 85%', 'Total Sugars: 35% – 45%', 'Ash: 10% – 15%', 'Iron: Elevated (trace mineral rich)', 'Moisture: 20% – 25%', 'Form: Very dark, dense syrup', 'HS Code: 1703']
-          }
-        ]
-      },
-      {
-        name: 'Ethanol (Food/Beverage Grade)',
-        slug: 'ethanol-food-beverage-grade',
-        description: 'High-purity edible ethyl alcohol produced by fermentation of agricultural feedstocks for beverage alcohol, food flavoring, pharmaceutical, and cosmetic applications. Available as Rectified Spirit, Extra Neutral Alcohol (ENA), and Anhydrous Ethanol.',
-        details: 'Food and beverage grade ethanol is a high-purity ethyl alcohol (C2H5OH) produced through fermentation of agricultural feedstocks — primarily sugarcane molasses, corn, or grains — followed by distillation, rectification, and dehydration to achieve the required alcohol strength and purity profile. It must comply with international food safety and purity standards for beverage and pharmaceutical applications. Neutral cane spirit and grain neutral spirit (GNS) are the foundational inputs for blended whisky, vodka, gin, liqueurs, and flavored alcoholic beverages. In the food industry, food-grade ethanol is used as a solvent for flavoring extracts, food colorings, and natural aromas. In pharmaceuticals and cosmetics, it serves as a solvent, preservative, and penetration enhancer. We supply three grades — Rectified Spirit, Extra Neutral Alcohol, and Anhydrous — with full food-grade certification, COA, and origin documentation.',
-        image: '/ethanol.webp',
-        specs: ['Grades: Rectified Spirit / Extra Neutral Alcohol (ENA) / Anhydrous', 'ABV: 95% – 99%+', 'HS Code: 2207', 'Packaging: ISO tanks, flexitanks, IBC totes'],
-        hsCode: '2207',
-        subProducts: [
-          {
-            name: 'Rectified Spirit (RS)',
-            slug: 'rectified-spirit',
-            description: 'Highly concentrated ethanol produced at 95–96% ABV, widely used in beverage production, tinctures, flavor extraction, and industrial food processing applications.',
-            details: 'Rectified Spirit is the standard distillation product of fermented agricultural substrates, purified through a multi-column rectification process to reach 95–96% ABV. It is the most widely produced and traded grade of food-grade ethanol globally. In the beverage industry, it is used as the base alcohol for blended spirits, liqueurs, and flavored alcoholic beverages. In food processing, it serves as a solvent for natural flavor extracts, food colorings, and preservatives. In pharmaceutical applications, it is used for the preparation of tinctures, oral solutions, and topical preparations. The purity parameters — particularly methanol, aldehyde, and fusel oil content — are tightly controlled to ensure safety and organoleptic neutrality.',
-            image: '/rectifiedspirit.webp',
-            specs: ['Alcohol (ABV): 95% – 96%', 'Methanol: ≤ 50 ppm', 'Aldehydes: ≤ 5 ppm', 'Higher Alcohols (Fusel Oil): ≤ 100 ppm', 'Acidity: ≤ 0.003%', 'Form: Clear / Colorless liquid', 'HS Code: 2207']
-          },
-          {
-            name: 'Extra Neutral Alcohol (ENA)',
-            slug: 'extra-neutral-alcohol-ena',
-            description: 'Premium-grade edible ethanol with ultra-low impurities and a neutral aroma profile, primarily used for high-quality vodka, premium spirits, and sensitive beverage manufacturing.',
-            details: 'Extra Neutral Alcohol (ENA) is the premium tier of food-grade ethanol, distinguished from standard Rectified Spirit by its significantly lower levels of congeners — methanol, aldehydes, and fusel oils — achieved through additional rectification and purification stages. Its near-odorless, neutral sensory profile makes it the preferred base alcohol for premium vodka production, where any residual aroma would compromise the final product\'s quality. Spirit blenders also use ENA as the neutral base for compound gin, liqueurs, and flavored spirits, as its low congener content allows the botanical and flavor profiles to express cleanly without interference. The stringent purity requirements of ENA make it suitable for food ingredient applications where alcohol must not contribute any off-flavors or aromas, such as high-value natural extract production and pharmaceutical-grade oral preparations.',
-            image: '/ena.webp',
-            specs: ['Alcohol (ABV): 95% – 96%', 'Methanol: ≤ 30 ppm', 'Aldehydes: ≤ 2 ppm', 'Fusel Oil: ≤ 50 ppm', 'Odor: Neutral / Odorless', 'Conductivity: Low', 'HS Code: 2207']
-          },
-          {
-            name: 'Anhydrous Ethanol (Food Grade)',
-            slug: 'anhydrous-ethanol-food-grade',
-            description: 'Ultra-high purity ethanol at ≥99% with very low water content, used in pharmaceutical formulations, beverage fortification, specialty food extracts, and laboratory applications.',
-            details: 'Anhydrous ethanol is produced by dehydrating rectified spirit through molecular sieve or azeotropic distillation to reduce the water content to below 1% (≥99% ethanol purity). Food and pharmaceutical grade anhydrous ethanol must meet strict limits on methanol and heavy metal contamination to ensure safety in sensitive applications. In pharmaceutical manufacturing, anhydrous ethanol is an essential solvent for oral liquid formulations, tablet film coatings, and topical preparations where water content must be minimized. In the beverage industry, it is used for fortification of wines (e.g., port and sherry production), specialty spirits, and as a carrier for highly concentrated flavor extracts. Its high purity and low water content also make it suitable for sensitive chromatographic applications and food-grade extract production where precise solvent-to-extract ratios are critical.',
-            image: '/Anhydrous_Ethanol.webp',
-            specs: ['Ethanol Purity: ≥ 99%', 'Water Content: ≤ 1%', 'Methanol: ≤ 30 ppm', 'Heavy Metals: ≤ 1 ppm', 'Residue on Evaporation: Minimal', 'HS Code: 2207']
-          }
-        ]
-      },
-      {
-        name: 'Salt (Edible Grade)',
-        slug: 'salt-edible-grade',
-        description: 'Refined edible sodium chloride for human consumption, food processing, dairy, and bakery applications. Available as fine table salt, coarse edible salt, iodized salt, and vacuum evaporated salt.',
-        details: 'Edible grade salt is sodium chloride (NaCl) refined to human consumption standards, produced from solar-evaporated sea salt, rock salt deposits, or vacuum-pan evaporation processes. It is one of the oldest and most universally consumed food ingredients, serving as both a seasoning and a critical preservative that inhibits microbial growth in cured meats, cheeses, pickled vegetables, and canned goods. In the food processing industry, edible salt is used as a texture modifier, flavor enhancer, and fermentation control agent in bread baking, dairy production, and ready-meal manufacturing. Iodized salt — fortified with potassium iodate or potassium iodide — is supplied for markets with mandatory iodization programs. We supply four grades from fine table salt to ultra-pure vacuum salt, in retail packaging and bulk formats, with full food safety certification, NaCl purity analysis, and heavy metals compliance.',
-        image: '/saltfood.webp',
-        specs: ['Grades: Fine Table / Coarse Edible / Iodized / Vacuum Evaporated', 'NaCl: 99.0% – 99.9%', 'HS Code: 2501', 'Packaging: 1kg, 25kg, 50kg bags or bulk'],
-        hsCode: '2501',
-        subProducts: [
-          {
-            name: 'Fine Edible Salt (Table Salt)',
-            slug: 'fine-edible-salt-table-salt',
-            description: 'Finely granulated refined sodium chloride for direct household and food service use, seasoning, and food processing applications.',
-            details: 'Fine edible table salt is sodium chloride refined to food-grade purity through washing, evaporation, and fine milling to produce a uniform, free-flowing crystal. It is the most widely consumed form of salt globally, used for direct seasoning, food service, and retail consumer packaging. In food manufacturing, fine salt provides controlled and even distribution in bakery products, sauces, seasonings, and snacks. Anti-caking agents (such as sodium aluminosilicate or calcium silicate) may be added in small permitted amounts to maintain free-flowing properties in humid conditions. Fine table salt meets stringent heavy metals, microbiological, and food additive standards and is supplied with full food safety certification and compliance documentation for food manufacturers and distributors.',
-            image: '/tablesalt.webp',
-            specs: ['NaCl: ≥ 99.5%', 'Moisture: ≤ 0.1%', 'Insoluble Matter: ≤ 0.1%', 'Ca + Mg: ≤ 0.15%', 'Particle Size: 0.1 – 0.5 mm (fine)', 'Form: Free-flowing fine crystals', 'HS Code: 2501']
-          },
-          {
-            name: 'Coarse Edible Salt',
-            slug: 'coarse-edible-salt',
-            description: 'Larger-crystal edible salt for pickling, curing, brining, artisan bread making, and specialty food processing where slow dissolution is preferred.',
-            details: 'Coarse edible salt is produced in larger crystal sizes compared to fine table salt, achieved by controlling the evaporation rate or by coarse screening of mined salt. Its larger surface area and slower dissolution rate make it preferred for dry-curing and brining meat and fish, where controlled salt penetration is essential for food safety and texture development. In artisan bread making, coarse salt crystals are used as a finishing ingredient for visual appeal and burst of flavor. It is also widely used in Mediterranean and specialty cuisine applications as a premium finishing salt. Coarse edible salt must meet the same food-grade purity requirements as fine table salt, with controlled heavy metals and microbiological parameters, and is supplied with full food safety certification.',
-            image: '/coarsesalt.webp',
-            specs: ['NaCl: ≥ 99.0%', 'Moisture: ≤ 0.5%', 'Insoluble Matter: ≤ 0.2%', 'Ca + Mg: ≤ 0.3%', 'Particle Size: 1 – 6 mm (coarse)', 'Form: Coarse crystals', 'HS Code: 2501']
-          },
-          {
-            name: 'Iodized Salt (KIO3 / KI Fortified)',
-            slug: 'iodized-salt',
-            description: 'Edible salt fortified with potassium iodate (KIO3) or potassium iodide (KI) to address iodine deficiency in mandatory or voluntary iodization programs.',
-            details: 'Iodized salt is food-grade salt to which a precise quantity of potassium iodate (KIO3) or potassium iodide (KI) has been added as a micronutrient fortification measure. Iodine deficiency disorders (IDD) — including goiter and impaired cognitive development — are a significant public health concern in many regions, and mandatory salt iodization programs have been widely adopted as the most cost-effective intervention. We supply iodized salt in both fine and coarse crystal grades, with iodine fortification levels customized to meet the regulatory requirements of the destination market. Typical fortification levels range from 20–40 mg KIO3 per kilogram of salt (equivalent to approximately 12–25 mg iodine/kg). Full documentation of iodine content, uniformity of distribution, and stability data is provided for regulatory submissions.',
-            image: '/iodizedsalt.webp',
-            specs: ['NaCl: ≥ 99.0%', 'Iodine (as KIO3): 20 – 40 mg/kg (customizable)', 'Moisture: ≤ 0.1%', 'Heavy Metals: Per Codex Alimentarius limits', 'Form: Fine / Coarse crystals', 'HS Code: 2501']
-          },
-          {
-            name: 'Vacuum Evaporated Salt (Pure Edible)',
-            slug: 'vacuum-evaporated-salt',
-            description: 'Ultra-pure sodium chloride produced by vacuum pan evaporation, achieving the highest NaCl purity for pharmaceutical-grade, dairy, and sensitive food processing applications.',
-            details: 'Vacuum evaporated salt is produced by dissolving raw salt in water to form a saturated brine, purifying the brine through chemical treatment and filtration to remove calcium, magnesium, and sulfate impurities, and then re-crystallizing the purified sodium chloride in vacuum evaporators at reduced temperature and pressure. The resulting product achieves the highest NaCl purity available in commercial salt, with exceptionally low levels of trace mineral impurities. This grade is preferred for pharmaceutical preparations, infant formula, dairy processing (cheese and butter where mineral impurities would affect flavor and texture), and sensitive food manufacturing processes where precise salt chemistry is required. Vacuum salt is supplied with comprehensive certificates of analysis including trace element profiles and microbiological testing.',
-            image: '/vaccumsalt.webp',
-            specs: ['NaCl: ≥ 99.9%', 'Moisture: ≤ 0.05%', 'Ca²⁺: ≤ 0.02%', 'Mg²⁺: ≤ 0.01%', 'SO4²⁻: ≤ 0.03%', 'Form: Uniform fine crystals', 'HS Code: 2501']
-          }
-        ]
-      },
-      {
-        name: 'Sugar (Food Grade)',
-        slug: 'sugar-food-grade',
-        description: 'Naturally derived sucrose available in refined white, raw brown, powdered, and specialty grades for food manufacturing, beverage production, confectionery, and bakery applications.',
-        details: 'Sugar — chemically sucrose (C12H22O11) — is the world\'s most widely traded food commodity, derived primarily from sugarcane and sugar beet through extraction, clarification, and crystallization. Commercial sugar is graded by its ICUMSA color rating, a standardized measure of whiteness and purity (lower ICUMSA values indicate higher refinement and whiteness). Refined white sugar (ICUMSA 45) is the global benchmark for food and beverage production, while Very High Polarization (VHP) raw sugar is the primary internationally traded commodity grade consumed by refineries. Brown sugar retains molasses for distinctive flavor, and powdered/icing sugar is milled for confectionery and decoration. We supply all five commercial grades — ICUMSA 45, ICUMSA 100-150, VHP Raw Sugar, Brown Sugar, and Powdered Sugar — with full origin documentation, ICUMSA certificates, and quality analysis.',
-        image: '/sugarfood.webp',
-        specs: ['Grades: ICUMSA 45 / ICUMSA 100-150 / VHP Raw / Brown / Powdered', 'Polarization: 99.4° – 99.8°', 'HS Code: 1701', 'Applications: Beverage, confectionery, bakery, dairy, industrial fermentation'],
-        hsCode: '1701',
-        subProducts: [
-          {
-            name: 'Refined White Sugar (ICUMSA 45)',
-            slug: 'refined-white-sugar-icumsa-45',
-            description: 'The most widely exported food-grade sugar, produced through refining and crystallization to achieve the highest purity and lowest ICUMSA color value — the international benchmark for food and beverage manufacturing.',
-            details: 'Refined White Sugar ICUMSA 45 is the premium standard for global sugar trade, named after the International Commission for Uniform Methods of Sugar Analysis (ICUMSA) color measurement unit. An ICUMSA value of 45 IU corresponds to a bright white, highly refined product with less than 45 color units — the international threshold for export-grade white refined sugar. It is produced by processing raw cane sugar through affination, carbonation or phosphatation, activated carbon filtration, and multi-stage crystallization to achieve the strictest purity and whiteness standards. ICUMSA 45 sugar is the primary ingredient in soft drinks, confectionery, dairy products, processed foods, and pharmaceutical sugar-coated formulations. It is the most demanded grade globally due to its consistent quality, neutral flavor, and compliance with international food safety standards including Codex Alimentarius.',
-            image: '/refinedwhitesugar.webp',
-            specs: ['Polarization: ≥ 99.8°', 'ICUMSA Color: ≤ 45 IU', 'Moisture: ≤ 0.04%', 'Ash: ≤ 0.04%', 'Reducing Sugars: ≤ 0.05%', 'Form: Fine / medium granulated crystals', 'HS Code: 1701']
-          },
-          {
-            name: 'White Sugar ICUMSA 100-150',
-            slug: 'white-sugar-icumsa-100-150',
-            description: 'Slightly less refined than ICUMSA 45, used in general food manufacturing, industrial baking, and regional markets where premium whiteness is not required.',
-            details: 'White Sugar ICUMSA 100-150 is an intermediate refined grade positioned between the premium ICUMSA 45 standard and raw sugar grades. It undergoes most of the same refining steps as ICUMSA 45 but with fewer decolorization passes, resulting in a slightly higher color value while still meeting food-grade purity standards. It is commonly used in food manufacturing applications where the slight color difference has no impact on the final product, such as in baked goods, jams, syrups, industrial sauces, and fermentation. In many regional and domestic markets, ICUMSA 100-150 is the standard retail-grade white sugar and is sold under national sugar specifications. It offers a cost-effective alternative to ICUMSA 45 for applications where ultra-white appearance is not a quality requirement.',
-            image: '/whitesugaricumsa.webp',
-            specs: ['Polarization: ≥ 99.5°', 'ICUMSA Color: 100 – 150 IU', 'Moisture: ≤ 0.06%', 'Ash: ≤ 0.08%', 'Form: Granulated', 'HS Code: 1701']
-          },
-          {
-            name: 'Raw Brown Sugar (VHP)',
-            slug: 'raw-brown-sugar-vhp',
-            description: 'Very High Polarization (VHP) raw cane sugar — the primary internationally traded raw sugar commodity — supplied to refineries for further processing into white sugar grades.',
-            details: 'Very High Polarization (VHP) raw sugar is the dominant commodity grade traded on international sugar markets (London, New York) and is the primary feedstock for white sugar refineries worldwide. Despite its "raw" designation, VHP sugar has a polarization of ≥99.4° — nearly as high as refined white sugar — and is distinguished mainly by its higher ICUMSA color value (600–1,200 IU) reflecting retained surface molasses. It is produced by centrifuging the massecuite (crystallized sugar + molasses mixture) after the first crystallization stage. Raw VHP sugar is purchased by refineries who affinate and process it into ICUMSA 45 or ICUMSA 100-150 white sugar. Its high sucrose content, well-defined crystal structure, and established commodity standards make it the most traded raw agricultural material globally after crude oil.',
-            image: '/rawbrownsugar.webp',
-            specs: ['Polarization: ≥ 99.4°', 'ICUMSA Color: 600 – 1,200 IU', 'Moisture: ≤ 0.15%', 'Ash: ≤ 0.15%', 'Form: Light to golden brown crystals', 'HS Code: 1701']
-          },
-          {
-            name: 'Brown Sugar (Food Grade)',
-            slug: 'brown-sugar-food-grade',
-            description: 'Food-grade brown sugar containing 3–5% molasses content which provides its characteristic golden-to-dark color, moist texture, and rich caramel flavor for bakery and specialty culinary applications.',
-            details: 'Food-grade brown sugar is produced either by incomplete refinement of raw sugar (natural brown sugar) or by coating refined white sugar with a controlled amount of molasses (soft brown sugar). The molasses content — typically 3–5% by weight — gives brown sugar its distinctive golden to dark brown color, moist granular texture, and characteristic flavor profile combining sweetness with caramel and toffee notes. In bakery applications, brown sugar contributes moisture retention, browning, and depth of flavor that white sugar cannot replicate, making it essential in cookies, cakes, dark bread, and gingerbread. It is also a key ingredient in sauces, marinades, glazes, and specialty beverages such as artisan coffees and cocktails. We supply both light brown and dark brown grades with consistent molasses content and particle size.',
-            image: '/brownsugar.webp',
-            specs: ['Sucrose: ≥ 95%', 'Moisture: ≤ 2%', 'Molasses Content: 3% – 5%', 'Form: Moist granular texture, golden to dark brown', 'Grades: Light Brown / Dark Brown', 'HS Code: 1701']
-          },
-          {
-            name: 'Powdered / Icing Sugar',
-            slug: 'powdered-icing-sugar',
-            description: 'Ultra-fine milled white sugar with a silky powder texture, used in frosting, icing, confectionery decoration, dessert production, and premium baking applications.',
-            details: 'Powdered sugar — also known as icing sugar or confectioners\' sugar — is produced by finely grinding refined white sugar (typically ICUMSA 45 base) in specialized mills to an ultra-fine particle size. A small quantity of anti-caking agent (typically cornstarch at ≤3%) is usually added to prevent caking and maintain free-flowing powder consistency in humid environments. The ultra-fine particle size creates a smooth, rapid-dissolving product that integrates seamlessly into buttercreams, fondants, royal icing, and glaze coatings without grittiness. It is also dusted directly onto cakes, pastries, and desserts as a decorative finish. In industrial confectionery production, powdered sugar is used in chocolate and candy formulations where smooth texture is a critical quality attribute.',
-            image: '/icingsugar.webp',
-            specs: ['Sucrose: ≥ 99%', 'Moisture: ≤ 0.1%', 'Particle Size: Ultra-fine (mesh 200+)', 'Anti-caking Agent: ≤ 3% starch', 'Form: Fine white powder', 'HS Code: 1701']
-          }
-        ]
-      }
-    ]
-  },
+  name: 'Food & Beverages',
+  slug: 'food-beverages',
+  image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
+  overview: 'At Bright Business Services & Trading, we supply a carefully selected range of food and beverage commodities that meet international food safety standards. Our food-grade products are sourced from certified facilities, with full traceability documentation, compliance certifications, and quality analysis to support food manufacturers, processors, and beverage producers worldwide.',
+  products: [
+
+    // ─── SALT ─────────────────────────────────────────────────────────────────
+    {
+      name: 'Salt (Edible Grade)',
+      slug: 'salt-edible-grade',
+      description: 'Refined edible sodium chloride for human consumption, food processing, dairy, and bakery applications. Available as fine table salt, coarse edible salt, iodized salt, vacuum evaporated salt, and feed grade salt.',
+      details: 'Edible grade salt is sodium chloride (NaCl) refined to human consumption standards, produced from solar-evaporated sea salt, rock salt deposits, or vacuum-pan evaporation processes. It is one of the oldest and most universally consumed food ingredients, serving as both a seasoning and a critical preservative that inhibits microbial growth in cured meats, cheeses, pickled vegetables, and canned goods. In the food processing industry, edible salt is used as a texture modifier, flavor enhancer, and fermentation control agent in bread baking, dairy production, and ready-meal manufacturing. Iodized salt — fortified with potassium iodate or potassium iodide — is supplied for markets with mandatory iodization programs. We supply five grades from fine table salt to ultra-pure vacuum salt and feed grade salt, in retail packaging and bulk formats, with full food safety certification, NaCl purity analysis, and heavy metals compliance.',
+      image: '/saltfood.webp',
+      specs: ['Grades: Fine Table / Coarse Edible / Iodized / Vacuum Evaporated / Feed Grade', 'NaCl: 97.0% – 99.9%', 'HS Code: 2501', 'Packaging: 1kg, 25kg, 50kg bags or bulk'],
+      hsCode: '2501',
+      subProducts: [
+        {
+          name: 'Fine Edible Salt (Table Salt)',
+          slug: 'fine-edible-salt-table-salt',
+          description: 'Finely granulated refined sodium chloride for direct household and food service use, seasoning, and food processing applications.',
+          details: 'Fine edible table salt is sodium chloride refined to food-grade purity through washing, evaporation, and fine milling to produce a uniform, free-flowing crystal. It is the most widely consumed form of salt globally, used for direct seasoning, food service, and retail consumer packaging. In food manufacturing, fine salt provides controlled and even distribution in bakery products, sauces, seasonings, and snacks. Anti-caking agents (such as sodium aluminosilicate or calcium silicate) may be added in small permitted amounts to maintain free-flowing properties in humid conditions. Fine table salt meets stringent heavy metals, microbiological, and food additive standards and is supplied with full food safety certification and compliance documentation for food manufacturers and distributors.',
+          image: '/tablesalt.webp',
+          specs: ['NaCl: ≥ 99.5%', 'Moisture: ≤ 0.1%', 'Insoluble Matter: ≤ 0.1%', 'Ca + Mg: ≤ 0.15%', 'Particle Size: 0.1 – 0.5 mm (fine)', 'Form: Free-flowing fine crystals', 'HS Code: 2501']
+        },
+        {
+          name: 'Coarse Edible Salt',
+          slug: 'coarse-edible-salt',
+          description: 'Larger-crystal edible salt for pickling, curing, brining, artisan bread making, and specialty food processing where slow dissolution is preferred.',
+          details: 'Coarse edible salt is produced in larger crystal sizes compared to fine table salt, achieved by controlling the evaporation rate or by coarse screening of mined salt. Its larger surface area and slower dissolution rate make it preferred for dry-curing and brining meat and fish, where controlled salt penetration is essential for food safety and texture development. In artisan bread making, coarse salt crystals are used as a finishing ingredient for visual appeal and burst of flavor. It is also widely used in Mediterranean and specialty cuisine applications as a premium finishing salt. Coarse edible salt must meet the same food-grade purity requirements as fine table salt, with controlled heavy metals and microbiological parameters, and is supplied with full food safety certification.',
+          image: '/coarsesalt.webp',
+          specs: ['NaCl: ≥ 99.0%', 'Moisture: ≤ 0.5%', 'Insoluble Matter: ≤ 0.2%', 'Ca + Mg: ≤ 0.3%', 'Particle Size: 1 – 6 mm (coarse)', 'Form: Coarse crystals', 'HS Code: 2501']
+        },
+        {
+          name: 'Iodized Salt (KIO3 / KI Fortified)',
+          slug: 'iodized-salt',
+          description: 'Edible salt fortified with potassium iodate (KIO3) or potassium iodide (KI) to address iodine deficiency in mandatory or voluntary iodization programs.',
+          details: 'Iodized salt is food-grade salt to which a precise quantity of potassium iodate (KIO3) or potassium iodide (KI) has been added as a micronutrient fortification measure. Iodine deficiency disorders (IDD) — including goiter and impaired cognitive development — are a significant public health concern in many regions, and mandatory salt iodization programs have been widely adopted as the most cost-effective intervention. We supply iodized salt in both fine and coarse crystal grades, with iodine fortification levels customized to meet the regulatory requirements of the destination market. Typical fortification levels range from 20–40 mg KIO3 per kilogram of salt (equivalent to approximately 12–25 mg iodine/kg). Full documentation of iodine content, uniformity of distribution, and stability data is provided for regulatory submissions.',
+          image: '/iodizedsalt.webp',
+          specs: ['NaCl: ≥ 99.0%', 'Iodine (as KIO3): 20 – 40 mg/kg (customizable)', 'Moisture: ≤ 0.1%', 'Heavy Metals: Per Codex Alimentarius limits', 'Form: Fine / Coarse crystals', 'HS Code: 2501']
+        },
+        {
+          name: 'Vacuum Evaporated Salt (Pure Edible)',
+          slug: 'vacuum-evaporated-salt',
+          description: 'Ultra-pure sodium chloride produced by vacuum pan evaporation, achieving the highest NaCl purity for pharmaceutical-grade, dairy, and sensitive food processing applications.',
+          details: 'Vacuum evaporated salt is produced by dissolving raw salt in water to form a saturated brine, purifying the brine through chemical treatment and filtration to remove calcium, magnesium, and sulfate impurities, and then re-crystallizing the purified sodium chloride in vacuum evaporators at reduced temperature and pressure. The resulting product achieves the highest NaCl purity available in commercial salt, with exceptionally low levels of trace mineral impurities. This grade is preferred for pharmaceutical preparations, infant formula, dairy processing (cheese and butter where mineral impurities would affect flavor and texture), and sensitive food manufacturing processes where precise salt chemistry is required. Vacuum salt is supplied with comprehensive certificates of analysis including trace element profiles and microbiological testing.',
+          image: '/vaccumsalt.webp',
+          specs: ['NaCl: ≥ 99.9%', 'Moisture: ≤ 0.05%', 'Ca²⁺: ≤ 0.02%', 'Mg²⁺: ≤ 0.01%', 'SO4²⁻: ≤ 0.03%', 'Form: Uniform fine crystals', 'HS Code: 2501']
+        },
+        {
+          name: 'Salt (Feed Grade)',
+          slug: 'salt-feed-grade',
+          description: 'Sodium chloride supplied as an essential electrolyte supplement in all livestock and poultry compound feeds, supporting osmotic balance, digestion, and nerve function.',
+          details: 'Feed-grade salt (sodium chloride, NaCl) is an essential electrolyte mineral included in all compound animal feeds to meet the sodium and chloride requirements of livestock and poultry. Sodium and chloride are critical for osmotic regulation, acid-base balance, transmission of nerve impulses, and activation of salivary amylase in the digestive process. In poultry, precise sodium and chloride balance is particularly important, as both deficiency and excess affect growth performance, water consumption, litter moisture, and metabolic health. Feed-grade salt typically meets a lower purity specification than edible grade salt, though heavy metal contamination limits still apply. It is supplied in coarse granular or fine form, in bulk or bagged format, and is used as a direct inclusion ingredient or as a carrier for trace mineral premixes.',
+          image: '/salt-feed.webp',
+          specs: ['NaCl: ≥ 97%', 'Sodium (Na): ≥ 38%', 'Moisture: ≤ 1%', 'Heavy Metals: Per feed safety limits', 'Form: Coarse granular / Fine', 'HS Code: 2501']
+        }
+      ]
+    },
+
+    // ─── SUGAR ────────────────────────────────────────────────────────────────
+    {
+      name: 'Sugar (Food Grade)',
+      slug: 'sugar-food-grade',
+      description: 'Naturally derived sucrose available in refined white, raw brown, powdered, and specialty grades for food manufacturing, beverage production, confectionery, and bakery applications.',
+      details: 'Sugar — chemically sucrose (C12H22O11) — is the world\'s most widely traded food commodity, derived primarily from sugarcane and sugar beet through extraction, clarification, and crystallization. Commercial sugar is graded by its ICUMSA color rating, a standardized measure of whiteness and purity (lower ICUMSA values indicate higher refinement and whiteness). Refined white sugar (ICUMSA 45) is the global benchmark for food and beverage production, while Very High Polarization (VHP) raw sugar is the primary internationally traded commodity grade consumed by refineries. Brown sugar retains molasses for distinctive flavor, and powdered/icing sugar is milled for confectionery and decoration. We supply all five commercial grades — ICUMSA 45, ICUMSA 100-150, VHP Raw Sugar, Brown Sugar, and Powdered Sugar — with full origin documentation, ICUMSA certificates, and quality analysis.',
+      image: '/sugarfood.webp',
+      specs: ['Grades: ICUMSA 45 / ICUMSA 100-150 / VHP Raw / Brown / Powdered', 'Polarization: 99.4° – 99.8°', 'HS Code: 1701', 'Applications: Beverage, confectionery, bakery, dairy, industrial fermentation'],
+      hsCode: '1701',
+      subProducts: [
+        {
+          name: 'Refined White Sugar (ICUMSA 45)',
+          slug: 'refined-white-sugar-icumsa-45',
+          description: 'The most widely exported food-grade sugar, produced through refining and crystallization to achieve the highest purity and lowest ICUMSA color value — the international benchmark for food and beverage manufacturing.',
+          details: 'Refined White Sugar ICUMSA 45 is the premium standard for global sugar trade, named after the International Commission for Uniform Methods of Sugar Analysis (ICUMSA) color measurement unit. An ICUMSA value of 45 IU corresponds to a bright white, highly refined product with less than 45 color units — the international threshold for export-grade white refined sugar. It is produced by processing raw cane sugar through affination, carbonation or phosphatation, activated carbon filtration, and multi-stage crystallization to achieve the strictest purity and whiteness standards. ICUMSA 45 sugar is the primary ingredient in soft drinks, confectionery, dairy products, processed foods, and pharmaceutical sugar-coated formulations. It is the most demanded grade globally due to its consistent quality, neutral flavor, and compliance with international food safety standards including Codex Alimentarius.',
+          image: '/refinedwhitesugar.webp',
+          specs: ['Polarization: ≥ 99.8°', 'ICUMSA Color: ≤ 45 IU', 'Moisture: ≤ 0.04%', 'Ash: ≤ 0.04%', 'Reducing Sugars: ≤ 0.05%', 'Form: Fine / medium granulated crystals', 'HS Code: 1701']
+        },
+        {
+          name: 'White Sugar ICUMSA 100-150',
+          slug: 'white-sugar-icumsa-100-150',
+          description: 'Slightly less refined than ICUMSA 45, used in general food manufacturing, industrial baking, and regional markets where premium whiteness is not required.',
+          details: 'White Sugar ICUMSA 100-150 is an intermediate refined grade positioned between the premium ICUMSA 45 standard and raw sugar grades. It undergoes most of the same refining steps as ICUMSA 45 but with fewer decolorization passes, resulting in a slightly higher color value while still meeting food-grade purity standards. It is commonly used in food manufacturing applications where the slight color difference has no impact on the final product, such as in baked goods, jams, syrups, industrial sauces, and fermentation. In many regional and domestic markets, ICUMSA 100-150 is the standard retail-grade white sugar and is sold under national sugar specifications. It offers a cost-effective alternative to ICUMSA 45 for applications where ultra-white appearance is not a quality requirement.',
+          image: '/whitesugaricumsa.webp',
+          specs: ['Polarization: ≥ 99.5°', 'ICUMSA Color: 100 – 150 IU', 'Moisture: ≤ 0.06%', 'Ash: ≤ 0.08%', 'Form: Granulated', 'HS Code: 1701']
+        },
+        {
+          name: 'Raw Brown Sugar (VHP)',
+          slug: 'raw-brown-sugar-vhp',
+          description: 'Very High Polarization (VHP) raw cane sugar — the primary internationally traded raw sugar commodity — supplied to refineries for further processing into white sugar grades.',
+          details: 'Very High Polarization (VHP) raw sugar is the dominant commodity grade traded on international sugar markets (London, New York) and is the primary feedstock for white sugar refineries worldwide. Despite its "raw" designation, VHP sugar has a polarization of ≥99.4° — nearly as high as refined white sugar — and is distinguished mainly by its higher ICUMSA color value (600–1,200 IU) reflecting retained surface molasses. It is produced by centrifuging the massecuite (crystallized sugar + molasses mixture) after the first crystallization stage. Raw VHP sugar is purchased by refineries who affinate and process it into ICUMSA 45 or ICUMSA 100-150 white sugar. Its high sucrose content, well-defined crystal structure, and established commodity standards make it the most traded raw agricultural material globally after crude oil.',
+          image: '/rawbrownsugar.webp',
+          specs: ['Polarization: ≥ 99.4°', 'ICUMSA Color: 600 – 1,200 IU', 'Moisture: ≤ 0.15%', 'Ash: ≤ 0.15%', 'Form: Light to golden brown crystals', 'HS Code: 1701']
+        },
+        {
+          name: 'Brown Sugar (Food Grade)',
+          slug: 'brown-sugar-food-grade',
+          description: 'Food-grade brown sugar containing 3–5% molasses content which provides its characteristic golden-to-dark color, moist texture, and rich caramel flavor for bakery and specialty culinary applications.',
+          details: 'Food-grade brown sugar is produced either by incomplete refinement of raw sugar (natural brown sugar) or by coating refined white sugar with a controlled amount of molasses (soft brown sugar). The molasses content — typically 3–5% by weight — gives brown sugar its distinctive golden to dark brown color, moist granular texture, and characteristic flavor profile combining sweetness with caramel and toffee notes. In bakery applications, brown sugar contributes moisture retention, browning, and depth of flavor that white sugar cannot replicate, making it essential in cookies, cakes, dark bread, and gingerbread. It is also a key ingredient in sauces, marinades, glazes, and specialty beverages such as artisan coffees and cocktails. We supply both light brown and dark brown grades with consistent molasses content and particle size.',
+          image: '/brownsugar.webp',
+          specs: ['Sucrose: ≥ 95%', 'Moisture: ≤ 2%', 'Molasses Content: 3% – 5%', 'Form: Moist granular texture, golden to dark brown', 'Grades: Light Brown / Dark Brown', 'HS Code: 1701']
+        },
+        {
+          name: 'Powdered / Icing Sugar',
+          slug: 'powdered-icing-sugar',
+          description: 'Ultra-fine milled white sugar with a silky powder texture, used in frosting, icing, confectionery decoration, dessert production, and premium baking applications.',
+          details: 'Powdered sugar — also known as icing sugar or confectioners\' sugar — is produced by finely grinding refined white sugar (typically ICUMSA 45 base) in specialized mills to an ultra-fine particle size. A small quantity of anti-caking agent (typically cornstarch at ≤3%) is usually added to prevent caking and maintain free-flowing powder consistency in humid environments. The ultra-fine particle size creates a smooth, rapid-dissolving product that integrates seamlessly into buttercreams, fondants, royal icing, and glaze coatings without grittiness. It is also dusted directly onto cakes, pastries, and desserts as a decorative finish. In industrial confectionery production, powdered sugar is used in chocolate and candy formulations where smooth texture is a critical quality attribute.',
+          image: '/icingsugar.webp',
+          specs: ['Sucrose: ≥ 99%', 'Moisture: ≤ 0.1%', 'Particle Size: Ultra-fine (mesh 200+)', 'Anti-caking Agent: ≤ 3% starch', 'Form: Fine white powder', 'HS Code: 1701']
+        }
+      ]
+    },
+
+    // ─── MAIN GRAINS ──────────────────────────────────────────────────────────
+    {
+      name: 'Main Grains',
+      slug: 'main-grains',
+      description: 'Primary cereal grains supplying energy and starch as the core base of compound animal feed rations for poultry, swine, ruminants, and aquaculture.',
+      details: 'Cereal grains form the caloric foundation of virtually all compound animal feed rations, supplying 60–75% of total dietary energy as digestible starch. We supply the five major traded feed grains — corn, wheat, barley, sorghum, and millet — sourced from certified origins with full moisture, protein, starch, mycotoxin, and test weight analysis. Our grain supplies are available in bulk vessel, container, and bagged formats with phytosanitary and origin certificates for all destinations.',
+      image: '/maingrains.webp',
+      specs: ['Grains: Corn / Wheat / Barley / Sorghum / Millet', 'Moisture: ≤ 13% – 14%', 'HS Codes: 1005 / 1001 / 1003 / 1007 / 1008', 'Packaging: Bulk, container, or bagged'],
+      hsCode: '1005',
+      subProducts: [
+        {
+          name: 'Corn (Maize)',
+          slug: 'corn-maize',
+          description: 'Yellow dent corn — the world\'s most widely used energy grain in animal feed — supplying high starch, moderate protein, and essential fatty acids for poultry, swine, cattle, and aquaculture rations.',
+          details: 'Corn (Zea mays) is the dominant energy grain in global compound feed formulation, prized for its high starch content (62–70%), moderate crude protein (8–9%), and excellent palatability across all livestock species. Yellow dent corn is the primary traded variety, used as the primary caloric base in broiler, layer, swine, dairy, and beef feed rations worldwide. It provides readily digestible starch for energy and contains linoleic acid (omega-6), which is essential for poultry performance. We supply feed-grade corn with full moisture, protein, starch, and aflatoxin analysis, in bulk vessels, containers, or bagged formats, sourced from major producing origins including Ukraine, Argentina, Brazil, and the USA.',
+          image: '/corn.webp',
+          specs: ['Crude Protein: 8% – 9%', 'Moisture: ≤ 14%', 'Starch: 62% – 70%', 'Aflatoxin: ≤ 20 ppb', 'HS Code: 1005']
+        },
+        {
+          name: 'Wheat',
+          slug: 'wheat-feed',
+          description: 'Feed-grade wheat supplying energy, digestible starch, and protein for poultry, swine, and ruminant rations, particularly in European and Middle Eastern feed formulations.',
+          details: 'Feed-grade wheat is widely used in compound animal feeds, particularly in regions where it is cost-competitive with corn. Wheat provides a higher crude protein content than corn (11–13%) and a significant starch supply, though its energy value is slightly lower due to its higher fiber content. In poultry and swine feeds, wheat is used as a partial or full corn replacement. Its naturally occurring non-starch polysaccharides (NSPs) — primarily arabinoxylans — reduce digestibility in monogastrics, necessitating the addition of xylanase enzymes in formulations. Milling wheat that does not meet bread-making specifications is commonly redirected to feed markets. We supply both hard and soft feed wheats with protein, moisture, and Hagberg falling number documentation.',
+          image: '/wheat.webp',
+          specs: ['Crude Protein: 11% – 13%', 'Moisture: ≤ 14%', 'Starch: 58% – 68%', 'Test Weight: ≥ 72 kg/hl', 'HS Code: 1001']
+        },
+        {
+          name: 'Barley',
+          slug: 'barley-feed',
+          description: 'High-fiber feed grain with moderate energy and protein, used in ruminant, swine, and equine rations, particularly valued for its digestive health benefits and slow-release energy profile.',
+          details: 'Feed barley is a major cereal grain in ruminant and swine nutrition, particularly in Europe, the Middle East, and North Africa. Its moderate starch content and high beta-glucan fiber make it a slower-digesting energy source compared to corn and wheat, beneficial for rumen health in cattle and dairy cows and for maintaining digestive function in swine. Barley is widely used in beef finishing rations, dairy cow total mixed rations (TMR), and as a primary grain in horse feeds where controlled energy release is important. Two-row and six-row barley varieties are both traded for feed use. We supply feed barley with moisture, protein, and test weight specifications from major producing regions.',
+          image: '/barley.webp',
+          specs: ['Crude Protein: 10% – 12%', 'Moisture: ≤ 14%', 'Beta-Glucan: 3% – 6%', 'Test Weight: ≥ 60 kg/hl', 'HS Code: 1003']
+        },
+        {
+          name: 'Sorghum',
+          slug: 'sorghum-feed',
+          description: 'Drought-tolerant energy grain with a nutritional profile similar to corn, used as a corn substitute in poultry, swine, and ruminant rations in arid and semi-arid regions.',
+          details: 'Feed sorghum (Sorghum bicolor) is the fourth most important cereal crop globally and a critical corn substitute in regions where corn availability or price makes it less competitive. Its energy and protein content closely resembles corn (8–10% crude protein, 60–68% starch), though tannin-containing varieties may require processing or tannin-neutralizing supplements to improve digestibility in poultry. Sorghum is particularly important in feed formulation in Sub-Saharan Africa, the Middle East, and parts of Latin America and Asia, where it is often more locally available than corn. We supply both low-tannin and high-tannin varieties with full nutritional profiles and origin documentation.',
+          image: '/sorghum.webp',
+          specs: ['Crude Protein: 8% – 10%', 'Moisture: ≤ 13%', 'Starch: 60% – 68%', 'Tannin: Low / Variable by variety', 'HS Code: 1007']
+        },
+        {
+          name: 'Millet',
+          slug: 'millet-feed',
+          description: 'Small-seeded cereal grain used in poultry and small animal feed rations, particularly in South Asian and African markets where it is locally produced and cost-effective.',
+          details: 'Feed millet encompasses several species — including pearl millet (Pennisetum glaucum), finger millet (Eleusine coracana), and foxtail millet (Setaria italica) — used as energy grain in poultry, small ruminant, and aquaculture feeds. Millet provides moderate starch and protein similar to sorghum and is particularly valued in regions where it is locally grown and competitively priced. Pearl millet is notable for its high energy density and relatively low tannin content, making it suitable for direct use in poultry rations. In compound feed manufacturing, millet is used as a partial substitute for corn or wheat, especially in South Asian and West African markets. We supply feed-grade millet with full moisture, protein, and purity specifications.',
+          image: '/millet.webp',
+          specs: ['Crude Protein: 9% – 12%', 'Moisture: ≤ 13%', 'Starch: 55% – 65%', 'Foreign Matter: ≤ 2%', 'HS Code: 1008']
+        }
+      ]
+    },
+
+    // ─── PROTEIN MEALS ────────────────────────────────────────────────────────
+    {
+      name: 'Protein Meals',
+      slug: 'protein-meals',
+      description: 'High-protein plant-based meal ingredients providing essential amino acids for livestock, poultry, and aquaculture compound feed formulation.',
+      details: 'Plant protein meals are the primary source of supplemental dietary protein in compound animal feeds globally, used to balance the amino acid deficiencies of cereal grain-based rations. We supply the three major traded oilseed meals — soybean meal, canola meal, and sunflower meal — each with distinct protein levels, amino acid profiles, and fiber characteristics suited to different species and formulation strategies. Full proximate analysis, amino acid profiles, and anti-nutritional factor data are provided for each shipment.',
+      image: '/proteinmeals.webp',
+      specs: ['Meals: Soybean / Canola / Sunflower', 'Crude Protein: 28% – 48%', 'HS Codes: 2304 / 2306', 'Packaging: Bulk or bagged (25kg, 50kg)'],
+      hsCode: '2304',
+      subProducts: [
+        {
+          name: 'Soybean Meal',
+          slug: 'soybean-meal',
+          description: 'The world\'s most widely used plant protein source in animal feed, produced by solvent extraction of soybeans, supplying 44–48% crude protein with a well-balanced amino acid profile for poultry, swine, and aquaculture.',
+          details: 'Soybean meal (SBM) is the dominant plant-based protein ingredient in global compound animal feed, accounting for the majority of protein supplementation in broiler, layer, swine, dairy, beef, and aquaculture rations worldwide. Produced by solvent extraction of dehulled soybeans, it delivers 44–48% crude protein with the highest biological value of any commercial plant protein, rich in lysine and threonine — the first and second limiting amino acids in poultry and swine diets. We supply both 44% protein (with hulls) and 48% protein (dehulled, high protein) grades, with full amino acid profiles, urease activity (indicating anti-nutritional factor inactivation), and moisture specifications from major origins.',
+          image: '/soybean-meal.webp',
+          specs: ['Crude Protein: 44% – 48%', 'Moisture: ≤ 12%', 'Crude Fiber: ≤ 7%', 'Lysine: ~2.9% (48% grade)', 'Urease Activity: 0.05 – 0.30 pH rise', 'HS Code: 2304']
+        },
+        {
+          name: 'Canola Meal (Rapeseed Meal)',
+          slug: 'canola-meal',
+          description: 'High-protein residue from canola/rapeseed oil extraction, used as a cost-effective soybean meal alternative in ruminant, swine, and poultry feeds, particularly in European and Canadian formulations.',
+          details: 'Canola meal is the protein-rich by-product of canola (Brassica napus) oil extraction, containing 34–38% crude protein with a favorable methionine content relative to soybean meal. Modern canola varieties have been bred to contain low levels of glucosinolates and erucic acid — the anti-nutritional factors present in older rapeseed varieties — making canola meal a safe and effective partial replacement for soybean meal in most livestock species. It is particularly valued in dairy cattle and beef rations for its rumen-bypass protein fraction, and is used extensively in swine and poultry feeds in Europe and Canada where it is locally abundant. Full glucosinolate content analysis and amino acid profiles are provided with each shipment.',
+          image: '/canola-meal.webp',
+          specs: ['Crude Protein: 34% – 38%', 'Moisture: ≤ 12%', 'Crude Fiber: 10% – 13%', 'Glucosinolates: ≤ 25 µmol/g', 'Methionine: ~0.7%', 'HS Code: 2306']
+        },
+        {
+          name: 'Sunflower Meal',
+          slug: 'sunflower-meal',
+          description: 'By-product of sunflower seed oil extraction, providing 28–36% crude protein and high fiber, used primarily in ruminant feeds and as a partial soybean meal replacement in Eastern European formulations.',
+          details: 'Sunflower meal is produced as the residue after extraction of oil from sunflower seeds, with protein content ranging from 28% (partially dehulled) to 36% (fully dehulled, high protein grade). Its protein is characterized by high methionine and cysteine content relative to lysine, making it nutritionally complementary to soybean meal in balanced feed formulations. The high fiber content (15–25%) of partially dehulled sunflower meal limits its inclusion rate in monogastric diets but makes it suitable as a significant protein and roughage source in ruminant (cattle and sheep) rations. Sunflower meal is produced in large volumes in Ukraine, Russia, and Argentina and is an important, cost-competitive protein ingredient in Eastern European and Middle Eastern feed markets.',
+          image: '/sunflower-meal.webp',
+          specs: ['Crude Protein: 28% – 36%', 'Moisture: ≤ 12%', 'Crude Fiber: 15% – 25%', 'Crude Fat: 1% – 3%', 'Methionine: ~0.7%', 'HS Code: 2306']
+        }
+      ]
+    },
+
+    // ─── ANIMAL PROTEINS ──────────────────────────────────────────────────────
+    {
+      name: 'Animal Proteins',
+      slug: 'animal-proteins',
+      description: 'Processed animal protein ingredients delivering high-quality amino acids, minerals, and energy for poultry, swine, and aquaculture compound feeds.',
+      details: 'Animal-derived protein ingredients provide the most concentrated and biologically complete protein sources available in compound feed manufacturing. We supply fish meal, meat and bone meal, and blood meal — three complementary animal protein ingredients covering a range of protein levels, amino acid profiles, and mineral contributions. All animal protein products are supplied with full species identification, pathogen testing, and compliance documentation for the destination market\'s regulatory requirements.',
+      image: '/animalproteins.webp',
+      specs: ['Products: Fish Meal / Meat & Bone Meal / Blood Meal', 'Crude Protein: 45% – 85%', 'HS Code: 2301', 'Packaging: Bagged (25kg, 50kg) or bulk'],
+      hsCode: '2301',
+      subProducts: [
+        {
+          name: 'Fish Meal',
+          slug: 'fish-meal',
+          description: 'Premium high-protein ingredient produced from whole fish or fish trimmings, delivering 60–72% crude protein with exceptional amino acid balance and omega-3 fatty acids for aquaculture, poultry, and swine feeds.',
+          details: 'Fish meal is the most nutritionally concentrated commercially available protein ingredient, produced by cooking, pressing, drying, and milling whole fish (typically anchovies, herrings, or menhaden) or fish processing trimmings. It delivers 60–72% crude protein with a complete essential amino acid profile — particularly rich in lysine, methionine, and threonine — as well as naturally occurring omega-3 fatty acids (EPA and DHA), phospholipids, and minerals including calcium, phosphorus, and selenium. In aquaculture feeds, fish meal is the benchmark ingredient for salmon, shrimp, and sea bass diets due to its palatability and growth-promoting performance. In poultry and swine feeds, it is used at moderate inclusion rates to improve amino acid balance and early growth performance. We supply both prime (65%+ protein) and FAQ grades with full TVN, histamine, and amino acid analysis.',
+          image: '/fish-meal.webp',
+          specs: ['Crude Protein: 60% – 72%', 'Moisture: ≤ 10%', 'Crude Fat: 6% – 12%', 'Ash: 12% – 20%', 'TVN: ≤ 150 mg/100g', 'Histamine: ≤ 500 ppm', 'HS Code: 2301']
+        },
+        {
+          name: 'Meat & Bone Meal (MBM)',
+          slug: 'meat-bone-meal',
+          description: 'Rendered protein and mineral ingredient produced from non-ruminant animal by-products, supplying 45–55% crude protein with high calcium and phosphorus for poultry and swine feed.',
+          details: 'Meat and Bone Meal (MBM) is produced by high-temperature rendering of non-ruminant animal by-products — primarily pork and poultry processing residuals — followed by fat extraction and milling to produce a dry protein-mineral powder. It supplies 45–55% crude protein alongside high levels of bioavailable calcium (8–10%) and phosphorus (4–5%), making it a valuable dual-purpose protein and mineral ingredient in compound feed. Its high ash and mineral content make it particularly useful for balancing calcium and phosphorus in growing and finishing rations, reducing the need for dicalcium phosphate supplementation. Regulatory restrictions apply in various markets regarding the species of origin and permitted use in ruminant feeds; we supply MBM with full species identification, rendering temperature certification, and salmonella-free documentation.',
+          image: '/meat-bone-meal.webp',
+          specs: ['Crude Protein: 45% – 55%', 'Moisture: ≤ 8%', 'Crude Fat: 8% – 14%', 'Calcium: 8% – 10%', 'Phosphorus: 4% – 5%', 'Salmonella: Absent', 'HS Code: 2301']
+        },
+        {
+          name: 'Blood Meal',
+          slug: 'blood-meal',
+          description: 'High-protein spray-dried or flash-dried animal blood ingredient with 80–85% crude protein and exceptional lysine content for poultry, swine, and aquaculture feeds.',
+          details: 'Blood meal is produced by collecting fresh animal blood from slaughter operations and drying it through spray-drying or flash-drying processes to produce a dark, high-protein powder. It is one of the highest-protein single-ingredient feed materials available, delivering 80–85% crude protein with an exceptionally high lysine content (~7%), making it highly effective for correcting lysine deficiency in formulations where soybean meal alone is insufficient. Its high protein solubility — particularly in spray-dried grades — also makes blood meal effective in early weaning diets for piglets and in starter feeds for young broilers where highly digestible protein is critical for gut development. Inclusion rates are typically limited to 2–4% in monogastric diets due to its high protein density and variable palatability. We supply both spray-dried and flash-dried grades with full proximate and amino acid analysis.',
+          image: '/blood-meal.webp',
+          specs: ['Crude Protein: 80% – 85%', 'Moisture: ≤ 8%', 'Lysine: ~7%', 'Crude Fat: ≤ 1%', 'Ash: ≤ 5%', 'HS Code: 2301']
+        }
+      ]
+    },
+
+    // ─── FEED BY-PRODUCTS ─────────────────────────────────────────────────────
+    {
+      name: 'Feed By-products',
+      slug: 'feed-by-products',
+      description: 'Agro-industrial processing residues providing cost-effective fiber, energy, and protein supplementation in livestock and poultry compound feeds.',
+      details: 'Feed by-products are the co-products of grain milling, oil extraction, ethanol fermentation, and sugar refining industries, redirected into animal nutrition as valuable and cost-competitive feed ingredients. We supply wheat bran, rice bran, DDGS, and molasses — four of the most widely traded agro-industrial feed by-products — each offering distinct nutritional contributions to compound feed rations. Full proximate analysis, mycotoxin screening, and origin documentation are provided for all by-product shipments.',
+      image: '/feedbyproducts.webp',
+      specs: ['Products: Wheat Bran / Rice Bran / DDGS / Molasses', 'HS Codes: 2302 / 2303 / 1703', 'Packaging: Bulk, bagged, or flexitank'],
+      hsCode: '2302',
+      subProducts: [
+        {
+          name: 'Wheat Bran',
+          slug: 'wheat-bran',
+          description: 'The outer fibrous layer of the wheat kernel, separated during flour milling, providing dietary fiber, moderate protein, and B vitamins for ruminant, swine, and poultry rations.',
+          details: 'Wheat bran is the outer pericarp and aleurone layer of the wheat kernel, the primary co-product of the wheat flour milling industry. It contains 14–17% crude protein, 10–13% crude fiber, and a rich supply of B vitamins and minerals — particularly phosphorus, though largely in phytate-bound form that requires phytase enzyme addition for optimal bioavailability in monogastrics. In ruminant rations, wheat bran is a highly palatable, digestible fiber source that supports rumen function and contributes to total mixed ration (TMR) dry matter. In swine and poultry feeds, its high fiber content limits inclusion rates but provides beneficial gut health effects. Wheat bran is available as a co-product from flour mills in wheat-producing regions and is supplied in bulk or bagged formats.',
+          image: '/wheat-bran.webp',
+          specs: ['Crude Protein: 14% – 17%', 'Moisture: ≤ 13%', 'Crude Fiber: 10% – 13%', 'Crude Fat: 3% – 5%', 'Ash: 5% – 7%', 'HS Code: 2302']
+        },
+        {
+          name: 'Rice Bran',
+          slug: 'rice-bran',
+          description: 'The outer layer and germ fraction of milled rice, providing moderate protein, high fat, and energy for poultry, swine, and ruminant feeds, particularly in rice-producing Asian markets.',
+          details: 'Rice bran is the nutrient-dense layer removed from brown rice during the milling process to produce white rice, comprising the pericarp, aleurone layer, and germ. It is particularly rich in fat (12–22% in raw form), providing a high energy density, and contains oryzanol, a natural antioxidant. However, lipase enzyme activity in raw rice bran causes rapid fat hydrolysis and rancidity after milling; therefore, stabilized rice bran — which has been heat-treated to inactivate lipase — is the commercially preferred feed ingredient. Stabilized rice bran is used in poultry, swine, and equine feeds as an energy-dense ingredient with moderate protein (12–15%). We supply stabilized full-fat rice bran and de-oiled rice bran (after oil extraction) with peroxide value and moisture specifications.',
+          image: '/rice-bran.webp',
+          specs: ['Crude Protein: 12% – 15%', 'Moisture: ≤ 12%', 'Crude Fat: 12% – 22% (full-fat)', 'Crude Fiber: 7% – 12%', 'Form: Stabilized (heat-treated)', 'HS Code: 2302']
+        },
+        {
+          name: 'DDGS (Distillers Dried Grains with Solubles)',
+          slug: 'ddgs',
+          description: 'Concentrated co-product of corn or wheat ethanol fermentation, delivering 26–30% crude protein and high digestible energy for cattle, swine, and poultry rations.',
+          details: 'Distillers Dried Grains with Solubles (DDGS) is the concentrated, dried residue remaining after the fermentation of corn or wheat starch into ethanol. Because starch is consumed during fermentation, the protein, fat, and fiber components of the original grain are concentrated approximately three-fold in the DDGS product, yielding 26–30% crude protein and 8–12% crude fat. Corn DDGS is the most widely traded variety, particularly from US ethanol plants, and is used extensively in beef cattle finishing, dairy cow TMR, swine, and poultry feeds. Its high rumen-bypass protein content makes it particularly valuable in ruminant rations. Color (light golden) is an important quality indicator — darker DDGS indicates over-heating during drying and reduced lysine availability. We supply corn and wheat DDGS with full proximate analysis and lysine digestibility data.',
+          image: '/ddgs.webp',
+          specs: ['Crude Protein: 26% – 30%', 'Moisture: ≤ 12%', 'Crude Fat: 8% – 12%', 'Crude Fiber: 7% – 9%', 'Lysine: ~0.7%', 'Color: Light to golden (quality indicator)', 'HS Code: 2303']
+        },
+        {
+          name: 'Molasses (Food Grade)',
+          slug: 'molasses-food-grade',
+          description: 'Food-grade cane and beet molasses for use in food manufacturing, fermentation, animal feed, and specialty beverage production. Available in Sugarcane, Sugar Beet, and Blackstrap grades.',
+          details: 'Molasses is a dense, viscous by-product of the sugar refining process, produced during the repeated crystallization of sucrose from sugarcane or sugar beet juice. Food-grade molasses retains a rich concentration of residual sugars, vitamins, and minerals — including iron, calcium, magnesium, and potassium — making it a valued ingredient in food manufacturing and nutrition. In the food industry, it is used as a natural sweetener, flavor enhancer, and colorant in baked goods, sauces, marinades, and confectionery. It is also a primary fermentation substrate for rum production, yeast manufacturing, and the production of citric acid and amino acids. We supply blackstrap, sugarcane, and beet molasses in food-grade specifications, with full sugar content, Brix, pH, and microbiological analysis, shipped in flexitanks, ISO tanks, or lined drums.',
+          image: '/molasses.webp',
+          specs: ['Grades: Sugarcane / Sugar Beet / Blackstrap', 'Brix: 75% – 85%', 'HS Code: 1703', 'Packaging: Flexitanks, ISO tanks, lined 275L drums'],
+          hsCode: '1703',
+          subProducts: [
+            {
+              name: 'Sugarcane Molasses (Food Grade)',
+              slug: 'sugarcane-molasses-food-grade',
+              description: 'The most common commercial food-grade molasses, obtained after crystallization of sugar from sugarcane juice, used in baking, confectionery, beverage flavoring, and fermentation.',
+              details: 'Sugarcane molasses is the primary by-product of sugar extraction from harvested sugarcane. After juice extraction and multiple stages of crystallization to recover sucrose, the remaining dark syrup — rich in residual sugars, organic acids, and minerals — is the commercial molasses product. Food-grade sugarcane molasses is processed and stored under hygienic conditions with controlled microbiological parameters to ensure suitability for direct use in food and beverage manufacturing. Its characteristic deep flavor and high fermentable sugar content make it the preferred substrate for rum distillation, industrial yeast production, and citric acid fermentation. In bakery, it contributes color, moisture retention, and a distinctive caramel flavor to products such as gingerbread, brown bread, and dark sauces.',
+              image: '/sugarcanemolasses.webp',
+              specs: ['Brix: 75% – 85%', 'Total Sugars: 45% – 55%', 'Sucrose: 30% – 40%', 'Reducing Sugars: 10% – 20%', 'Moisture: 15% – 25%', 'Ash: 8% – 12%', 'pH: 4.5 – 6.0', 'HS Code: 1703']
+            },
+            {
+              name: 'Sugar Beet Molasses (Food Grade)',
+              slug: 'sugar-beet-molasses-food-grade',
+              description: 'Derived from sugar beet processing, with a slightly different mineral composition and more alkaline pH, widely used in fermentation, specialty food ingredients, and animal nutrition.',
+              details: 'Sugar beet molasses is obtained as a by-product of the beet sugar refining process in temperate growing regions. Its mineral composition differs from cane molasses, particularly in its betaine content and more alkaline pH profile, which makes it suitable for distinct fermentation processes and specialty food ingredient applications. Sugar beet molasses is widely used as a fermentation substrate for yeast production (baker\'s yeast and fodder yeast), as well as for the production of lysine, glutamic acid, and other amino acids. Its higher pH (6.5–8.5) compared to cane molasses makes it preferred for certain bacterial fermentation processes. In the animal nutrition sector, it serves as an energy-dense feed additive and a palatability enhancer for compound animal feeds.',
+              image: '/sugarbeet.webp',
+              specs: ['Brix: 75% – 85%', 'Total Sugars: 45% – 50%', 'Sucrose: 25% – 35%', 'Moisture: 18% – 25%', 'Ash: 8% – 12%', 'pH: 6.5 – 8.5', 'Form: Dark brown liquid', 'HS Code: 1703']
+            },
+            {
+              name: 'Blackstrap Molasses',
+              slug: 'blackstrap-molasses',
+              description: 'Final extraction stage molasses with lower sugar content but elevated iron, calcium, and magnesium — used as a nutritional food ingredient, fermentation substrate, and animal feed supplement.',
+              details: 'Blackstrap molasses is the concentrated syrup remaining after the third and final extraction of sugar crystals from the boiled sugarcane or beet juice. As the "final run" of the refining process, blackstrap contains the lowest recoverable sugar content of all molasses grades, but the highest concentration of minerals — particularly iron, calcium, magnesium, and potassium — making it a nutritionally distinct ingredient. In the health food market, blackstrap molasses is used as a natural iron and mineral supplement and as a flavor component in specialty health foods, energy bars, and natural sweetener blends. In industrial fermentation, its lower sugar content is compensated by its rich mineral content which supports robust yeast and bacterial growth. It is also extensively used as an energy and palatability supplement in animal feed rations for cattle, horses, and poultry.',
+              image: '/blackstrap.webp',
+              specs: ['Brix: 75% – 85%', 'Total Sugars: 35% – 45%', 'Ash: 10% – 15%', 'Iron: Elevated (trace mineral rich)', 'Moisture: 20% – 25%', 'Form: Very dark, dense syrup', 'HS Code: 1703']
+            }
+          ]
+        }
+      ]
+    },
+
+    // ─── FEED MINERALS ────────────────────────────────────────────────────────
+    {
+      name: 'Feed Minerals',
+      slug: 'feed-minerals',
+      description: 'Essential inorganic mineral ingredients supplying calcium, phosphorus, and sodium for bone development, metabolic function, and electrolyte balance in livestock and poultry feeds.',
+      details: 'Mineral supplementation is critical in compound animal feeds because cereal grain and oilseed meal-based rations are inherently deficient in calcium, phosphorus, and sodium relative to the requirements of high-performing livestock and poultry. We supply limestone, dicalcium phosphate, and salt — the three primary macro-mineral ingredients used in feed manufacturing — with guaranteed minimum mineral content, controlled fluorine levels, and heavy metals compliance for all major export markets.',
+      image: '/feedminerals.webp',
+      specs: ['Products: Limestone / Dicalcium Phosphate / Salt', 'HS Codes: 2521 / 2835 / 2501', 'Packaging: Bagged (25kg, 50kg) or bulk'],
+      hsCode: '2521',
+      subProducts: [
+        {
+          name: 'Limestone (Feed Grade)',
+          slug: 'limestone-feed-grade',
+          description: 'Ground calcium carbonate (CaCO₃) providing the primary source of dietary calcium in poultry and livestock feeds, essential for eggshell quality, bone development, and milk production.',
+          details: 'Feed-grade limestone is ground calcium carbonate (CaCO₃) derived from natural limestone deposits, refined to controlled particle size and calcium content specifications for use as the primary calcium source in compound animal feeds. It is the most cost-effective and widely used calcium supplement in poultry layer rations, where calcium demand for eggshell production is the highest single nutritional requirement of any livestock application. Particle size is a critical specification: coarse limestone (2–4 mm) is preferred for layer hens as it dissolves more slowly in the gizzard, providing a sustained overnight supply of calcium for nocturnal shell deposition. Fine limestone is used in broiler, swine, and ruminant feeds. We supply feed-grade limestone in both fine and coarse grades with guaranteed minimum calcium content and heavy metals compliance.',
+          image: '/limestone.webp',
+          specs: ['Calcium (Ca): ≥ 36%', 'CaCO₃: ≥ 90%', 'Moisture: ≤ 0.5%', 'Heavy Metals: Per feed safety limits', 'Grades: Fine (0.1–1 mm) / Coarse (2–4 mm)', 'HS Code: 2521']
+        },
+        {
+          name: 'Dicalcium Phosphate (DCP)',
+          slug: 'dicalcium-phosphate',
+          description: 'Feed-grade mineral supplement supplying highly bioavailable calcium and phosphorus, essential for skeletal development, egg production, and metabolic function across all livestock species.',
+          details: 'Dicalcium Phosphate (DCP, CaHPO₄) is the most widely used inorganic phosphorus supplement in compound animal feed, providing both calcium and phosphorus in a highly bioavailable mineral form. Unlike phytate-bound phosphorus in plant-based feed ingredients (which requires phytase enzyme for release), the phosphorus in DCP is directly available for intestinal absorption. Adequate dietary phosphorus is essential for skeletal development and integrity in growing animals, milk production in dairy cattle, egg production in layers, and energy metabolism (as a component of ATP and phospholipids) in all species. We supply feed-grade DCP with guaranteed minimum phosphorus (18%) and calcium (21%) content, with fluorine controlled below the maximum permitted level (0.18% F) to ensure livestock safety.',
+          image: '/dcp.webp',
+          specs: ['Phosphorus (P): ≥ 18%', 'Calcium (Ca): ≥ 21%', 'Fluorine (F): ≤ 0.18%', 'Moisture: ≤ 4%', 'Form: Off-white granular powder', 'HS Code: 2835']
+        },
+        {
+          name: 'Salt (Feed Grade)',
+          slug: 'salt-feed-grade',
+          description: 'Sodium chloride supplied as an essential electrolyte supplement in all livestock and poultry compound feeds, supporting osmotic balance, digestion, and nerve function.',
+          details: 'Feed-grade salt (sodium chloride, NaCl) is an essential electrolyte mineral included in all compound animal feeds to meet the sodium and chloride requirements of livestock and poultry. Sodium and chloride are critical for osmotic regulation, acid-base balance, transmission of nerve impulses, and activation of salivary amylase in the digestive process. In poultry, precise sodium and chloride balance is particularly important, as both deficiency and excess affect growth performance, water consumption, litter moisture, and metabolic health. Feed-grade salt typically meets a lower purity specification than edible grade salt, though heavy metal contamination limits still apply. It is supplied in coarse granular or fine form, in bulk or bagged format, and is used as a direct inclusion ingredient or as a carrier for trace mineral premixes.',
+          image: '/salt-feed.webp',
+          specs: ['NaCl: ≥ 97%', 'Sodium (Na): ≥ 38%', 'Moisture: ≤ 1%', 'Heavy Metals: Per feed safety limits', 'Form: Coarse granular / Fine', 'HS Code: 2501']
+        }
+      ]
+    },
+
+    // ─── FATS & OILS ──────────────────────────────────────────────────────────
+    {
+      name: 'Fats & Oils',
+      slug: 'fats-oils',
+      description: 'High-energy lipid ingredients supplying essential fatty acids, fat-soluble vitamins, and concentrated metabolizable energy for livestock and poultry feed formulation.',
+      details: 'Dietary fats and oils are the most energy-dense class of feed ingredients, supplying approximately 2.25 times the metabolizable energy of carbohydrates per unit weight. They are used in compound feeds to increase energy density without increasing feed volume, improve pellet quality, reduce dustiness, and supply essential fatty acids. We supply three complementary fat and oil ingredients — soybean oil, poultry fat, and palm oil — covering vegetable and animal fat options for diverse species and formulation requirements.',
+      image: '/feedfats.webp',
+      specs: ['Products: Soybean Oil / Poultry Fat / Palm Oil', 'Energy: ~7,500 – 8,800 kcal ME/kg', 'HS Codes: 1507 / 1502 / 1511', 'Packaging: ISO tanks, flexitanks, IBC totes, drums'],
+      hsCode: '1507',
+      subProducts: [
+        {
+          name: 'Soybean Oil (Feed Grade)',
+          slug: 'soybean-oil-feed-grade',
+          description: 'Refined or crude soybean oil used as a high-energy, high-linoleic acid fat supplement in poultry, swine, and aquaculture feeds to increase energy density and improve pellet quality.',
+          details: 'Feed-grade soybean oil is a vegetable fat derived from solvent extraction of soybeans, supplying approximately 8,800 kcal ME/kg — the highest metabolizable energy of any commonly used feed ingredient. Its high linoleic acid content (omega-6, ~53%) makes it particularly valuable in poultry broiler feeds, where essential fatty acid supply is directly linked to growth performance, feed conversion, and breast meat yield. In pellet feed manufacturing, the addition of soybean oil at 2–5% improves pellet durability, reduces mill energy consumption, and adds palatability. We supply both crude degummed soybean oil and refined soybean oil for feed applications, with full fatty acid profile, free fatty acid (FFA) content, and moisture and impurities specifications.',
+          image: '/soybean-oil.webp',
+          specs: ['Metabolizable Energy: ~8,800 kcal/kg', 'Linoleic Acid (C18:2): ~53%', 'Free Fatty Acids (FFA): ≤ 2% (refined)', 'Moisture & Impurities: ≤ 1%', 'Peroxide Value: ≤ 5 meq/kg', 'HS Code: 1507']
+        },
+        {
+          name: 'Poultry Fat',
+          slug: 'poultry-fat',
+          description: 'Rendered fat from poultry processing operations, used as a cost-effective, highly digestible energy source in broiler, swine, and pet food rations.',
+          details: 'Poultry fat is rendered from poultry processing by-products — primarily skin, fat trim, and off-cuts — through high-temperature continuous rendering followed by centrifugal separation of fat from water and protein fractions. It is a highly digestible energy source (approximately 8,500 kcal ME/kg) with a fatty acid profile intermediate between vegetable oils and ruminant fats, containing significant oleic (C18:1) and linoleic (C18:2) acid fractions. In broiler feeds, poultry fat is the preferred fat supplement due to its superior digestibility in young chicks compared to saturated tallow. Its incorporation at 3–6% in broiler finisher diets increases energy density, improves carcass fat composition, and enhances feed palatability. We supply food-chain poultry fat with guaranteed free fatty acid, moisture, and impurity specifications.',
+          image: '/poultry-fat.webp',
+          specs: ['Metabolizable Energy: ~8,500 kcal/kg', 'Free Fatty Acids (FFA): ≤ 15%', 'Moisture & Impurities: ≤ 1%', 'Oleic Acid (C18:1): ~40%', 'Linoleic Acid (C18:2): ~20%', 'HS Code: 1502']
+        },
+        {
+          name: 'Palm Oil (Feed Grade)',
+          slug: 'palm-oil-feed-grade',
+          description: 'High-energy saturated vegetable fat used in ruminant, swine, and poultry feeds, particularly valued as a rumen-protected fat source in dairy cow rations to increase energy density without disrupting rumen fermentation.',
+          details: 'Feed-grade palm oil and palm-derived fats (including palm acid oil and palm fatty acid distillate) are widely used in animal nutrition as cost-competitive energy supplements, particularly in tropical and subtropical regions where palm products are abundantly available. Crude palm oil is high in saturated palmitic acid (C16:0, ~44%) and oleic acid (C18:1, ~40%), giving it a semi-solid consistency at room temperature that improves handling properties compared to liquid oils. In ruminant nutrition, palm-derived fats are formulated into calcium soap or hydrogenated rumen-protected fat supplements for high-producing dairy cows, where supplemental fat must bypass rumen fermentation to avoid inhibiting fiber-digesting bacteria. In poultry and swine feeds, palm acid oil is used as a cost-effective energy ingredient where digestibility is adequate. We supply crude palm oil, palm acid oil, and palm fatty acid distillate with full specifications.',
+          image: '/palm-oil.webp',
+          specs: ['Metabolizable Energy: ~7,500 – 8,000 kcal/kg', 'Free Fatty Acids (FFA): Variable by grade', 'Palmitic Acid (C16:0): ~44%', 'Moisture & Impurities: ≤ 1%', 'Form: Semi-solid to liquid (temperature dependent)', 'HS Code: 1511']
+        }
+      ]
+    }
+
+  ]
+},
   {
     name: 'Cosmetic Raw Materials',
     slug: 'cosmetic-raw-materials',
