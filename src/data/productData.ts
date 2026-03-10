@@ -1592,7 +1592,7 @@ export const categoryData: Category[] = [
           slug: 'rice-bran',
           description: 'Rice bran is produced during the milling of rice and is known for its good energy content and beneficial nutrients. It contains natural oils, proteins, and fiber that contribute to balanced animal diets. Rice bran is commonly used in feed for livestock and poultry to enhance nutrition and feed efficiency.',
           details: 'Rice bran is the nutrient-dense layer removed from brown rice during the milling process to produce white rice, comprising the pericarp, aleurone layer, and germ. It is particularly rich in fat (12–22% in raw form), providing a high energy density, and contains oryzanol, a natural antioxidant. However, lipase enzyme activity in raw rice bran causes rapid fat hydrolysis and rancidity after milling; therefore, stabilized rice bran — which has been heat-treated to inactivate lipase — is the commercially preferred feed ingredient. Stabilized rice bran is used in poultry, swine, and equine feeds as an energy-dense ingredient with moderate protein (12–15%). We supply stabilized full-fat rice bran and de-oiled rice bran (after oil extraction) with peroxide value and moisture specifications.',
-          image: '/ricebran.webp',
+          image: '/ricebarn.webp',
           specs: ['Crude Protein: 12% – 15%', 'Moisture: ≤ 12%', 'Crude Fat: 12% – 22% (full-fat)', 'Crude Fiber: 7% – 12%', 'Form: Stabilized (heat-treated)', 'HS Code: 2302']
         },
         {
