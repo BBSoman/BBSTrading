@@ -38,7 +38,7 @@ export const categoryData: Category[] = [
         slug: 'npk',
         description: 'Fully water-soluble NPK formulations engineered for precision fertigation, foliar feeding, and high-efficiency nutrient delivery across all crop growth stages.',
         details: 'Our water-soluble NPK range is formulated to deliver nitrogen, phosphorus, and potassium in clean-dissolving, residue-free solutions compatible with drip, sprinkler, and foliar application systems. Each grade is precisely blended to match specific crop growth stages — from root activation and vegetative development through to flowering, fruit fill, and maturation. All grades include secondary elements (S, Ca, Mg) and a full micronutrient package (Zn, Cu, Fe, Mn, B) to support complete plant nutrition. HS Code: 3105.20.',
-        image: '/NPK.webp',
+        image: '/NPK1.webp',
         specs: ['Fully water-soluble grades', 'Application concentration: 0.5 – 0.8%', 'Includes secondary elements: S, Ca, Mg', 'Micronutrients: Zn, Cu, Fe, Mn, B', 'HS Code: 3105.20'],
         hsCode: '3105.20',
         subProducts: [
