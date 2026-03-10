@@ -1604,7 +1604,7 @@ export const categoryData: Category[] = [
           specs: ['Crude Protein: 26% – 30%', 'Moisture: ≤ 12%', 'Crude Fat: 8% – 12%', 'Crude Fiber: 7% – 9%', 'Lysine: ~0.7%', 'Color: Light to golden (quality indicator)', 'HS Code: 2303']
         },
         {
-          name: 'Molasses (Food Grade)',
+          name: 'Molasses',
           slug: 'molasses-food-grade',
           description: 'Molasses is a by-product of the sugar refining process and is commonly used in feed as a natural energy source and flavor enhancer. Its sweet taste improves feed palatability, encouraging better feed intake among animals. Molasses also helps reduce dust in feed mixtures and provides additional minerals and energy.',
           details: 'Molasses is a dense, viscous by-product of the sugar refining process, produced during the repeated crystallization of sucrose from sugarcane or sugar beet juice. Food-grade molasses retains a rich concentration of residual sugars, vitamins, and minerals — including iron, calcium, magnesium, and potassium — making it a valued ingredient in food manufacturing and nutrition. In the food industry, it is used as a natural sweetener, flavor enhancer, and colorant in baked goods, sauces, marinades, and confectionery. It is also a primary fermentation substrate for rum production, yeast manufacturing, and the production of citric acid and amino acids. We supply blackstrap, sugarcane, and beet molasses in food-grade specifications, with full sugar content, Brix, pH, and microbiological analysis, shipped in flexitanks, ISO tanks, or lined drums.',
