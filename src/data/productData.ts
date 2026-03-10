@@ -1383,7 +1383,7 @@ export const categoryData: Category[] = [
           slug: 'salt-feed-grade',
           description: 'Sodium chloride supplied as an essential electrolyte supplement in all livestock and poultry compound feeds, supporting osmotic balance, digestion, and nerve function.',
           details: 'Feed-grade salt (sodium chloride, NaCl) is an essential electrolyte mineral included in all compound animal feeds to meet the sodium and chloride requirements of livestock and poultry. Sodium and chloride are critical for osmotic regulation, acid-base balance, transmission of nerve impulses, and activation of salivary amylase in the digestive process. In poultry, precise sodium and chloride balance is particularly important, as both deficiency and excess affect growth performance, water consumption, litter moisture, and metabolic health. Feed-grade salt typically meets a lower purity specification than edible grade salt, though heavy metal contamination limits still apply. It is supplied in coarse granular or fine form, in bulk or bagged format, and is used as a direct inclusion ingredient or as a carrier for trace mineral premixes.',
-          image: '/salt-feed.webp',
+          image: '/saltfeed.webp',
           specs: ['NaCl: ≥ 97%', 'Sodium (Na): ≥ 38%', 'Moisture: ≤ 1%', 'Heavy Metals: Per feed safety limits', 'Form: Coarse granular / Fine', 'HS Code: 2501']
         }
       ]
@@ -1510,7 +1510,7 @@ export const categoryData: Category[] = [
           slug: 'soybean-meal',
           description: 'The world\'s most widely used plant protein source in animal feed, produced by solvent extraction of soybeans, supplying 44–48% crude protein with a well-balanced amino acid profile for poultry, swine, and aquaculture.',
           details: 'Soybean meal (SBM) is the dominant plant-based protein ingredient in global compound animal feed, accounting for the majority of protein supplementation in broiler, layer, swine, dairy, beef, and aquaculture rations worldwide. Produced by solvent extraction of dehulled soybeans, it delivers 44–48% crude protein with the highest biological value of any commercial plant protein, rich in lysine and threonine — the first and second limiting amino acids in poultry and swine diets. We supply both 44% protein (with hulls) and 48% protein (dehulled, high protein) grades, with full amino acid profiles, urease activity (indicating anti-nutritional factor inactivation), and moisture specifications from major origins.',
-          image: '/soybean-meal.webp',
+          image: '/soybean.webp',
           specs: ['Crude Protein: 44% – 48%', 'Moisture: ≤ 12%', 'Crude Fiber: ≤ 7%', 'Lysine: ~2.9% (48% grade)', 'Urease Activity: 0.05 – 0.30 pH rise', 'HS Code: 2304']
         },
         {
@@ -1518,7 +1518,7 @@ export const categoryData: Category[] = [
           slug: 'canola-meal',
           description: 'High-protein residue from canola/rapeseed oil extraction, used as a cost-effective soybean meal alternative in ruminant, swine, and poultry feeds, particularly in European and Canadian formulations.',
           details: 'Canola meal is the protein-rich by-product of canola (Brassica napus) oil extraction, containing 34–38% crude protein with a favorable methionine content relative to soybean meal. Modern canola varieties have been bred to contain low levels of glucosinolates and erucic acid — the anti-nutritional factors present in older rapeseed varieties — making canola meal a safe and effective partial replacement for soybean meal in most livestock species. It is particularly valued in dairy cattle and beef rations for its rumen-bypass protein fraction, and is used extensively in swine and poultry feeds in Europe and Canada where it is locally abundant. Full glucosinolate content analysis and amino acid profiles are provided with each shipment.',
-          image: '/canola-meal.webp',
+          image: '/canola.webp',
           specs: ['Crude Protein: 34% – 38%', 'Moisture: ≤ 12%', 'Crude Fiber: 10% – 13%', 'Glucosinolates: ≤ 25 µmol/g', 'Methionine: ~0.7%', 'HS Code: 2306']
         },
         {
@@ -1526,7 +1526,7 @@ export const categoryData: Category[] = [
           slug: 'sunflower-meal',
           description: 'By-product of sunflower seed oil extraction, providing 28–36% crude protein and high fiber, used primarily in ruminant feeds and as a partial soybean meal replacement in Eastern European formulations.',
           details: 'Sunflower meal is produced as the residue after extraction of oil from sunflower seeds, with protein content ranging from 28% (partially dehulled) to 36% (fully dehulled, high protein grade). Its protein is characterized by high methionine and cysteine content relative to lysine, making it nutritionally complementary to soybean meal in balanced feed formulations. The high fiber content (15–25%) of partially dehulled sunflower meal limits its inclusion rate in monogastric diets but makes it suitable as a significant protein and roughage source in ruminant (cattle and sheep) rations. Sunflower meal is produced in large volumes in Ukraine, Russia, and Argentina and is an important, cost-competitive protein ingredient in Eastern European and Middle Eastern feed markets.',
-          image: '/sunflower-meal.webp',
+          image: '/sunflower.webp',
           specs: ['Crude Protein: 28% – 36%', 'Moisture: ≤ 12%', 'Crude Fiber: 15% – 25%', 'Crude Fat: 1% – 3%', 'Methionine: ~0.7%', 'HS Code: 2306']
         }
       ]
@@ -1664,7 +1664,7 @@ export const categoryData: Category[] = [
           slug: 'dicalcium-phosphate',
           description: 'Dicalcium phosphate is a key mineral supplement used in animal feed to provide both calcium and phosphorus. These minerals are essential for bone growth, teeth development, and overall metabolic functions in animals. It is commonly included in feed formulations to ensure balanced mineral intake and support healthy animal development.',
           details: 'Dicalcium Phosphate (DCP, CaHPO₄) is the most widely used inorganic phosphorus supplement in compound animal feed, providing both calcium and phosphorus in a highly bioavailable mineral form. Unlike phytate-bound phosphorus in plant-based feed ingredients (which requires phytase enzyme for release), the phosphorus in DCP is directly available for intestinal absorption. Adequate dietary phosphorus is essential for skeletal development and integrity in growing animals, milk production in dairy cattle, egg production in layers, and energy metabolism (as a component of ATP and phospholipids) in all species. We supply feed-grade DCP with guaranteed minimum phosphorus (18%) and calcium (21%) content, with fluorine controlled below the maximum permitted level (0.18% F) to ensure livestock safety.',
-          image: '/dcp.webp',
+          image: '/DCP.webp',
           specs: ['Phosphorus (P): ≥ 18%', 'Calcium (Ca): ≥ 21%', 'Fluorine (F): ≤ 0.18%', 'Moisture: ≤ 4%', 'Form: Off-white granular powder', 'HS Code: 2835']
         },
         {
@@ -1672,7 +1672,7 @@ export const categoryData: Category[] = [
           slug: 'salt-feed-grade',
           description: 'Sodium chloride supplied as an essential electrolyte supplement in all livestock and poultry compound feeds, supporting osmotic balance, digestion, and nerve function.',
           details: 'Feed-grade salt (sodium chloride, NaCl) is an essential electrolyte mineral included in all compound animal feeds to meet the sodium and chloride requirements of livestock and poultry. Sodium and chloride are critical for osmotic regulation, acid-base balance, transmission of nerve impulses, and activation of salivary amylase in the digestive process. In poultry, precise sodium and chloride balance is particularly important, as both deficiency and excess affect growth performance, water consumption, litter moisture, and metabolic health. Feed-grade salt typically meets a lower purity specification than edible grade salt, though heavy metal contamination limits still apply. It is supplied in coarse granular or fine form, in bulk or bagged format, and is used as a direct inclusion ingredient or as a carrier for trace mineral premixes.',
-          image: '/salt-feed.webp',
+          image: '/saltfeed.webp',
           specs: ['NaCl: ≥ 97%', 'Sodium (Na): ≥ 38%', 'Moisture: ≤ 1%', 'Heavy Metals: Per feed safety limits', 'Form: Coarse granular / Fine', 'HS Code: 2501']
         }
       ]
@@ -1684,7 +1684,7 @@ export const categoryData: Category[] = [
       slug: 'fats-oils',
       description: 'Fats and oils are important ingredients in animal feed, providing a concentrated source of energy that supports growth, productivity, and overall animal performance. They also help improve feed palatability, reduce dust in feed mixtures, and enhance the absorption of fat-soluble vitamins. Ingredients such as soybean oil, poultry fat, and palm oil are commonly used to increase the energy value and efficiency of feed formulations.',
       details: 'Dietary fats and oils are the most energy-dense class of feed ingredients, supplying approximately 2.25 times the metabolizable energy of carbohydrates per unit weight. They are used in compound feeds to increase energy density without increasing feed volume, improve pellet quality, reduce dustiness, and supply essential fatty acids. We supply three complementary fat and oil ingredients — soybean oil, poultry fat, and palm oil — covering vegetable and animal fat options for diverse species and formulation requirements.',
-      image: '/feedfats.webp',
+      image: '/fats&oils.webp',
       specs: ['Products: Soybean Oil / Poultry Fat / Palm Oil', 'Energy: ~7,500 – 8,800 kcal ME/kg', 'HS Codes: 1507 / 1502 / 1511', 'Packaging: ISO tanks, flexitanks, IBC totes, drums'],
       hsCode: '1507',
       subProducts: [
@@ -1693,7 +1693,7 @@ export const categoryData: Category[] = [
           slug: 'soybean-oil-feed-grade',
           description: 'Soybean oil is a high-energy vegetable oil widely used in animal feed. It provides essential fatty acids that support healthy growth, skin condition, and overall metabolism in livestock and poultry. Soybean oil also helps improve feed texture and enhances the absorption of important nutrients.',
           details: 'Feed-grade soybean oil is a vegetable fat derived from solvent extraction of soybeans, supplying approximately 8,800 kcal ME/kg — the highest metabolizable energy of any commonly used feed ingredient. Its high linoleic acid content (omega-6, ~53%) makes it particularly valuable in poultry broiler feeds, where essential fatty acid supply is directly linked to growth performance, feed conversion, and breast meat yield. In pellet feed manufacturing, the addition of soybean oil at 2–5% improves pellet durability, reduces mill energy consumption, and adds palatability. We supply both crude degummed soybean oil and refined soybean oil for feed applications, with full fatty acid profile, free fatty acid (FFA) content, and moisture and impurities specifications.',
-          image: '/soybean-oil.webp',
+          image: '/soybeanoil.webp',
           specs: ['Metabolizable Energy: ~8,800 kcal/kg', 'Linoleic Acid (C18:2): ~53%', 'Free Fatty Acids (FFA): ≤ 2% (refined)', 'Moisture & Impurities: ≤ 1%', 'Peroxide Value: ≤ 5 meq/kg', 'HS Code: 1507']
         },
         {
@@ -1701,7 +1701,7 @@ export const categoryData: Category[] = [
           slug: 'poultry-fat',
           description: 'Poultry fat is an animal-derived fat commonly used in feed to provide a rich and efficient energy source. It is highly digestible and contributes to improved feed conversion and animal performance. Poultry fat also enhances the taste and palatability of feed, encouraging better intake.',
           details: 'Poultry fat is rendered from poultry processing by-products — primarily skin, fat trim, and off-cuts — through high-temperature continuous rendering followed by centrifugal separation of fat from water and protein fractions. It is a highly digestible energy source (approximately 8,500 kcal ME/kg) with a fatty acid profile intermediate between vegetable oils and ruminant fats, containing significant oleic (C18:1) and linoleic (C18:2) acid fractions. In broiler feeds, poultry fat is the preferred fat supplement due to its superior digestibility in young chicks compared to saturated tallow. Its incorporation at 3–6% in broiler finisher diets increases energy density, improves carcass fat composition, and enhances feed palatability. We supply food-chain poultry fat with guaranteed free fatty acid, moisture, and impurity specifications.',
-          image: '/poultry-fat.webp',
+          image: '/poultryfat.webp',
           specs: ['Metabolizable Energy: ~8,500 kcal/kg', 'Free Fatty Acids (FFA): ≤ 15%', 'Moisture & Impurities: ≤ 1%', 'Oleic Acid (C18:1): ~40%', 'Linoleic Acid (C18:2): ~20%', 'HS Code: 1502']
         },
         {
@@ -1709,7 +1709,7 @@ export const categoryData: Category[] = [
           slug: 'palm-oil-feed-grade',
           description: 'Palm oil is a stable and energy-rich vegetable oil used in feed formulations to increase the caloric value of diets. It contains beneficial fatty acids that support energy supply and overall animal health. Palm oil is valued for its consistency, availability, and effectiveness in improving feed quality.',
           details: 'Feed-grade palm oil and palm-derived fats (including palm acid oil and palm fatty acid distillate) are widely used in animal nutrition as cost-competitive energy supplements, particularly in tropical and subtropical regions where palm products are abundantly available. Crude palm oil is high in saturated palmitic acid (C16:0, ~44%) and oleic acid (C18:1, ~40%), giving it a semi-solid consistency at room temperature that improves handling properties compared to liquid oils. In ruminant nutrition, palm-derived fats are formulated into calcium soap or hydrogenated rumen-protected fat supplements for high-producing dairy cows, where supplemental fat must bypass rumen fermentation to avoid inhibiting fiber-digesting bacteria. In poultry and swine feeds, palm acid oil is used as a cost-effective energy ingredient where digestibility is adequate. We supply crude palm oil, palm acid oil, and palm fatty acid distillate with full specifications.',
-          image: '/palm-oil.webp',
+          image: '/palmoil.webp',
           specs: ['Metabolizable Energy: ~7,500 – 8,000 kcal/kg', 'Free Fatty Acids (FFA): Variable by grade', 'Palmitic Acid (C16:0): ~44%', 'Moisture & Impurities: ≤ 1%', 'Form: Semi-solid to liquid (temperature dependent)', 'HS Code: 1511']
         }
       ]
