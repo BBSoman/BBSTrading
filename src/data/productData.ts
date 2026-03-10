@@ -1332,7 +1332,7 @@ export const categoryData: Category[] = [
   {
   name: 'Food & Beverages',
   slug: 'food-beverages',
-  image: 'FeedRawMaterials&Additives.webp',
+  image: '/FeedRawMaterials&Additives.webp',
   overview: 'Our Feed Additives & Raw Materials section includes a carefully selected range of high-quality ingredients essential for balanced animal nutrition and efficient feed production. We supply main grains such as corn, wheat, barley, sorghum, and millet, along with protein meals including soybean meal, canola meal, and sunflower meal to support healthy growth. Our portfolio also features animal proteins like fish meal, meat & bone meal, and blood meal, as well as valuable by-products such as wheat bran, rice bran, DDGS, and molasses. In addition, we provide key minerals including limestone, dicalcium phosphate, and salt, together with essential fats and oils like soybean oil, poultry fat, and palm oil to enhance energy levels and overall feed quality.',
   products: [
 
