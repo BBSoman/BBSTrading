@@ -1332,8 +1332,8 @@ export const categoryData: Category[] = [
   {
   name: 'Food & Beverages',
   slug: 'food-beverages',
-  image: 'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=800',
-  overview: 'At Bright Business Services & Trading, we supply a carefully selected range of food and beverage commodities that meet international food safety standards. Our food-grade products are sourced from certified facilities, with full traceability documentation, compliance certifications, and quality analysis to support food manufacturers, processors, and beverage producers worldwide.',
+  image: 'FeedRawMaterials&Additives.webp',
+  overview: 'Our Feed Additives & Raw Materials section includes a carefully selected range of high-quality ingredients essential for balanced animal nutrition and efficient feed production. We supply main grains such as corn, wheat, barley, sorghum, and millet, along with protein meals including soybean meal, canola meal, and sunflower meal to support healthy growth. Our portfolio also features animal proteins like fish meal, meat & bone meal, and blood meal, as well as valuable by-products such as wheat bran, rice bran, DDGS, and molasses. In addition, we provide key minerals including limestone, dicalcium phosphate, and salt, together with essential fats and oils like soybean oil, poultry fat, and palm oil to enhance energy levels and overall feed quality.',
   products: [
 
     // ─── SALT ─────────────────────────────────────────────────────────────────
@@ -1446,7 +1446,7 @@ export const categoryData: Category[] = [
     {
       name: 'Main Grains',
       slug: 'main-grains',
-      description: 'Primary cereal grains supplying energy and starch as the core base of compound animal feed rations for poultry, swine, ruminants, and aquaculture.',
+      description: 'Main grains form the foundation of most animal feed formulations, providing the primary source of energy required for growth, productivity, and overall animal health. Grains such as corn, wheat, barley, sorghum, and millet are rich in carbohydrates and are highly digestible, making them essential components in livestock and poultry diets. These grains help ensure balanced nutrition, support efficient feed conversion, and contribute to consistent animal performance.',
       details: 'Cereal grains form the caloric foundation of virtually all compound animal feed rations, supplying 60–75% of total dietary energy as digestible starch. We supply the five major traded feed grains — corn, wheat, barley, sorghum, and millet — sourced from certified origins with full moisture, protein, starch, mycotoxin, and test weight analysis. Our grain supplies are available in bulk vessel, container, and bagged formats with phytosanitary and origin certificates for all destinations.',
       image: '/maingrains.webp',
       specs: ['Grains: Corn / Wheat / Barley / Sorghum / Millet', 'Moisture: ≤ 13% – 14%', 'HS Codes: 1005 / 1001 / 1003 / 1007 / 1008', 'Packaging: Bulk, container, or bagged'],
@@ -1463,7 +1463,7 @@ export const categoryData: Category[] = [
         {
           name: 'Wheat',
           slug: 'wheat-feed',
-          description: 'Feed-grade wheat supplying energy, digestible starch, and protein for poultry, swine, and ruminant rations, particularly in European and Middle Eastern feed formulations.',
+          description: 'Wheat is a nutritious grain commonly used in feed formulations for its balanced energy and protein content. It provides essential nutrients that support healthy digestion and growth in animals. Wheat is also highly palatable and can improve feed intake while contributing to better feed conversion.',
           details: 'Feed-grade wheat is widely used in compound animal feeds, particularly in regions where it is cost-competitive with corn. Wheat provides a higher crude protein content than corn (11–13%) and a significant starch supply, though its energy value is slightly lower due to its higher fiber content. In poultry and swine feeds, wheat is used as a partial or full corn replacement. Its naturally occurring non-starch polysaccharides (NSPs) — primarily arabinoxylans — reduce digestibility in monogastrics, necessitating the addition of xylanase enzymes in formulations. Milling wheat that does not meet bread-making specifications is commonly redirected to feed markets. We supply both hard and soft feed wheats with protein, moisture, and Hagberg falling number documentation.',
           image: '/wheat.webp',
           specs: ['Crude Protein: 11% – 13%', 'Moisture: ≤ 14%', 'Starch: 58% – 68%', 'Test Weight: ≥ 72 kg/hl', 'HS Code: 1001']
@@ -1471,7 +1471,7 @@ export const categoryData: Category[] = [
         {
           name: 'Barley',
           slug: 'barley-feed',
-          description: 'High-fiber feed grain with moderate energy and protein, used in ruminant, swine, and equine rations, particularly valued for its digestive health benefits and slow-release energy profile.',
+          description: 'Barley is a valuable grain used in animal nutrition, particularly for ruminants and poultry. It contains a good balance of energy, fiber, and essential nutrients that support digestive health and animal performance. Barley is often included in feed to enhance diet variety and provide a steady energy source.',
           details: 'Feed barley is a major cereal grain in ruminant and swine nutrition, particularly in Europe, the Middle East, and North Africa. Its moderate starch content and high beta-glucan fiber make it a slower-digesting energy source compared to corn and wheat, beneficial for rumen health in cattle and dairy cows and for maintaining digestive function in swine. Barley is widely used in beef finishing rations, dairy cow total mixed rations (TMR), and as a primary grain in horse feeds where controlled energy release is important. Two-row and six-row barley varieties are both traded for feed use. We supply feed barley with moisture, protein, and test weight specifications from major producing regions.',
           image: '/barley.webp',
           specs: ['Crude Protein: 10% – 12%', 'Moisture: ≤ 14%', 'Beta-Glucan: 3% – 6%', 'Test Weight: ≥ 60 kg/hl', 'HS Code: 1003']
@@ -1479,7 +1479,7 @@ export const categoryData: Category[] = [
         {
           name: 'Sorghum',
           slug: 'sorghum-feed',
-          description: 'Drought-tolerant energy grain with a nutritional profile similar to corn, used as a corn substitute in poultry, swine, and ruminant rations in arid and semi-arid regions.',
+          description: 'Sorghum is a durable and energy-rich grain often used as an alternative to corn in animal feed. It is known for its adaptability and nutritional value, providing carbohydrates that support growth and productivity in livestock and poultry. Sorghum is also appreciated for its stability and efficiency in feed formulations.',
           details: 'Feed sorghum (Sorghum bicolor) is the fourth most important cereal crop globally and a critical corn substitute in regions where corn availability or price makes it less competitive. Its energy and protein content closely resembles corn (8–10% crude protein, 60–68% starch), though tannin-containing varieties may require processing or tannin-neutralizing supplements to improve digestibility in poultry. Sorghum is particularly important in feed formulation in Sub-Saharan Africa, the Middle East, and parts of Latin America and Asia, where it is often more locally available than corn. We supply both low-tannin and high-tannin varieties with full nutritional profiles and origin documentation.',
           image: '/sorghum.webp',
           specs: ['Crude Protein: 8% – 10%', 'Moisture: ≤ 13%', 'Starch: 60% – 68%', 'Tannin: Low / Variable by variety', 'HS Code: 1007']
@@ -1487,7 +1487,7 @@ export const categoryData: Category[] = [
         {
           name: 'Millet',
           slug: 'millet-feed',
-          description: 'Small-seeded cereal grain used in poultry and small animal feed rations, particularly in South Asian and African markets where it is locally produced and cost-effective.',
+          description: 'Millet is a small-seeded grain valued for its nutritional richness and digestibility. It is commonly used in feed for poultry and other livestock due to its good energy content and natural minerals. Millet contributes to balanced diets and supports overall health and performance in animals.',
           details: 'Feed millet encompasses several species — including pearl millet (Pennisetum glaucum), finger millet (Eleusine coracana), and foxtail millet (Setaria italica) — used as energy grain in poultry, small ruminant, and aquaculture feeds. Millet provides moderate starch and protein similar to sorghum and is particularly valued in regions where it is locally grown and competitively priced. Pearl millet is notable for its high energy density and relatively low tannin content, making it suitable for direct use in poultry rations. In compound feed manufacturing, millet is used as a partial substitute for corn or wheat, especially in South Asian and West African markets. We supply feed-grade millet with full moisture, protein, and purity specifications.',
           image: '/millet.webp',
           specs: ['Crude Protein: 9% – 12%', 'Moisture: ≤ 13%', 'Starch: 55% – 65%', 'Foreign Matter: ≤ 2%', 'HS Code: 1008']
