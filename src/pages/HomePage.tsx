@@ -85,7 +85,7 @@ export default function HomePage() {
             <div>
               <h2 className="text-4xl font-bold text-slate-900 mb-6">{t.about.title}</h2>
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-              With decades of experience in global commodity trading, we have built a reputation that crosses borders and moves markets. From micro consignments to macro bulk shipments, our expansive global network and competitive pricing ensure your cargo reaches its destination.
+              With years of experience in global commodity trading, we have built a reputation that crosses borders and moves markets. From micro consignments to macro bulk shipments, our expansive global network and competitive pricing ensure your cargo reaches its destination.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
