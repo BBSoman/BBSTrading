@@ -1,7 +1,12 @@
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { Mail, Phone, Send, CheckCircle, MapPin } from 'lucide-react';
 import Layout from '../components/Layout';
 import { useLanguage } from '../context/LanguageContext';
+
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 interface FormState {
   name: string;
@@ -53,27 +58,36 @@ export default function ContactPage() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('loading');
 
-    const to = 'trading@bbst.global';
-    const subject = encodeURIComponent(`[Website Enquiry] ${form.subject}`);
-    const body = encodeURIComponent(
-      `Name: ${form.name.trim()}\n` +
-      `Email: ${form.email.trim()}\n` +
-      `Company: ${form.company.trim() || 'N/A'}\n` +
-      `Subject: ${form.subject}\n\n` +
-      `Message:\n${form.message.trim()}`
-    );
+    try {
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name.trim(),
+          from_email: form.email.trim(),
+          name: form.name.trim(),
+          email: form.email.trim(),
+          company: form.company.trim() || 'N/A',
+          subject: form.subject,
+          message: form.message.trim(),
+        },
+        EMAILJS_PUBLIC_KEY
+      );
 
-    window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
-
-    // Show success after a short delay (mailto opens asynchronously)
-    setTimeout(() => {
       setStatus('success');
       setForm(initialForm);
-    }, 500);
+      setTimeout(() => {
+        setStatus('idle');
+      }, 4000);
+    } catch (error) {
+      console.error('EmailJS error:', error);
+      setStatus('idle');
+      alert('Something went wrong. Please try again or email us directly at trading@bbst.global');
+    }
   };
 
   return (
