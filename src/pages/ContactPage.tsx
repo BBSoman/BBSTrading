@@ -38,7 +38,7 @@ export default function ContactPage() {
     {
       icon: Phone,
       label: ci.phoneLabel,
-      values: ['+968 92882417', '+968 92882418'],
+      values: ['+968 92882417', '+968 71119624'],
       sub: ci.phoneSub,
     },
     {
