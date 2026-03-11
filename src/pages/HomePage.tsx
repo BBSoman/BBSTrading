@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Ship, Plane, Truck, PackageSearch } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
 import WorldMap from '../components/WorldMap';
@@ -43,17 +43,15 @@ export default function HomePage() {
   return (
     <Layout>
       {/* Hero Section */}
-     <section id="home" className="relative overflow-hidden">
+      <section id="home" className="relative overflow-hidden">
         {/* Video Background */}
         <video
           autoPlay
           loop
           muted
           playsInline
-          // No poster attribute - video is the only background
           className="absolute inset-0 w-full h-full object-cover z-0"
         >
-          {/* REPLACE '/your-video-file.webm' with your actual file path */}
           <source src="/Homepage.webm" type="video/webm" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/60 to-slate-900/40" />
@@ -69,8 +67,8 @@ export default function HomePage() {
               >
                 {t.hero.exploreProducts}
               </Link>
-              <a
-                href="#contact"
+              
+               <a href="#contact"
                 className="bg-white/10 backdrop-blur text-white px-8 py-4 rounded-lg font-semibold border border-white/20 hover:bg-white/20 hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200"
               >
                 {t.hero.getInTouch}
@@ -97,8 +95,10 @@ export default function HomePage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-900 mb-1">{t.about.qualityAssurance}</h4>
-                    <p className="text-slate-600">{t.about.qaDesc}</p>
+              
+  <h4 className="font-bold text-slate-900 mb-1">Micro & Macro Shipments</h4>
+  <p className="text-slate-600">From small parcel consignments to full bulk vessel loads.</p>
+
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -125,23 +125,50 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
+
+            {/* Stats Grid */}
             <div className="grid grid-cols-2 gap-6">
+
+              {/* Bulk Cargo */}
               <div className="bg-white rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
-                <div className="text-4xl font-bold text-black-600 mb-2">15+</div>
-                <div className="text-slate-700 font-medium">{t.stats.yearsExperience}</div>
+                <div className="flex justify-center mb-3">
+                  <div className="bg-blue-100 rounded-full p-3">
+                    <Ship className="w-10 h-10 text-blue-600" />
+                  </div>
+                </div>
+                <div className="text-slate-800 font-bold text-lg">Bulk Cargo</div>
               </div>
+
+              {/* Air */}
               <div className="bg-white rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
-                <div className="text-4xl font-bold text-black-600 mb-2">50+</div>
-                <div className="text-slate-700 font-medium">{t.stats.countriesServed}</div>
+                <div className="flex justify-center mb-3">
+                  <div className="bg-blue-100 rounded-full p-3">
+                    <Plane className="w-10 h-10 text-blue-600" />
+                  </div>
+                </div>
+                <div className="text-slate-800 font-bold text-lg">Air</div>
               </div>
+
+              {/* Land */}
               <div className="bg-white rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
-                <div className="text-4xl font-bold text-black-600 mb-2">200+</div>
-                <div className="text-slate-700 font-medium">{t.stats.happyClients}</div>
+                <div className="flex justify-center mb-3">
+                  <div className="bg-blue-100 rounded-full p-3">
+                    <Truck className="w-10 h-10 text-blue-600" />
+                  </div>
+                </div>
+                <div className="text-slate-800 font-bold text-lg">Land</div>
               </div>
+
+              {/* Logistics */}
               <div className="bg-white rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
-                <div className="text-4xl font-bold text-black-600 mb-2">24/5</div>
-                <div className="text-slate-700 font-medium">{t.stats.customerSupport}</div>
+                <div className="flex justify-center mb-3">
+                  <div className="bg-blue-100 rounded-full p-3">
+                    <PackageSearch className="w-10 h-10 text-blue-600" />
+                  </div>
+                </div>
+                <div className="text-slate-800 font-bold text-lg">Logistics</div>
               </div>
+
             </div>
           </div>
         </div>
@@ -173,7 +200,7 @@ export default function HomePage() {
               </div>
               <h3 className="font-bold text-slate-900 mb-2">{t.homeContact.callUs}</h3>
               <p className="text-slate-700">+968 92882417</p>
-              <p className="text-slate-700">+968 71119624</p>              
+              <p className="text-slate-700">+968 71119624</p>
             </div>
 
             <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-8 text-center hover:shadow-xl transition-shadow">
