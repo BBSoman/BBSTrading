@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Phone, Send, CheckCircle, Globe } from 'lucide-react';
+import { Mail, Phone, Send, CheckCircle, MapPin } from 'lucide-react';
 import Layout from '../components/Layout';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -37,10 +37,10 @@ export default function ContactPage() {
       sub: ci.phoneSub,
     },
     {
-      icon: Globe,
-      label: ci.globalLabel,
-      values: ['Asia · Europe · Americas'],
-      sub: ci.globalSub,
+      icon: MapPin,
+      label: 'Locations',
+      values: ['Oman', 'UAE', 'London', 'Netherlands', 'India'],
+      sub: '',
     },
   ];
 
