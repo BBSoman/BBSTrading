@@ -1557,14 +1557,6 @@ export const categoryData: Category[] = [
           details: 'Meat and Bone Meal (MBM) is produced by high-temperature rendering of non-ruminant animal by-products — primarily pork and poultry processing residuals — followed by fat extraction and milling to produce a dry protein-mineral powder. It supplies 45–55% crude protein alongside high levels of bioavailable calcium (8–10%) and phosphorus (4–5%), making it a valuable dual-purpose protein and mineral ingredient in compound feed. Its high ash and mineral content make it particularly useful for balancing calcium and phosphorus in growing and finishing rations, reducing the need for dicalcium phosphate supplementation. Regulatory restrictions apply in various markets regarding the species of origin and permitted use in ruminant feeds; we supply MBM with full species identification, rendering temperature certification, and salmonella-free documentation.',
           image: '/MeatandBoneMeal.webp',
           specs: ['Crude Protein: 45% – 55%', 'Moisture: ≤ 8%', 'Crude Fat: 8% – 14%', 'Calcium: 8% – 10%', 'Phosphorus: 4% – 5%', 'Salmonella: Absent', 'HS Code: 2301']
-        },
-        {
-          name: 'Blood Meal',
-          slug: 'blood-meal',
-          description: 'High-protein spray-dried or flash-dried animal blood ingredient with 80–85% crude protein and exceptional lysine content for poultry, swine, and aquaculture feeds.',
-          details: 'Blood meal is produced by collecting fresh animal blood from slaughter operations and drying it through spray-drying or flash-drying processes to produce a dark, high-protein powder. It is one of the highest-protein single-ingredient feed materials available, delivering 80–85% crude protein with an exceptionally high lysine content (~7%), making it highly effective for correcting lysine deficiency in formulations where soybean meal alone is insufficient. Its high protein solubility — particularly in spray-dried grades — also makes blood meal effective in early weaning diets for piglets and in starter feeds for young broilers where highly digestible protein is critical for gut development. Inclusion rates are typically limited to 2–4% in monogastric diets due to its high protein density and variable palatability. We supply both spray-dried and flash-dried grades with full proximate and amino acid analysis.',
-          image: '/blood-meal.webp',
-          specs: ['Crude Protein: 80% – 85%', 'Moisture: ≤ 8%', 'Lysine: ~7%', 'Crude Fat: ≤ 1%', 'Ash: ≤ 5%', 'HS Code: 2301']
         }
       ]
     },
