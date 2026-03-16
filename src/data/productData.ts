@@ -71,7 +71,7 @@ export const categoryData: Category[] = [
             slug: '15-15-30-te',
             description: 'A balanced compound fertilizer with enhanced potassium content, formulated to support flowering, fruit setting, and fruit development stages. The combination of nitrogen and phosphorus sustains vegetative strength, while the higher potassium concentration contributes to fruit quality, improved size, and better maturation consistency.',
             details: 'Suitable for a broad range of crops during reproductive growth phases.',
-            image: '/15-15-30+TE1.webp',
+            image: '/15-15-30.webp',
             specs: ['N: 15% | P: 15% | K: 30%', 'Application concentration: 0.5 – 0.8%', 'Secondary elements: S, Ca, Mg', 'Micronutrients: Zn, Cu, Fe, Mn, B', 'Form: fully water-soluble', 'HS Code: 3105.20']
           },
           {
@@ -79,7 +79,7 @@ export const categoryData: Category[] = [
             slug: '20-20-20-te',
             description: 'A balanced, multi-purpose water-soluble fertilizer containing equal proportions of primary nutrients to promote uniform plant growth. Nitrogen supports vegetative development, phosphorus strengthens root systems, and potassium contributes to overall plant resilience and productivity.',
             details: 'Its rapid solubility ensures smooth integration with fertigation and foliar feeding programs.',
-            image: '/20-20-20_+TE.webp',
+            image: '/20-20-20.webp',
             specs: ['N: 20% | P: 20% | K: 20%', 'Application concentration: 0.5 – 0.8%', 'Secondary elements: S, Ca, Mg', 'Micronutrients: Zn, Cu, Fe, Mn, B', 'Form: fully water-soluble', 'HS Code: 3105.20']
           },
           {
@@ -87,7 +87,7 @@ export const categoryData: Category[] = [
             slug: '13-40-13-te',
             description: 'A phosphorus-rich fertilizer developed to stimulate root expansion and support early vegetative strength. Phosphorus plays a critical role in energy transfer and root development, while balanced nitrogen and potassium enhance plant vigor and structural growth.',
             details: 'The formula is easily absorbed and efficiently transported within the plant system, making it suitable for diverse climatic conditions.',
-            image: '/13-40-13_+TE.webp',
+            image: '/13-40-13.webp',
             specs: ['N: 13% | P: 40% | K: 13%', 'Application concentration: 0.5 – 0.8%', 'Secondary elements: S, Ca, Mg', 'Micronutrients: Zn, Cu, Fe, Mn, B', 'Form: fully water-soluble', 'HS Code: 3105.20']
           },
           {
@@ -103,7 +103,7 @@ export const categoryData: Category[] = [
             slug: '15-30-15-te',
             description: 'A phosphorus-forward compound fertilizer developed to enhance root establishment and support early flowering phases. The formulation provides balanced nitrogen for vegetative strength and adequate potassium to assist in overall plant development.',
             details: 'Its fully water-soluble composition ensures compatibility with fertigation systems and efficient nutrient delivery, particularly in soils with higher pH levels.',
-            image: '/15-30-15_+TE.webp',
+            image: '/15-30-15.webp',
             specs: ['N: 15% | P: 30% | K: 15%', 'Application concentration: 0.5 – 0.8%', 'Secondary elements: S, Ca, Mg', 'Micronutrients: Zn, Cu, Fe, Mn, B', 'Form: fully water-soluble', 'HS Code: 3105.20']
           }
         ]
@@ -200,7 +200,7 @@ export const categoryData: Category[] = [
             slug: '18-46-0-te',
             description: 'A phosphorus-rich diammonium phosphate fertilizer fortified with micronutrients to enhance nutrient uptake and support balanced plant nutrition. The formulation promotes strong root establishment while delivering essential trace elements required for enzymatic activity and overall plant health.',
             details: 'Suitable for soils with micronutrient deficiencies and high-demand crop systems.',
-            image: '/DAP_18-46-0_+TE.webp',
+            image: '/DAP_18-46-0.webp',
             specs: ['Nitrogen (N): 18%', 'Phosphorus (P₂O₅): 46%', 'Potassium (K₂O): 0%', 'Micronutrients: Zn, Fe, Mn (as specified)', 'Moisture: ≤ 1.5%', 'HS Code: 3105.30']
           },
           {
@@ -364,7 +364,7 @@ export const categoryData: Category[] = [
         slug: 'bitumen',
         description: 'Including penetration grades such as 60/70, 80/100, 85/100, and 200/300, plus viscosity grades VG30 and VG40 and Polymer Modified Bitumen. Available in bulk, jumbo bags, steel drums, and flexitanks.',
         details: 'Bitumen is a viscous, black hydrocarbon by-product of crude oil refining, used almost exclusively as a binder in asphalt for road construction, airfield paving, waterproofing membranes, and roofing systems. We supply a comprehensive range of penetration-grade, viscosity-grade, and polymer-modified bitumen from regional refineries across the Middle East and Asia, with full ASTM and EN compliance documentation and independent quality inspection at load port. HS Code: 2713.20.00.90.',
-        image: '/bitumen.jpg',
+        image: '/bitumen.webp',
         specs: ['Multiple grades available', 'Penetration, viscosity, and PMB grades', 'Delivery: bulk tanker, drums, or flexi-bags', 'Compliant with ASTM and EN standards', 'HS Code: 2713.20.00.90'],
         hsCode: '2713.20.00.90',
         subProducts: [
@@ -627,7 +627,7 @@ export const categoryData: Category[] = [
         slug: 'copper',
         description: 'One of the most strategically important base metals, valued for exceptional electrical conductivity, corrosion resistance, and thermal performance. Supplied in ore, concentrate, and slag form for smelting, refining, and industrial applications.',
         details: 'Copper forms the backbone of power generation, renewable energy systems, electronics manufacturing, infrastructure development, and automotive production. Global demand is strongly driven by electrification, EV production, and sustainable energy transition projects. We supply copper in three primary traded forms — ore, concentrate, and slag — with full provenance documentation, independent assay certification, and structured offtake arrangements.',
-        image: '/Copper.jpeg',
+        image: '/Copper.webp',
         specs: ['Forms: Copper Ore / Concentrate / Slag', 'Cu in concentrate: 20% – 35%', 'Assay by independent SGS or Bureau Veritas', 'HS Code: 2603 (Ore & Concentrate) / 2620 (Slag)'],
         hsCode: '2603',
         subProducts: [
@@ -1031,7 +1031,7 @@ export const categoryData: Category[] = [
         slug: 'gypsum',
         description: 'Naturally occurring calcium sulfate mineral available in raw ore, crushed, calcined (Plaster of Paris), and industrial powder grades for cement, construction, agriculture, and industrial applications.',
         details: 'Gypsum — calcium sulfate dihydrate (CaSO4·2H2O) — is a soft sulfate mineral with a Mohs hardness of 2, valued for its chemically bound water content and unique calcination-rehydration properties. Commercial value depends on CaSO4·2H2O purity, low clay and silica impurities, whiteness, and moisture content. In cement manufacturing, gypsum is added to clinker to regulate setting time and prevent flash set. It is the primary raw material for drywall (plasterboard) — the dominant interior wall system globally — and for plaster of Paris in architectural and medical applications. Agricultural gypsum improves soil structure in clay-heavy soils, supplies sulfur and calcium to crops, and reduces sodium in irrigated farmland. We supply gypsum across four processing stages — from raw ore to ultra-fine industrial powder — with full purity, whiteness, and setting time analysis.',
-        image: '/gypsum.jpg',
+        image: '/gypsum.webp',
         specs: ['Forms: Raw Ore / Crushed / Calcined (Plaster of Paris) / Industrial Powder', 'CaSO4·2H2O: 70% – 95%', 'HS Code: 2520', 'Applications: Cement, drywall, plaster, agriculture, industrial fillers'],
         hsCode: '2520',
         subProducts: [
@@ -1040,7 +1040,7 @@ export const categoryData: Category[] = [
             slug: 'raw-gypsum-ore',
             description: 'Naturally mined calcium sulfate dihydrate in lump form, used as cement retarder, gypsum board feedstock, and agricultural soil amendment.',
             details: 'Raw gypsum ore is extracted from open-pit mines or underground deposits as large, off-white or translucent chunks. It is the primary extracted form of the mineral and serves as the raw input for all downstream processed gypsum grades. Its naturally bound water content (CaSO4·2H2O) provides inherent fire resistance properties. In cement manufacturing, raw gypsum is ground and added to Portland clinker to regulate hydration and prevent flash setting. Higher purity grades with lower silica and clay content are preferred for direct use in cement plants and drywall manufacturing.',
-            image: '/gypsum.jpg',
+            image: '/gypsum.webp',
             specs: ['CaSO4·2H2O: 70% – 95%', 'SO3: 30% – 44%', 'CaO: 23% – 33%', 'SiO2: ≤ 5%', 'Moisture: 2% – 8%', 'Form: Lump', 'HS Code: 2520']
           },
           {
@@ -1048,7 +1048,7 @@ export const categoryData: Category[] = [
             slug: 'crushed-gypsum',
             description: 'Size-reduced and screened gypsum for cement plants, wallboard production, and agricultural land plaster applications.',
             details: 'Crushed gypsum is produced by passing raw gypsum ore through primary and secondary crushers and screening to remove impurities such as shale, clay, and oversize material. The resulting product is a consistent granular material commonly traded at 0–50 mm or custom size fractions. It is the most widely traded form of gypsum internationally, supplying cement plants where it is further ground and blended with clinker, and wallboard factories where uniform feed is required. In agriculture, crushed gypsum (known as land plaster) is applied directly to soil to improve structure, reduce compaction, and provide calcium and sulfur to crops.',
-            image: '/gypsumprocessed.jpg',
+            image: '/gypsumprocessed.webp',
             specs: ['CaSO4·2H2O: 80% – 95%', 'SO3: 35% – 44%', 'SiO2: ≤ 3%', 'Moisture: ≤ 5%', 'Size: 0 – 50 mm / Custom grading', 'HS Code: 2520']
           },
           {
@@ -1056,7 +1056,7 @@ export const categoryData: Category[] = [
             slug: 'calcined-gypsum-plaster-of-paris',
             description: 'Produced by heating gypsum to ~150°C to form calcium sulfate hemihydrate (CaSO4·½H2O), used in drywall manufacturing, interior construction plaster, decorative molding, and medical casts.',
             details: 'Calcined gypsum — commercially known as Plaster of Paris or stucco — is produced by heating raw gypsum to approximately 150°C in a calciner, driving off approximately 75% of the chemically combined water and converting CaSO4·2H2O to calcium sulfate hemihydrate (CaSO4·½H2O). When water is re-added to the calcined product, the reverse reaction occurs and the material re-hydrates and hardens back into a solid dihydrate structure. This reversible calcination property makes it the essential ingredient for drywall panels, wall and ceiling plaster systems, architectural moldings, dental and medical plaster casts, and ceramic investment molds. Setting time is a critical quality parameter, controlled by fineness and the presence of retarders or accelerators.',
-            image: '/pop.jpg',
+            image: '/pop.webp',
             specs: ['CaSO4·½H2O: ≥ 85%', 'SO3: 40% – 46%', 'Initial Setting Time: 5 – 25 minutes', 'Fineness: 100 – 300 mesh', 'Form: Fine powder', 'HS Code: 2520']
           },
           {
@@ -1064,7 +1064,7 @@ export const categoryData: Category[] = [
             slug: 'gypsum-powder-industrial',
             description: 'Ultra-fine milled gypsum powder used as a cement additive, agricultural soil conditioner, industrial filler in paints and paper, and calcium supplement in food-grade applications.',
             details: 'Industrial gypsum powder is the final refined form of processed gypsum, ground to ultra-fine particle sizes of 200–325 mesh in its non-calcined form. High purity and consistent fineness are essential properties for its diverse applications. As a cement additive, fine gypsum powder provides precise setting time control and sulfate balance in blended cements. In agriculture, it acts as a soil conditioner and sulfur-calcium supplement with faster soil incorporation than coarser grades. In the paint, paper, and plastics industries, fine white gypsum powder is used as a cost-effective inert filler that contributes brightness, opacity, and surface smoothness. Food-grade variants are used for calcium enrichment in tofu production and other applications.',
-            image: '/gypsumpowder.jpg',
+            image: '/gypsumpowder.webp',
             specs: ['CaSO4·2H2O: ≥ 80%', 'SO3: 35% – 44%', 'Moisture: ≤ 2%', 'Fineness: 200 – 325 mesh', 'Color: White to off-white', 'HS Code: 2520']
           }
         ]
@@ -1134,7 +1134,7 @@ export const categoryData: Category[] = [
             slug: 'zinc-concentrate',
             description: 'Intermediate semi-processed product — the primary bridge between mine and smelter. Created by crushing raw zinc ore and using flotation to separate valuable zinc minerals from waste rock. Zinc content boosted to 48%–60%. Traded based on Treatment Charges (TCs).',
             details: 'Available in Standard Grade (50%–55% Zn) as common smelter feedstock, High Grade (55%–60% Zn) for premium recovery, and Complex Concentrate containing higher Pb, Ag, or other recoverable elements. Higher Zn content with lower impurities increases recovery efficiency.',
-            image: '/zinconcentrate.webp',
+            image: '/zinconcentrate.png',
             specs: ['Zinc (Zn): 45% – 60%', 'Sulfur (S): 25% – 35%', 'Iron (Fe): 5% – 12%', 'Lead (Pb): < 3%', 'Cadmium (Cd): < 0.3%', 'Arsenic (As): < 0.5%', 'Moisture: ≤ 10%', 'Form: Fine concentrate', 'HS Code: 2608']
           },
           {
@@ -1150,7 +1150,7 @@ export const categoryData: Category[] = [
             slug: 'zinc-ingots',
             description: 'Standardized physical form of refined zinc metal for global trade, shipping, and storage. Rectangular bars (20–25 kg) bundled into 1-ton pallets, or Jumbo blocks up to 1,200 kg. The most liquid form of zinc on commodity exchanges like the LME.',
             details: 'Essential plug-and-play raw material for factories producing galvanized steel, automotive die-cast parts, and high-performance alloys like brass. Available in SHG (≥ 99.995%), HG (≥ 99.95%), and PWG (≥ 98.5%) grades.',
-            image: '/zincingots.webp',
+            image: '/zincingots.png',
             specs: ['SHG: ≥ 99.995% Zn', 'HG: ≥ 99.95% Zn', 'PWG: ≥ 98.5% Zn', 'Weight: 25 kg – 1 MT', 'Form: Cast slab / Ingot', 'Packaging: Bundled / Strapped', 'HS Code: 7901']
           }
         ]
