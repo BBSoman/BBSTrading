@@ -466,7 +466,7 @@ export const categoryData: Category[] = [
             slug: 'lpg-commercial',
             description: 'Liquefied Petroleum Gas in standard commercial grade, widely used for residential cooking, heating, industrial fuel systems, automotive applications, and commercial energy distribution.',
             details: 'The propane-to-butane ratio may vary depending on climatic conditions and market requirements. Supply specifications are determined according to regulatory standards and intended use.',
-            image: 'public/bitumen.jpg',
+            image: '/LPGCOMMERCIAL.webp',
             specs: ['Product type: Liquefied Petroleum Gas', 'Main components: Propane (C₃H₈) & Butane (C₄H₁₀)', 'Propane content: As per seasonal blend', 'Butane content: As per seasonal blend', 'Sulfur content: ≤ 50 ppm', 'Water content: Free of visible water', 'Vapor pressure @ 37.8°C: As per ASTM specification', 'Residue: Minimal', 'Appearance: Clear, colorless liquefied gas', 'HS Code: 2711.19']
           },
           {
@@ -474,7 +474,7 @@ export const categoryData: Category[] = [
             slug: 'lpg-automotive',
             description: 'An LPG blend formulated for automotive fuel systems, commonly referred to as autogas. The composition is adjusted to ensure stable combustion, appropriate vapor pressure, and compatibility with vehicle fuel systems.',
             details: 'Specifications are aligned with transportation fuel standards applicable in the destination market.',
-            image: 'https://images.pexels.com/photos/209728/pexels-photo-209728.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/LPGAUTOMATIVE.webp',
             specs: ['Propane / butane ratio: As per regional requirement', 'Sulfur content: ≤ 50 ppm', 'Moisture: Trace / Dry', 'Octane rating (Research): As per applicable standard', 'Vapor pressure: Controlled for automotive use', 'Compliance: As per national fuel standard', 'HS Code: 2711.19']
           },
           {
@@ -482,7 +482,7 @@ export const categoryData: Category[] = [
             slug: 'lpg-industrial',
             description: 'An LPG specification supplied for industrial heating, manufacturing processes, and commercial energy systems. The blend composition may be adjusted to meet operational requirements, climatic conditions, and storage considerations.',
             details: 'Quality parameters are confirmed prior to delivery to ensure compatibility with burner and processing equipment.',
-            image: 'https://images.pexels.com/photos/3694711/pexels-photo-3694711.jpeg?auto=compress&cs=tinysrgb&w=800',
+            image: '/LPGINDUSTRIAL.webp',
             specs: ['Propane / butane ratio: As per buyer requirement', 'Sulfur content: As specified', 'Moisture level: Dry', 'Residue: As per contract', 'Compliance: ASTM / ISO / agreed standard', 'Delivery form: Bulk / Cylinder / ISO Tank', 'HS Code: 2711.19']
           }
         ]
