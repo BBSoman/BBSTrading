@@ -110,6 +110,13 @@ export default function HomePage() {
 
   return (
     <Layout>
+      {/* ✅ SEO HEADINGS FOR GOOGLE - ADD THIS BLOCK */}
+<div className="sr-only" aria-label="Bright Business Services & Trading main content">
+  <h1>Bright Business Services & Trading</h1>
+  <h2>Agricultural Inputs • Energy & Petroleum • Petrochemicals • Metals & Ores Trading Oman</h2>
+  <h3>Industrial Minerals • Construction Materials • Feed Additives Muscat +968 92882417</h3>
+</div>
+
       {showBooking && <BookingModal onClose={() => setShowBooking(false)} />}
 
       {/* Hero Section */}
