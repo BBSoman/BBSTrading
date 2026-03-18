@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://bbst.global/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://bbst.global/contact</loc><priority>0.8</priority></url>
+  
+  <!-- TRADING CATEGORIES -->
+  <url><loc>https://bbst.global/agricultural-inputs</loc><priority>0.95</priority></url>
+  <url><loc>https://bbst.global/energy-petroleum</loc><priority>0.95</priority></url>
+  <url><loc>https://bbst.global/petrochemicals</loc><priority>0.9</priority></url>
+  <url><loc>https://bbst.global/metals-ores</loc><priority>0.9</priority></url>
+  <url><loc>https://bbst.global/industrial-minerals</loc><priority>0.85</priority></url>
+  <url><loc>https://bbst.global/feed-additives</loc><priority>0.85</priority></url>
+</urlset>
