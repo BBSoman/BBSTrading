@@ -2,17 +2,16 @@
 <configuration>
   <system.webServer>
 
-    <!-- 🔁 URL Rewrite Rules -->
     <rewrite>
       <rules>
 
-        <!-- ✅ Allow sitemap.xml (VERY IMPORTANT for SEO) -->
+        <!-- ✅ Allow sitemap.xml -->
         <rule name="Sitemap" stopProcessing="true">
           <match url="^sitemap\.xml$" />
           <action type="None" />
         </rule>
 
-        <!-- ✅ Allow Google verification file -->
+        <!-- ✅ Allow Google verification -->
         <rule name="Google Verification" stopProcessing="true">
           <match url="^google.*\.html$" />
           <action type="None" />
@@ -31,24 +30,14 @@
       </rules>
     </rewrite>
 
-    <!-- 📦 Static content handling -->
     <staticContent>
-      <!-- Ensure XML is served correctly -->
+      <!-- Remove first to avoid duplicate error -->
+      <remove fileExtension=".xml" />
       <mimeMap fileExtension=".xml" mimeType="application/xml" />
 
-      <!-- Existing webp support -->
       <remove fileExtension=".webp" />
       <mimeMap fileExtension=".webp" mimeType="image/webp" />
     </staticContent>
-
-    <!-- 🚫 Disable caching for sitemap (fixes Google fetch issue) -->
-    <httpProtocol>
-      <customHeaders>
-        <add name="Cache-Control" value="no-cache, no-store, must-revalidate" />
-        <add name="Pragma" value="no-cache" />
-        <add name="Expires" value="0" />
-      </customHeaders>
-    </httpProtocol>
 
   </system.webServer>
 </configuration>
