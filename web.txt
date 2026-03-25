@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <system.webServer>
+
+    <!-- 🔁 URL Rewrite Rules -->
+    <rewrite>
+      <rules>
+
+        <!-- ✅ Allow sitemap.xml (VERY IMPORTANT for SEO) -->
+        <rule name="Sitemap" stopProcessing="true">
+          <match url="^sitemap\.xml$" />
+          <action type="None" />
+        </rule>
+
+        <!-- ✅ Allow Google verification file -->
+        <rule name="Google Verification" stopProcessing="true">
+          <match url="^google.*\.html$" />
+          <action type="None" />
+        </rule>
+
+        <!-- ✅ React SPA fallback -->
+        <rule name="SPA Routes" stopProcessing="true">
+          <match url=".*" />
+          <conditions logicalGrouping="MatchAll">
+            <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+            <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+          </conditions>
+          <action type="Rewrite" url="/index.html" />
+        </rule>
+
+      </rules>
+    </rewrite>
+
+    <!-- 📦 Static content handling -->
+    <staticContent>
+      <!-- Ensure XML is served correctly -->
+      <mimeMap fileExtension=".xml" mimeType="application/xml" />
+
+      <!-- Existing webp support -->
+      <remove fileExtension=".webp" />
+      <mimeMap fileExtension=".webp" mimeType="image/webp" />
+    </staticContent>
+
+    <!-- 🚫 Disable caching for sitemap (fixes Google fetch issue) -->
+    <httpProtocol>
+      <customHeaders>
+        <add name="Cache-Control" value="no-cache, no-store, must-revalidate" />
+        <add name="Pragma" value="no-cache" />
+        <add name="Expires" value="0" />
+      </customHeaders>
+    </httpProtocol>
+
+  </system.webServer>
+</configuration>
