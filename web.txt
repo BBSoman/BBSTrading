@@ -2,42 +2,35 @@
 <configuration>
   <system.webServer>
 
-<rewrite>
-  <rules>
+    <rewrite>
+      <rules>
 
-    <!-- Allow sitemap.xml -->
-    <rule name="Sitemap" stopProcessing="true">
-      <match url="^sitemap\.xml$" />
-      <conditions>
-        <add input="{REQUEST_FILENAME}" matchType="IsFile" />
-      </conditions>
-      <action type="None" />
-    </rule>
+        <!-- Allow sitemap.xml -->
+        <rule name="Sitemap" stopProcessing="true">
+          <match url="^sitemap\.xml$" />
+          <action type="None" />
+        </rule>
 
-    <!-- Allow Google verification -->
-    <rule name="Google Verification" stopProcessing="true">
-      <match url="^google.*\.html$" />
-      <conditions>
-        <add input="{REQUEST_FILENAME}" matchType="IsFile" />
-      </conditions>
-      <action type="None" />
-    </rule>
+        <!-- Allow Google verification -->
+        <rule name="Google Verification" stopProcessing="true">
+          <match url="^google.*\.html$" />
+          <action type="None" />
+        </rule>
 
-    <!-- React SPA fallback -->
-    <rule name="SPA Routes" stopProcessing="true">
-      <match url=".*" />
-      <conditions logicalGrouping="MatchAll">
-        <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
-        <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
-      </conditions>
-      <action type="Rewrite" url="/index.html" />
-    </rule>
+        <!-- React SPA fallback -->
+        <rule name="SPA Routes" stopProcessing="true">
+          <match url=".*" />
+          <conditions logicalGrouping="MatchAll">
+            <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+            <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+          </conditions>
+          <action type="Rewrite" url="/index.html" />
+        </rule>
 
-  </rules>
-</rewrite>
+      </rules>
+    </rewrite>
 
     <staticContent>
-      <!-- Only keep webp -->
       <remove fileExtension=".webp" />
       <mimeMap fileExtension=".webp" mimeType="image/webp" />
     </staticContent>
