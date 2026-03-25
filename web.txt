@@ -5,19 +5,25 @@
     <rewrite>
       <rules>
 
-        <!-- ✅ Allow sitemap.xml -->
+        <!-- Allow sitemap -->
         <rule name="Sitemap" stopProcessing="true">
           <match url="^sitemap\.xml$" />
+          <conditions>
+            <add input="{REQUEST_FILENAME}" matchType="IsFile" />
+          </conditions>
           <action type="None" />
         </rule>
 
-        <!-- ✅ Allow Google verification -->
+        <!-- Allow Google verification -->
         <rule name="Google Verification" stopProcessing="true">
           <match url="^google.*\.html$" />
+          <conditions>
+            <add input="{REQUEST_FILENAME}" matchType="IsFile" />
+          </conditions>
           <action type="None" />
         </rule>
 
-        <!-- ✅ React SPA fallback -->
+        <!-- React SPA fallback -->
         <rule name="SPA Routes" stopProcessing="true">
           <match url=".*" />
           <conditions logicalGrouping="MatchAll">
@@ -31,10 +37,7 @@
     </rewrite>
 
     <staticContent>
-      <!-- Remove first to avoid duplicate error -->
-      <remove fileExtension=".xml" />
-      <mimeMap fileExtension=".xml" mimeType="application/xml" />
-
+      <!-- Only keep webp -->
       <remove fileExtension=".webp" />
       <mimeMap fileExtension=".webp" mimeType="image/webp" />
     </staticContent>
