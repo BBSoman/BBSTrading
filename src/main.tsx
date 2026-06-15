@@ -1,15 +1,10 @@
-import { ViteSSG } from 'vite-ssg'
-import { HelmetProvider } from 'react-helmet-async'
-import App from './App'
-import './index.css'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App.tsx';
+import './index.css';
 
-// ViteSSG replaces ReactDOM.createRoot.
-// During `npm run build` it pre-renders every route to static HTML.
-// In the browser it hydrates normally — zero change to your UI.
-export const createApp = ViteSSG(
-  () => (
-    <HelmetProvider>
-      <App />
-    </HelmetProvider>
-  )
-)
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
