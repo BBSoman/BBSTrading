@@ -1,33 +1,32 @@
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { Language, translations } from '../data/translations';
+import { createContext, useContext, useState, ReactNode } from 'react';
+import { translations, Language } from '../translations';
 
-interface LanguageContextType {
-  language: Language;
-  setLanguage: (lang: Language) => void;
-  t: typeof translations['en'];
-}
+type CtxType = {
+  lang: Language;
+  setLang: (l: Language) => void;
+  t: (path: string) => string;
+};
 
-const LanguageContext = createContext<LanguageContextType>({
-  language: 'en',
-  setLanguage: () => {},
-  t: translations['en'],
-});
+const Ctx = createContext<CtxType>(null!);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en');
+  const [lang, setLang] = useState<Language>('en');
 
-  useEffect(() => {
-    document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
-    document.documentElement.lang = language;
-  }, [language]);
-
+  function t(path: string): string {
+    const keys = path.split('.');
+    let val: unknown = translations[lang];
+    for (const k of keys) {
+      val = (val as Record<string,unknown>)?.[k];
+    }
+    return typeof val === 'string' ? val : path;
+  }
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t: translations[language] }}>
-      {children}
-    </LanguageContext.Provider>
+    <Ctx.Provider value={{ lang, setLang, t }}>
+      <div dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+        {children}
+      </div>
+    </Ctx.Provider>
   );
 }
 
-export function useLanguage() {
-  return useContext(LanguageContext);
-}
+export const useLang = () => useContext(Ctx);
