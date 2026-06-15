@@ -5,8 +5,8 @@ import { categoryData } from '../data/productData';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function SubProductDetailPage() {
-   const { lang, setLang } = useLang();
-  const { categorySlug, productSlug, subProductSlug } = useParams<{
+   const { t } = useLanguage();
+   const { categorySlug, productSlug, subProductSlug } = useParams<{
     categorySlug: string;
     productSlug: string;
     subProductSlug: string;
