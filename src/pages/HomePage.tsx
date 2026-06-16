@@ -8,7 +8,11 @@ import { useLanguage } from '../context/LanguageContext';
 const BOOKINGS_URL =
   'https://outlook.office.com/bookwithme/user/ca76380052644c608cdcc42a832049c6@bbst.global?anonymous&ismsaljsauthenabled&ep=plink';
 
-function BookingModal({ onClose }) {
+function BookingModal({ onClose }: { onClose: () => void }) {
+  // ✅ FIX: BookingModal now consumes the language context
+  const { t } = useLanguage();
+  const bk = t.booking;
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
       <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-md">
@@ -20,8 +24,10 @@ function BookingModal({ onClose }) {
               <CalendarCheck className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="font-bold text-lg leading-tight">Book an Appointment</h3>
-              <p className="text-white/75 text-sm">Schedule a Teams call with our trading team</p>
+              {/* ✅ FIX: was hardcoded "Book an Appointment" */}
+              <h3 className="font-bold text-lg leading-tight">{bk.modalTitle}</h3>
+              {/* ✅ FIX: was hardcoded "Schedule a Teams call with our trading team" */}
+              <p className="text-white/75 text-sm">{bk.modalSubtitle}</p>
             </div>
           </div>
           <button onClick={onClose} className="text-white/70 hover:text-white transition-colors p-1">
@@ -31,23 +37,19 @@ function BookingModal({ onClose }) {
 
         {/* Body */}
         <div className="p-8 text-center">
-          {/* Calendar illustration */}
           <div className="w-20 h-20 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-6">
             <CalendarCheck className="w-10 h-10 text-[#464EB8]" />
           </div>
 
-          <h4 className="text-xl font-bold text-slate-900 mb-2">Check Our Availability</h4>
-          <p className="text-slate-500 text-sm mb-8 leading-relaxed">
-            You'll be taken to our Microsoft Bookings page where you can see real available slots and confirm your appointment instantly.
-          </p>
+          {/* ✅ FIX: was hardcoded "Check Our Availability" */}
+          <h4 className="text-xl font-bold text-slate-900 mb-2">{bk.checkAvailability}</h4>
+          {/* ✅ FIX: was hardcoded description paragraph */}
+          <p className="text-slate-500 text-sm mb-8 leading-relaxed">{bk.checkDesc}</p>
 
           {/* Steps */}
           <div className="text-left space-y-3 mb-8 bg-slate-50 rounded-xl p-4">
-            {[
-              'Pick a service & available time slot',
-              'Enter your name and email',
-              'Receive a Teams meeting invite by email',
-            ].map((step, i) => (
+            {/* ✅ FIX: steps were hardcoded English strings in an array literal */}
+            {[bk.step1, bk.step2, bk.step3].map((step, i) => (
               <div key={i} className="flex items-center gap-3">
                 <div className="w-6 h-6 rounded-full bg-[#464EB8] text-white text-xs font-bold flex items-center justify-center shrink-0">
                   {i + 1}
@@ -62,9 +64,11 @@ function BookingModal({ onClose }) {
             className="w-full flex items-center justify-center gap-2 bg-[#464EB8] text-white py-3.5 rounded-xl font-bold hover:bg-[#3a42a0] transition-all shadow-lg shadow-blue-200"
           >
             <ExternalLink className="w-4 h-4" />
-            Open Booking Page
+            {/* ✅ FIX: was hardcoded "Open Booking Page" */}
+            {bk.openPage}
           </button>
-          <p className="mt-3 text-slate-400 text-xs">Opens in a new tab · Powered by Microsoft Bookings</p>
+          {/* ✅ FIX: was hardcoded "Opens in a new tab · Powered by Microsoft Bookings" */}
+          <p className="mt-3 text-slate-400 text-xs">{bk.openNote}</p>
         </div>
       </div>
     </div>
@@ -75,47 +79,14 @@ export default function HomePage() {
   const { t } = useLanguage();
   const [showBooking, setShowBooking] = useState(false);
 
-  const products = [
-    {
-      category: 'Fertilizers & Agricultural Inputs',
-      icon: '🌾',
-      items: ['NPK / Urea', 'Potash / DAP', 'Sulphur'],
-      color: 'from-green-500 to-emerald-600'
-    },
-    {
-      category: 'Energy & Petroleum Products',
-      icon: '🛢',
-      items: ['Crude', 'EN590 (Diesel)', 'Bitumen'],
-      color: 'from-slate-600 to-slate-800'
-    },
-    {
-      category: 'Petrochemicals & Industrial Chemicals',
-      icon: '🧪',
-      items: ['Polymers', 'Resins'],
-      color: 'from-blue-500 to-blue-700'
-    },
-    {
-      category: 'Metals & Metallic Ores',
-      icon: '⛏',
-      items: ['Copper Ore', 'Manganese', 'Ferrochrome', 'Chrome Ore', 'Antimony', 'Bauxite'],
-      color: 'from-amber-600 to-orange-700'
-    },
-    {
-      category: 'Industrial Minerals & Construction Materials',
-      icon: '🪨',
-      items: ['Quartz / Silica', 'Dolomite', 'Limestone', 'Gypsum', 'Aggregate'],
-      color: 'from-gray-500 to-gray-700'
-    }
-  ];
-
   return (
     <Layout>
-      {/* ✅ SEO HEADINGS FOR GOOGLE - ADD THIS BLOCK */}
-<div className="sr-only" aria-label="Bright Business Services & Trading main content">
-  <h1>Bright Business Services & Trading</h1>
-  <h2>Agricultural Inputs • Energy & Petroleum • Petrochemicals • Metals & Ores Trading Oman</h2>
-  <h3>Industrial Minerals • Construction Materials • Feed Additives Muscat +968 92882417</h3>
-</div>
+      {/* SEO headings */}
+      <div className="sr-only" aria-label="Bright Business Services & Trading main content">
+        <h1>Bright Business Services & Trading</h1>
+        <h2>Agricultural Inputs • Energy & Petroleum • Petrochemicals • Metals & Ores Trading Oman</h2>
+        <h3>Industrial Minerals • Construction Materials • Feed Additives Muscat +968 92882417</h3>
+      </div>
 
       {showBooking && <BookingModal onClose={() => setShowBooking(false)} />}
 
@@ -162,8 +133,9 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold text-slate-900 mb-6">{t.about.title}</h2>
+              {/* ✅ FIX: was a different hardcoded paragraph ignoring t.about.description */}
               <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                With years of experience in global commodity trading, we have built a reputation that crosses borders and moves markets. From micro consignments to macro bulk shipments, our expansive global network and competitive pricing ensure your cargo reaches its destination.
+                {t.about.description}
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
@@ -173,8 +145,10 @@ export default function HomePage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-bold text-slate-900 mb-1">Micro & Macro Shipments</h4>
-                    <p className="text-slate-600">From small parcel consignments to full bulk vessel loads.</p>
+                    {/* ✅ FIX: was hardcoded "Micro & Macro Shipments" */}
+                    <h4 className="font-bold text-slate-900 mb-1">{t.about.microMacro}</h4>
+                    {/* ✅ FIX: was hardcoded "From small parcel consignments to full bulk vessel loads." */}
+                    <p className="text-slate-600">{t.about.microMacroDesc}</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -202,7 +176,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Stats Grid */}
+            {/* Transport Cards */}
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-white rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
                 <div className="flex justify-center mb-3">
@@ -210,7 +184,8 @@ export default function HomePage() {
                     <Ship className="w-10 h-10 text-blue-600" />
                   </div>
                 </div>
-                <div className="text-slate-800 font-bold text-lg">Bulk Cargo</div>
+                {/* ✅ FIX: was hardcoded "Bulk Cargo" */}
+                <div className="text-slate-800 font-bold text-lg">{t.about.bulkCargo}</div>
               </div>
               <div className="bg-white rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
                 <div className="flex justify-center mb-3">
@@ -218,7 +193,8 @@ export default function HomePage() {
                     <Plane className="w-10 h-10 text-blue-600" />
                   </div>
                 </div>
-                <div className="text-slate-800 font-bold text-lg">Air</div>
+                {/* ✅ FIX: was hardcoded "Air" */}
+                <div className="text-slate-800 font-bold text-lg">{t.about.air}</div>
               </div>
               <div className="bg-white rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
                 <div className="flex justify-center mb-3">
@@ -226,7 +202,8 @@ export default function HomePage() {
                     <Truck className="w-10 h-10 text-blue-600" />
                   </div>
                 </div>
-                <div className="text-slate-800 font-bold text-lg">Land</div>
+                {/* ✅ FIX: was hardcoded "Land" */}
+                <div className="text-slate-800 font-bold text-lg">{t.about.land}</div>
               </div>
               <div className="bg-white rounded-xl shadow-lg p-6 text-center transform hover:scale-105 transition-transform">
                 <div className="flex justify-center mb-3">
@@ -234,7 +211,8 @@ export default function HomePage() {
                     <PackageSearch className="w-10 h-10 text-blue-600" />
                   </div>
                 </div>
-                <div className="text-slate-800 font-bold text-lg">Logistics</div>
+                {/* ✅ FIX: was hardcoded "Logistics" */}
+                <div className="text-slate-800 font-bold text-lg">{t.about.logistics}</div>
               </div>
             </div>
           </div>
@@ -286,9 +264,11 @@ export default function HomePage() {
               className="inline-flex items-center gap-2 bg-[#464EB8] text-white px-8 py-4 rounded-xl font-bold hover:bg-[#3a42a0] transition-all shadow-lg shadow-blue-200 hover:shadow-xl hover:-translate-y-0.5 transform"
             >
               <CalendarCheck className="w-5 h-5" />
-              Book a Teams Appointment
+              {/* ✅ FIX: was hardcoded "Book a Teams Appointment" */}
+              {t.booking.buttonLabel}
             </button>
-            <p className="mt-3 text-slate-400 text-sm">Schedule a virtual meeting with our trading team</p>
+            {/* ✅ FIX: was hardcoded "Schedule a virtual meeting with our trading team" */}
+            <p className="mt-3 text-slate-400 text-sm">{t.booking.buttonSub}</p>
           </div>
         </div>
       </section>
