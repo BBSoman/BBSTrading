@@ -4,6 +4,7 @@ import { ChevronDown, ChevronRight, ArrowLeft, CheckCircle } from 'lucide-react'
 import Layout from '../components/Layout';
 import { categoryData } from '../data/productData';
 import { useLanguage } from '../context/LanguageContext';
+import { productTranslations } from '../data/productTranslations';
 
 
 export default function CategoryDetailPage() {
