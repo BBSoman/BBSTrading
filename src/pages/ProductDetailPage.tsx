@@ -3,16 +3,29 @@ import { ChevronRight, ArrowLeft, CheckCircle, Package } from 'lucide-react';
 import Layout from '../components/Layout';
 import { categoryData } from '../data/productData';
 import { useLanguage } from '../context/LanguageContext';
+import { productTranslations } from '../data/productTranslations';
 
 export default function ProductDetailPage() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const { categorySlug, productSlug } = useParams<{ categorySlug: string; productSlug: string }>();
   const navigate = useNavigate();
 
-  const category = categoryData.find((c) => c.slug === categorySlug);
-  const product = category?.products.find((p) => p.slug === productSlug);
+  const getTranslatedProduct = (p: any) => {
+    if (language === 'en') return p;
+    const trans = productTranslations[language]?.products?.[p.slug];
+    return trans ? { ...p, ...trans } : p;
+  };
 
-  if (!category || !product) {
+  const getTranslatedSubProduct = (sub: any) => {
+    if (language === 'en') return sub;
+    const trans = productTranslations[language]?.subProducts?.[sub.slug];
+    return trans ? { ...sub, ...trans } : sub;
+  };
+
+  const category = categoryData.find((c) => c.slug === categorySlug);
+  const rawProduct = category?.products.find((p) => p.slug === productSlug);
+
+  if (!category || !rawProduct) {
     return (
       <Layout>
         <div className="py-20 text-center">
@@ -23,7 +36,13 @@ export default function ProductDetailPage() {
     );
   }
 
-  const otherProducts = category.products.filter((p) => p.slug !== productSlug);
+  const product = getTranslatedProduct(rawProduct);
+  if (product.subProducts) {
+    product.subProducts = product.subProducts.map(getTranslatedSubProduct);
+  }
+
+  const translatedCategoryProducts = category.products.map(getTranslatedProduct);
+  const translatedOtherProducts = category.products.filter((p) => p.slug !== productSlug).map(getTranslatedProduct);
 
   return (
     <Layout>
@@ -54,7 +73,7 @@ export default function ProductDetailPage() {
 
                 <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-3">{t.products.inThisCategory}</h3>
                 <div className="space-y-1">
-                  {category.products.map((p) => (
+                  {translatedCategoryProducts.map((p) => (
                     p.slug ? (
                       <Link
                         key={p.name}
@@ -163,11 +182,11 @@ export default function ProductDetailPage() {
               ) : null}
 
               {/* Other Products in Category */}
-              {otherProducts.length > 0 && (
+              {translatedOtherProducts.length > 0 && (
                 <div>
                   <h2 className="text-lg font-bold text-slate-800 mb-4">{t.products.otherProductsIn} {t.categoryNames[category.slug] || category.name}</h2>
                   <div className="grid sm:grid-cols-2 gap-4">
-                    {otherProducts.map((p) => (
+                    {translatedOtherProducts.map((p) => (
                       p.slug ? (
                         <Link
                           key={p.name}
