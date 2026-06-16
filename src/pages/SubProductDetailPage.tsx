@@ -3,20 +3,33 @@ import { ChevronRight, ArrowLeft, CheckCircle, Package } from 'lucide-react';
 import Layout from '../components/Layout';
 import { categoryData } from '../data/productData';
 import { useLanguage } from '../context/LanguageContext';
+import { productTranslations } from '../data/productTranslations';
 
 export default function SubProductDetailPage() {
-   const { t } = useLanguage();
-   const { categorySlug, productSlug, subProductSlug } = useParams<{
+  const { t, language } = useLanguage();
+  const { categorySlug, productSlug, subProductSlug } = useParams<{
     categorySlug: string;
     productSlug: string;
     subProductSlug: string;
   }>();
 
-  const category = categoryData.find((c) => c.slug === categorySlug);
-  const product = category?.products.find((p) => p.slug === productSlug);
-  const subProduct = product?.subProducts?.find((s) => s.slug === subProductSlug);
+  const getTranslatedProduct = (p: any) => {
+    if (language === 'en') return p;
+    const trans = productTranslations[language]?.products?.[p.slug];
+    return trans ? { ...p, ...trans } : p;
+  };
 
-  if (!category || !product || !subProduct) {
+  const getTranslatedSubProduct = (sub: any) => {
+    if (language === 'en') return sub;
+    const trans = productTranslations[language]?.subProducts?.[sub.slug];
+    return trans ? { ...sub, ...trans } : sub;
+  };
+
+  const category = categoryData.find((c) => c.slug === categorySlug);
+  const rawProduct = category?.products.find((p) => p.slug === productSlug);
+  const rawSubProduct = rawProduct?.subProducts?.find((s) => s.slug === subProductSlug);
+
+  if (!category || !rawProduct || !rawSubProduct) {
     return (
       <Layout>
         <div className="py-20 text-center">
@@ -27,7 +40,13 @@ export default function SubProductDetailPage() {
     );
   }
 
-  const otherGrades = product.subProducts?.filter((s) => s.slug !== subProductSlug) ?? [];
+  const product = getTranslatedProduct(rawProduct);
+  const subProduct = getTranslatedSubProduct(rawSubProduct);
+  if (product.subProducts) {
+    product.subProducts = product.subProducts.map(getTranslatedSubProduct);
+  }
+
+  const otherGrades = product.subProducts?.filter((s: any) => s.slug !== subProductSlug) ?? [];
 
   return (
     <Layout>
