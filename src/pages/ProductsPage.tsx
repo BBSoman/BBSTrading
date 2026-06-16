@@ -68,13 +68,13 @@ export default function ProductsPage() {
             <div className="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
               <div className="flex items-center justify-between">
                 <p className="text-blue-800 font-medium">
-                  Showing results for: <span className="font-bold">"{searchQuery}"</span>
+                  {t.search.showingResults} <span className="font-bold">"{searchQuery}"</span>
                 </p>
                 <button
                   onClick={() => navigate('/products')}
                   className="text-blue-600 hover:text-blue-800 text-sm font-medium"
                 >
-                  Clear Search
+                  {t.search.clearSearch}
                 </button>
               </div>
             </div>
@@ -152,7 +152,7 @@ export default function ProductsPage() {
                     ))
                   ) : (
                     <div className="col-span-full text-center py-20">
-                      <p className="text-slate-600 text-lg">No products found for "{searchQuery}"</p>
+                      <p className="text-slate-600 text-lg">{t.search.noResults} "{searchQuery}"</p>
                     </div>
                   )
                 ) : (
