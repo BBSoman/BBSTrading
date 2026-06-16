@@ -43,7 +43,7 @@ export default function ContactPage() {
     },
     {
       icon: MapPin,
-      label: 'Locations',
+      label: ci.locationsLabel,
       values: ['Oman', 'UAE', 'London', 'Netherlands', 'India'],
       sub: '',
     },
@@ -86,7 +86,7 @@ export default function ContactPage() {
     } catch (error) {
       console.error('EmailJS error:', error);
       setStatus('idle');
-      alert('Something went wrong. Please try again or email us directly at trading@bbst.global');
+      alert(t.contact.errorMsg);
     }
   };
 
@@ -198,7 +198,7 @@ export default function ContactPage() {
                           required
                           value={form.name}
                           onChange={handleChange}
-                          placeholder="John Smith"
+                          placeholder={t.contact.placeholderName}
                           className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#013220]/30 focus:border-[#013220] transition"
                         />
                       </div>
@@ -212,7 +212,7 @@ export default function ContactPage() {
                           required
                           value={form.email}
                           onChange={handleChange}
-                          placeholder="john@company.com"
+                          placeholder={t.contact.placeholderEmail}
                           className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#013220]/30 focus:border-[#013220] transition"
                         />
                       </div>
@@ -228,7 +228,7 @@ export default function ContactPage() {
                           name="company"
                           value={form.company}
                           onChange={handleChange}
-                          placeholder="Acme Trading Ltd."
+                          placeholder={t.contact.placeholderCompany}
                           className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#013220]/30 focus:border-[#013220] transition"
                         />
                       </div>
@@ -261,7 +261,7 @@ export default function ContactPage() {
                         rows={6}
                         value={form.message}
                         onChange={handleChange}
-                        placeholder="Tell us about your requirements, the products you're interested in, quantities, or any other details…"
+                        placeholder={t.contact.placeholderMessage}
                         className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#013220]/30 focus:border-[#013220] transition resize-none"
                       />
                     </div>
