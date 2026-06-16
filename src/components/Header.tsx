@@ -106,7 +106,7 @@ export default function Header() {
                                 alt={cat.name}
                                 className="w-8 h-8 rounded-md object-cover flex-shrink-0"
                               />
-                              <span className="font-medium leading-tight">{cat.name}</span>
+                              <span className="font-medium leading-tight">{t.categoryNames[cat.slug] || cat.name}</span>
                             </Link>
                           ))}
                         </div>
