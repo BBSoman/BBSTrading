@@ -8,10 +8,19 @@ import { productTranslations } from '../data/productTranslations';
 
 
 export default function CategoryDetailPage() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
+
+  // ✅ FIX: same translation lookup pattern already used in
+  // ProductDetailPage.tsx and SubProductDetailPage.tsx — was missing here,
+  // which is why the product cards stayed in English after switching language.
+  const getTranslatedProduct = (p: any) => {
+    if (language === 'en') return p;
+    const trans = productTranslations[language]?.products?.[p.slug];
+    return trans ? { ...p, ...trans } : p;
+  };
 
   const category = categoryData.find((c) => c.slug === slug);
 
@@ -29,6 +38,9 @@ export default function CategoryDetailPage() {
       </Layout>
     );
   }
+
+  // ✅ FIX: build the translated list once, reuse below instead of category.products directly
+  const translatedProducts = category.products.map(getTranslatedProduct);
 
   return (
     <Layout>
@@ -76,7 +88,8 @@ export default function CategoryDetailPage() {
                         </button>
                         {isExpanded && (
                           <div className="ml-8 mt-2 space-y-1 mb-2">
-                            {cat.products.map((product) =>
+                            {/* ✅ FIX: translate sidebar sub-product names too */}
+                            {cat.products.map(getTranslatedProduct).map((product) =>
                               product.slug ? (
                                 <Link
                                   key={product.name}
@@ -126,7 +139,8 @@ export default function CategoryDetailPage() {
 
               {/* Product List */}
               <div className="space-y-6">
-                {category.products.map((product) => {
+                {/* ✅ FIX: iterate over translatedProducts instead of category.products */}
+                {translatedProducts.map((product) => {
                   const hasDetailPage = Boolean(product.slug);
                   const cardContent = (
                     <>
@@ -156,6 +170,7 @@ export default function CategoryDetailPage() {
                               </span>
                             )}
                           </div>
+                          {/* ✅ FIX: now reads translated description */}
                           <p className="text-slate-600 text-sm leading-relaxed">{product.description}</p>
                         </div>
 
@@ -163,7 +178,8 @@ export default function CategoryDetailPage() {
                           <div className="mt-5 pt-4 border-t border-slate-100">
                             <p className="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-3">{t.products.keySpecs}</p>
                             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
-                              {product.specs.map((spec) => (
+                              {/* ✅ FIX: now reads translated specs array */}
+                              {product.specs.map((spec: string) => (
                                 <li key={spec} className="flex items-start gap-2 text-sm text-slate-600">
                                   <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 flex-shrink-0" />
                                   {spec}
